@@ -3405,6 +3405,10 @@
   "2095512840711135256": {
    "date": "2026-09-05",
    "result": "not_recommendation"
+  },
+  "2095947518135992778": {
+   "date": "2026-09-04",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -3449,13 +3453,5 @@
    "date": "2026-09-05"
   }
  },
- "seeds": {
-  "2044445417413447714": {
-   "kind": "official_ask",
-   "author": "ponpokoka",
-   "date": "2026-04-15",
-   "until": "2026-05-20",
-   "harvested": true
-  }
- }
+ "seeds": {}
 }
