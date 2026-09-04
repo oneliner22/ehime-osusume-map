@@ -1,0 +1,4067 @@
+{
+ "areas": [
+  {
+   "id": "matsuyama",
+   "name": "松山市街（松山城・大街道）",
+   "color": "#e8543f"
+  },
+  {
+   "id": "dogo",
+   "name": "道後温泉",
+   "color": "#e0489a"
+  },
+  {
+   "id": "imabari",
+   "name": "今治・しまなみ海道",
+   "color": "#3f7fd6"
+  },
+  {
+   "id": "toyo",
+   "name": "新居浜・西条・東予",
+   "color": "#2f9e7d"
+  },
+  {
+   "id": "iyo",
+   "name": "伊予・内子・大洲・久万高原",
+   "color": "#b07d2a"
+  },
+  {
+   "id": "nanyo",
+   "name": "宇和島・南予",
+   "color": "#7b5cd6"
+  }
+ ],
+ "spots": [
+  {
+   "slug": "matsuyama-shimin-kaikan",
+   "name": "松山市民会館（回覧板 in 愛媛 会場）",
+   "area": "matsuyama",
+   "cat": "会場",
+   "lat": 33.84089,
+   "lng": 132.7612,
+   "approx": false,
+   "desc": "「ぽこぴーの回覧板」愛媛公演の会場（2026年10月12日・大ホール）。松山城のふもと城山公園（堀之内）内にあり、松山市駅・大街道から徒歩圏。",
+   "address": "愛媛県松山市堀之内５",
+   "url": "http://www.cul-spo.or.jp/mcph/",
+   "place_id": "ChIJAQAACY7lTzURgUmFvJWhqfY",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/ponpokoka/status/2031704199483019571",
+     "author": "ponpokoka",
+     "date": "2026-03-11",
+     "quote": "回覧板2026 追加開催決定‼️ 今年はこの5か所だっ！！！ 4月福島！！ 6月大分！！ 8月石川！！ 10月愛媛！！ 12月奈良！！"
+    }
+   ]
+  },
+  {
+   "slug": "orenjiferii-orenjiehime",
+   "name": "オレンジフェリー おれんじえひめ",
+   "area": "toyo",
+   "cat": "宿",
+   "lat": 33.9299,
+   "lng": 133.1184,
+   "approx": false,
+   "desc": "大阪と愛媛を結ぶ完全個室のフェリー。船内はタイタニックを思わせる豪華な内装であり、レストランや大浴場も完備されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ],
+   "place_id": "ChIJYzr3vKItUDURDBSxILrELnI",
+   "address": "日本、〒799-1362 愛媛県西条市今在家１５００−２"
+  },
+  {
+   "slug": "morino-sei",
+   "name": "もりの精",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.7945,
+   "lng": 132.8976,
+   "approx": false,
+   "desc": "レトロな雰囲気が漂う昔ながらの喫茶店。ふわふわのオムレツやボリューム満点のピラフなどのモーニングを提供。一時休業中。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ],
+   "place_id": "ChIJhzR21hjdTzURujLTzfv85W0",
+   "address": "日本、〒791-0301 愛媛県東温市南方１３２１−２"
+  },
+  {
+   "slug": "kadoya-taigai-michi-mise",
+   "name": "かどや 大街道店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8415,
+   "lng": 132.7725,
+   "approx": true,
+   "desc": "愛媛名物の宇和島鯛めしが味わえる有名店。新鮮な鯛の刺身に特製のタレと生卵を絡めてご飯にかける絶品グルメである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ]
+  },
+  {
+   "slug": "kiri-no-mori-kashi-koubou-matsuyama-mise",
+   "name": "霧の森菓子工房 松山店",
+   "area": "matsuyama",
+   "cat": "雑貨・土産",
+   "lat": 33.84196,
+   "lng": 132.77037,
+   "approx": false,
+   "desc": "人気の和菓子「霧の森大福」を販売する直営店。複数の動画で紹介され、完売や営業終了していることもある人気スポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJGUq2COzlTzURqyE110GEY-k",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目３−１",
+   "url": "https://www.kirinomori.co.jp/",
+   "hours": [
+    "月曜日: 9時30分～17時30分",
+    "火曜日: 9時30分～17時30分",
+    "水曜日: 9時30分～17時30分",
+    "木曜日: 9時30分～17時30分",
+    "金曜日: 9時30分～17時30分",
+    "土曜日: 9時30分～17時30分",
+    "日曜日: 9時30分～17時30分"
+   ]
+  },
+  {
+   "slug": "ehime-ai-kao-no-kankou-bussan-kan",
+   "name": "えひめ愛顔の観光物産館",
+   "area": "matsuyama",
+   "cat": "雑貨・土産",
+   "lat": 33.84324,
+   "lng": 132.77132,
+   "approx": false,
+   "desc": "愛媛の特産品やお土産が豊富に揃う物産館。複数の動画で紹介され、名物の蛇口からみかんジュースで濃厚な味わいを体験できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJH5llYenlTzUR3ZEszBnYp6w",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目６−１ 岡崎産業ビル 1階",
+   "url": "http://www.iyonet.com/",
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 9時00分～18時00分",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～18時00分",
+    "日曜日: 9時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "yamaguchi-shoten",
+   "name": "山口書店",
+   "area": "matsuyama",
+   "cat": "雑貨・土産",
+   "lat": 33.8421,
+   "lng": 132.7727,
+   "approx": true,
+   "desc": "大街道にあるレトロな佇まいの古本屋さん。歴史を感じさせる趣のある店構えで様々な古本を取り扱っている店舗である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ]
+  },
+  {
+   "slug": "matsuyama-kuukou-mikyan-gaaden",
+   "name": "松山空港 (みきゃんガーデン)",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.82922,
+   "lng": 132.70372,
+   "approx": false,
+   "desc": "愛媛県の空の玄関口である空港施設。みきゃんガーデンやみかんジュースタワーなど愛媛らしさ全開のフォトスポットがある。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJkzmCBADxTzURPAmtITXv0eQ",
+   "address": "日本、〒791-8042 愛媛県松山市南吉田町２７３１",
+   "url": "https://www.matsuyama-airport.co.jp/service/mican-garden.html"
+  },
+  {
+   "slug": "hoteru-katsuyama-puremia",
+   "name": "ホテル勝山プレミア",
+   "area": "matsuyama",
+   "cat": "宿",
+   "lat": 33.8411,
+   "lng": 132.7746,
+   "approx": true,
+   "desc": "旅の宿泊先となるビジネスホテル。機能的でコンパクトながらも快適に眠るのに十分な設備が整った客室を備えている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ]
+  },
+  {
+   "slug": "men-sen-shouyu-bou-shuuhei",
+   "name": "麺鮮醤油房 周平",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84074,
+   "lng": 132.77132,
+   "approx": false,
+   "desc": "自家製麺にこだわる人気のラーメン店。大盛りの肉油そばや肉つけ麺などのボリュームあるメニューを提供している店である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJbdYkoO7lTzURpDX2BvCC-Xs",
+   "address": "日本、〒790-0001 愛媛県松山市一番町２丁目４−１１",
+   "url": "https://az-earth.com/shop/",
+   "hours": [
+    "月曜日: 11時30分～1時45分",
+    "火曜日: 11時30分～1時45分",
+    "水曜日: 11時30分～1時45分",
+    "木曜日: 11時30分～1時45分",
+    "金曜日: 11時30分～1時45分",
+    "土曜日: 11時30分～1時45分",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "yoogurutowaarudo-matsuyama-taigai-michi-mise",
+   "name": "ヨーグルトワールド 松山大街道店",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.83855,
+   "lng": 132.77029,
+   "approx": false,
+   "desc": "韓国発のヨーグルトアイス専門店。大街道を散策する際に立ち寄ることができるスポットとして店舗が位置している。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJ66uOh7DlTzUROXWhIYEW4hY",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目1−３１ みそらビル 2F",
+   "url": "https://tabelog.com/ehime/A3801/A380101/38017151/dtlmap/",
+   "hours": [
+    "月曜日: 11時00分～23時00分",
+    "火曜日: 11時00分～23時00分",
+    "水曜日: 11時00分～23時00分",
+    "木曜日: 11時00分～23時00分",
+    "金曜日: 11時00分～23時00分",
+    "土曜日: 11時00分～23時00分",
+    "日曜日: 11時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "asaii-koubou-taigai-michi-mise",
+   "name": "アサイー工房 大街道店",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.83836,
+   "lng": 132.7699,
+   "approx": false,
+   "desc": "大街道にあるアサイーボウル専門店。ヨーグルトワールドの隣に位置しヘルシーなメニューを提供する店舗となっている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJtYetDwDlTzUR3KsUA7fHhZs",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目２−１",
+   "url": "https://www.instagram.com/acaibowl_ehime/",
+   "hours": [
+    "月曜日: 11時00分～23時00分",
+    "火曜日: 11時00分～23時00分",
+    "水曜日: 11時00分～23時00分",
+    "木曜日: 11時00分～23時00分",
+    "金曜日: 11時00分～23時00分",
+    "土曜日: 11時00分～23時00分",
+    "日曜日: 11時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "tanimoto-kamaboko-mise-matsuyama-roopuuei-machi",
+   "name": "谷本蒲鉾店 松山ロープウェイ街店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8425,
+   "lng": 132.7718,
+   "approx": true,
+   "desc": "ロープウェイ街にある練り物店。大きなソフトクリームなどもテイクアウトできるメニューを取り揃えているスポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ]
+  },
+  {
+   "slug": "ehime-dou",
+   "name": "愛媛堂",
+   "area": "matsuyama",
+   "cat": "レトロ",
+   "lat": 33.84334,
+   "lng": 132.7711,
+   "approx": false,
+   "desc": "ロープウェイ街にあるレトロな古本屋さん。五十円から古本が並ぶ店構えであり独特の雰囲気を醸し出しているスポット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJ4R2t2OvlTzURPHHjwWQV6PI",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目２−３８",
+   "hours": [
+    "月曜日: 10時00分～21時00分",
+    "火曜日: 10時00分～21時00分",
+    "水曜日: 10時00分～21時00分",
+    "木曜日: 10時00分～21時00分",
+    "金曜日: 定休日",
+    "土曜日: 10時00分～21時00分",
+    "日曜日: 10時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "ogata-kamaboko-matsuyama-kuukou-mise",
+   "name": "おがた蒲鉾 松山空港店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.82889,
+   "lng": 132.7047,
+   "approx": false,
+   "desc": "松山空港内にある蒲鉾店。名物のじゃこカツのカレー味などを購入してその場で味わうことができる店舗となっている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJ0-N3IJ_xTzURd6tyt549veE",
+   "address": "日本、〒791-8042 愛媛県松山市南吉田町２７３１",
+   "url": "http://www.ogata-kamaboko.co.jp/shop/",
+   "hours": [
+    "月曜日: 8時30分～18時30分",
+    "火曜日: 8時30分～18時30分",
+    "水曜日: 8時30分～18時30分",
+    "木曜日: 8時30分～18時30分",
+    "金曜日: 8時30分～18時30分",
+    "土曜日: 8時30分～18時30分",
+    "日曜日: 8時30分～18時30分"
+   ]
+  },
+  {
+   "slug": "taigai-michi-shoutengai",
+   "name": "大街道商店街",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.83856,
+   "lng": 132.77009,
+   "approx": false,
+   "desc": "松山市の中心部にある広大なアーケード商店街。飲食店や多様なショップが数多く集まり活気にあふれているスポット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJP8Aj7e3lTzUR5kb1j_s7e_s",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目２−３",
+   "url": "https://okaido.jp/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "matsuyamajou-roopuuei-shinonome-kuchi-eki",
+   "name": "松山城ロープウェイ東雲口駅",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.84451,
+   "lng": 132.77185,
+   "approx": false,
+   "desc": "松山城へ登るロープウェイおよびリフト乗り場。複数の動画で紹介。一人乗りリフトはアトラクション感覚で空中散歩を満喫できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJRTRqLADlTzURHa395hzv808",
+   "address": "日本、〒790-0008 愛媛県松山市丸之内３丁目７３",
+   "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/matsuyamajyo/ro-puuei.html",
+   "hours": [
+    "月曜日: 8時30分～17時30分",
+    "火曜日: 8時30分～17時30分",
+    "水曜日: 8時30分～17時30分",
+    "木曜日: 8時30分～17時30分",
+    "金曜日: 8時30分～17時30分",
+    "土曜日: 8時30分～17時30分",
+    "日曜日: 8時30分～17時30分"
+   ]
+  },
+  {
+   "slug": "matsuyamajou",
+   "name": "松山城",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.84558,
+   "lng": 132.76553,
+   "approx": false,
+   "desc": "勝山山頂にそびえる名城。複数の動画で紹介。天守閣からは松山市街や瀬戸内海を一望でき、甲冑装着体験なども楽しめるスポット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJG4z5T-vlTzURgnujh60lGEo",
+   "address": "日本、〒790-0008 愛媛県松山市丸之内１",
+   "url": "https://www.matsuyamajo.jp/",
+   "hours": [
+    "月曜日: 9時00分～16時30分",
+    "火曜日: 9時00分～16時30分",
+    "水曜日: 9時00分～16時30分",
+    "木曜日: 9時00分～16時30分",
+    "金曜日: 9時00分～16時30分",
+    "土曜日: 9時00分～16時30分",
+    "日曜日: 9時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "kadoyano-hanare",
+   "name": "かどやの はなれ",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84141,
+   "lng": 132.77067,
+   "approx": false,
+   "desc": "宇和島鯛めしが名物のお店。生卵を溶いたタレに鯛の刺身を絡めてご飯にかけるスタイル。※Google Places上は閉業（2026年9月時点）。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJnbFsXCzlTzUR5OnOlwH_VVE",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目１−１ 1F",
+   "url": "https://www.kadoya-taimeshi.com/kadoyamanage/shoplist/kadoyanohanare/"
+  },
+  {
+   "slug": "madonna-tei",
+   "name": "マドンナ亭",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8293,
+   "lng": 132.70422,
+   "approx": false,
+   "desc": "松山空港1階にある立ち食いうどん店。じゃこ天うどんなどを手軽に味わえるスポットとして知られている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJYWxwnijwTzURqbEcjPHDzZg",
+   "address": "日本、〒791-8042 愛媛県松山市南吉田町２７３１ 松山空港ビル 1F",
+   "url": "http://www.kadoya-taimeshi.com/kadoyamanage/shoplist/udondokoro/",
+   "hours": [
+    "月曜日: 8時30分～19時00分",
+    "火曜日: 8時30分～19時00分",
+    "水曜日: 8時30分～19時00分",
+    "木曜日: 8時30分～19時00分",
+    "金曜日: 8時30分～19時00分",
+    "土曜日: 8時30分～19時00分",
+    "日曜日: 8時30分～19時00分"
+   ]
+  },
+  {
+   "slug": "sushi-tokoro-sakana-i-matsuyama-kuukou-mise",
+   "name": "すし処 魚伊 松山空港店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8268,
+   "lng": 132.7031,
+   "approx": true,
+   "desc": "松山空港内のお寿司屋さん。複数の動画で紹介。出発前や到着後に瀬戸内の新鮮なネタを使った本格的な寿司や海鮮丼を気軽に味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ]
+  },
+  {
+   "slug": "tai-meshi-motoyama",
+   "name": "鯛めし もとやま",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84327,
+   "lng": 132.77104,
+   "approx": false,
+   "desc": "松山市にある宇和島鯛めしの専門店。新鮮な鯛の刺身を特製出汁醤油と卵に絡めてご飯に乗せるスタイルで、じゃこ天もセット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJUUjToGXlTzURCrztMUDPwX4",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目２−３７",
+   "url": "https://yakitsura.jp/tai-meshi/",
+   "hours": [
+    "月曜日: 11時00分～19時30分",
+    "火曜日: 11時00分～19時30分",
+    "水曜日: 11時00分～19時30分",
+    "木曜日: 11時00分～19時30分",
+    "金曜日: 11時00分～20時30分",
+    "土曜日: 10時00分～20時30分",
+    "日曜日: 10時00分～19時30分"
+   ]
+  },
+  {
+   "slug": "kotori",
+   "name": "ことり",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83613,
+   "lng": 132.76961,
+   "approx": false,
+   "desc": "松山市民のソウルフードである鍋焼きうどんの名店。アルミ製の鍋で提供される、少し甘めの優しい出汁と柔らかい麺が特徴。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJVTQcTPLlTzURWg4GbBuW_7I",
+   "address": "日本、〒790-0012 愛媛県松山市湊町３丁目７−２",
+   "hours": [
+    "月曜日: 10時00分～14時00分",
+    "火曜日: 10時00分～14時00分",
+    "水曜日: 定休日",
+    "木曜日: 10時00分～14時00分",
+    "金曜日: 10時00分～14時00分",
+    "土曜日: 10時00分～14時00分",
+    "日曜日: 10時00分～14時00分"
+   ]
+  },
+  {
+   "slug": "asahi",
+   "name": "アサヒ",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8364,
+   "lng": 132.76942,
+   "approx": false,
+   "desc": "ことりの近くにある、同じく鍋焼きうどんで超有名な老舗店。甘めの出汁が地元の人々に愛されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJyZJiRfLlTzUR1l4ViXbNurw",
+   "address": "日本、〒790-0012 愛媛県松山市湊町３丁目１０−１１",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 定休日",
+    "水曜日: 定休日",
+    "木曜日: 10時00分～15時30分",
+    "金曜日: 10時00分～15時30分",
+    "土曜日: 10時00分～15時30分",
+    "日曜日: 10時00分～15時30分"
+   ]
+  },
+  {
+   "slug": "marubun-komatsu-honten",
+   "name": "マルブン 小松本店",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.89724,
+   "lng": 133.11648,
+   "approx": false,
+   "desc": "大正12年創業の歴史ある老舗食堂。現在は洋食やイタリアンベースのレストランであり、西条鉄板ナポリタンや唐揚げ、新型の鯛めしが人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJ7Vh9J_UrUDURtD-5Bk7pkic",
+   "address": "日本、〒799-1101 愛媛県西条市小松町新屋敷４０７−１",
+   "url": "https://marubun8.com/restaurant_info/komatsuhonten/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 11時00分～15時00分, 17時30分～21時00分",
+    "水曜日: 11時00分～15時00分, 17時30分～21時00分",
+    "木曜日: 11時00分～15時00分, 17時30分～21時00分",
+    "金曜日: 11時00分～15時00分, 17時30分～21時00分",
+    "土曜日: 11時00分～15時00分, 17時30分～21時00分",
+    "日曜日: 11時00分～15時00分, 17時30分～21時00分"
+   ]
+  },
+  {
+   "slug": "medetime",
+   "name": "MEDETIME",
+   "area": "matsuyama",
+   "cat": "雑貨・土産",
+   "lat": 33.84421,
+   "lng": 132.77166,
+   "approx": false,
+   "desc": "松山城ロープウェイ乗り場近くの真鯛特化専門店。おめでたい愛でたい焼き、鯛めしの素、今治タオルなどのギフトが揃う。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJE7B5oIHlTzURurGLZ6gFsDQ",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目２−４５ 伊織松山お城下店内",
+   "url": "https://w-harmony.jp/shop/medetaime/",
+   "hours": [
+    "月曜日: 9時30分～18時00分",
+    "火曜日: 9時30分～18時00分",
+    "水曜日: 定休日",
+    "木曜日: 9時30分～18時00分",
+    "金曜日: 9時30分～18時00分",
+    "土曜日: 9時30分～18時00分",
+    "日曜日: 9時30分～18時00分"
+   ]
+  },
+  {
+   "slug": "matsuyama-sougou-kouen",
+   "name": "松山総合公園",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.84217,
+   "lng": 132.73672,
+   "approx": false,
+   "desc": "ヨーロッパの古城のような展望塔がある公園。展望広場からは松山市街や松山城を一望できるロケーション。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJTXNPKI_vTzURgza20MSMbww",
+   "address": "日本、〒791-8024 愛媛県松山市朝日ヶ丘１丁目 外１５",
+   "url": "https://www.city.matsuyama.ehime.jp/shisetsu/koen/syoukai/sougoukouen.html",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "ganso-uwa-shima-tai-meshi-maru-mizu-honten",
+   "name": "元祖 宇和島鯛めし 丸水 本店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84402,
+   "lng": 132.77186,
+   "approx": false,
+   "desc": "宇和島鯛めしの老舗。天然と養殖の鯛の食べ比べセットや、じゃこカツなどが楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJ6bmYZOnlTzUR_mktj9RPG74",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目７−８",
+   "url": "https://gansui.jp/",
+   "hours": [
+    "月曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "火曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "水曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "木曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "金曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "土曜日: 11時00分～15時00分, 17時00分～20時30分",
+    "日曜日: 11時00分～15時00分, 17時00分～20時30分"
+   ]
+  },
+  {
+   "slug": "tennen-onsen-ishite-no-yu-doomiiin-matsuyama",
+   "name": "天然温泉 石手の湯 ドーミーイン松山",
+   "area": "matsuyama",
+   "cat": "宿",
+   "lat": 33.83954,
+   "lng": 132.77057,
+   "approx": false,
+   "desc": "松山市中心街にあるビジネスホテル。最上階に本格的な天然温泉の大浴場とサウナを完備している。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJpWzNzu3lTzUR7GzmosxclL0",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目6−５",
+   "url": "https://dormy-hotels.com/dormyinn/hotels/matsuyama/?utm_source=google&utm_medium=gbp&utm_campaign=gbpurl"
+  },
+  {
+   "slug": "bimi-jun-na-miyabi-ie",
+   "name": "美味旬菜 みやび家",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83951,
+   "lng": 132.77084,
+   "approx": false,
+   "desc": "新鮮な魚介類や地元の食材を使った創作和食が楽しめる居酒屋。刺身の盛り合わせや鯛の釜飯が絶品。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJizkjdejlTzUR1_1FLd5xLWo",
+   "address": "日本、〒790-0002 愛媛県松山市二番町２丁目５−５",
+   "url": "https://miyabiya129.owst.jp/",
+   "hours": [
+    "月曜日: 18時00分～23時00分",
+    "火曜日: 18時00分～23時00分",
+    "水曜日: 18時00分～23時00分",
+    "木曜日: 18時00分～23時00分",
+    "金曜日: 18時00分～23時00分",
+    "土曜日: 18時00分～23時00分",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-kazahaya-no-sato-kaze-wa-sato",
+   "name": "道の駅 風早の郷 風和里",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.99691,
+   "lng": 132.77232,
+   "approx": false,
+   "desc": "海沿いにある道の駅。広い駐車場があり、歩道橋を渡ると目の前のビーチへアクセスできる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJTcu1DMQdUDURlRJYTKqWKiI",
+   "address": "日本、〒799-2408 愛媛県松山市大浦１１９",
+   "url": "http://www.fuwari.or.jp/",
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 9時00分～18時00分",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～18時00分",
+    "日曜日: 9時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "kashima",
+   "name": "鹿島",
+   "area": "matsuyama",
+   "cat": "自然",
+   "lat": 33.97409,
+   "lng": 132.76408,
+   "approx": false,
+   "desc": "北条港から渡船で約3分で行ける無人島。野生の鹿が生息し、山頂の展望台からは瀬戸内海の島々を一望できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJd4cL9HTiTzUR4dXyt_HuLTM",
+   "address": "日本、〒799-2430 愛媛県松山市北条辻",
+   "url": "https://www.city.matsuyama.ehime.jp/smph/kanko/kankoguide/shitestukoen/kashima/kashima.html",
+   "hours": [
+    "月曜日: 8時30分～17時15分",
+    "火曜日: 8時30分～17時15分",
+    "水曜日: 8時30分～17時15分",
+    "木曜日: 8時30分～17時15分",
+    "金曜日: 8時30分～17時15分",
+    "土曜日: 定休日",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "shiroishi-no-hana",
+   "name": "白石ノ鼻",
+   "area": "matsuyama",
+   "cat": "自然",
+   "lat": 33.90685,
+   "lng": 132.70951,
+   "approx": false,
+   "desc": "巨石が積み重なった不思議な景観が広がる海岸。古代の太陽観測装置ではないかとも言われる白石の鼻巨石群が存在する。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJsaQT_srkTzUR8eYSTDfs3Sc",
+   "address": "日本、〒799-2661 愛媛県松山市勝岡町６丁目１１６３−６",
+   "url": "https://haku1414.com/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "sushiemon-oguri-mise",
+   "name": "すしえもん 小栗店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.82726,
+   "lng": 132.75915,
+   "approx": false,
+   "desc": "宇和島の水産会社が運営する回転寿司店。複数の動画で紹介。宇和島直送の新鮮でリーズナブルな地魚のネタが豊富に揃う。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJYTBBWWTvTzURjbwPYBxzHEw",
+   "address": "日本、〒790-0036 愛媛県松山市小栗３丁目２−４０",
+   "url": "https://sushiemon.jp/",
+   "hours": [
+    "月曜日: 11時00分～22時00分",
+    "火曜日: 11時00分～22時00分",
+    "水曜日: 11時00分～22時00分",
+    "木曜日: 11時00分～22時00分",
+    "金曜日: 11時00分～22時00分",
+    "土曜日: 11時00分～22時00分",
+    "日曜日: 11時00分～22時00分"
+   ]
+  },
+  {
+   "slug": "tennen-no-yu-iyo-onsen",
+   "name": "天然の湯 いよ温泉",
+   "area": "iyo",
+   "cat": "温泉",
+   "lat": 33.7592,
+   "lng": 132.7026,
+   "approx": false,
+   "desc": "松山市にあるサウナ付きの天然温泉施設。ナトリウム炭酸水素塩泉の良質な温泉で、旅の疲れをゆっくりと癒やすことができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJ_3UJ1XDyTzURP2DF3i8ZWJM",
+   "address": "日本、〒799-3114 愛媛県伊予市灘町１６−１４"
+  },
+  {
+   "slug": "chuukaryouri-honkon-kayamachi-mise",
+   "name": "中華料理 香港 萱町店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8496,
+   "lng": 132.7573,
+   "approx": true,
+   "desc": "松山市内に数店舗ある中華料理店。ボリューム満点で美味しい料理が評判を集める人気のスポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ]
+  },
+  {
+   "slug": "matsuyamashi-yagaikatsudou-sentaa-reinboohairand",
+   "name": "松山市野外活動センター レインボーハイランド",
+   "area": "matsuyama",
+   "cat": "自然",
+   "lat": 33.91771,
+   "lng": 132.81145,
+   "approx": false,
+   "desc": "豊かな自然に囲まれた広大な野外活動施設。展望台からは瀬戸内海の島々が見渡せる絶景が広がっている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJVVUVDQnhTzURdfp4Oau3Eio",
+   "address": "日本、〒790-2648 愛媛県松山市菅沢町乙２８０",
+   "url": "http://www.cul-spo.or.jp/rainbow/"
+  },
+  {
+   "slug": "kiraku-ie-bekkan",
+   "name": "喜楽家 別館",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83871,
+   "lng": 132.76962,
+   "approx": false,
+   "desc": "松山市三番町にある居酒屋。愛媛の新鮮な海の幸や地元の食材をふんだんに使った料理の数々が楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJqVcCL0vlTzUR85cLrwvJZH8",
+   "address": "日本、〒790-0003 愛媛県松山市三番町３丁目７−２",
+   "url": "https://matsuyama-kirakuya.jimdosite.com/",
+   "hours": [
+    "月曜日: 16時00分～23時30分",
+    "火曜日: 16時00分～23時30分",
+    "水曜日: 16時00分～23時30分",
+    "木曜日: 16時00分～23時30分",
+    "金曜日: 16時00分～23時30分",
+    "土曜日: 16時00分～0時00分",
+    "日曜日: 16時00分～0時00分"
+   ]
+  },
+  {
+   "slug": "buta-chin-gyou",
+   "name": "豚珍行",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84012,
+   "lng": 132.77269,
+   "approx": false,
+   "desc": "松山市の繁華街にある深夜営業の人気ラーメン店。名物の甘めのスープが特徴のラーメンが絶品である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJQQ4qjyzlTzURa3S2refmHdA",
+   "address": "日本、〒790-0002 愛媛県松山市二番町１丁目10−６",
+   "url": "https://matsuyama.mypl.net/shop/00000378480/",
+   "hours": [
+    "月曜日: 11時30分～14時00分, 18時00分～2時00分",
+    "火曜日: 11時30分～14時00分, 18時00分～2時00分",
+    "水曜日: 11時30分～14時00分, 18時00分～2時00分",
+    "木曜日: 11時30分～14時00分, 18時00分～2時00分",
+    "金曜日: 11時30分～14時00分, 18時00分～2時30分",
+    "土曜日: 11時30分～14時00分, 18時00分～2時30分",
+    "日曜日: 18時00分～1時00分"
+   ]
+  },
+  {
+   "slug": "pai-senmonten-tsutsumi",
+   "name": "パイ専門店 Tsutsumi",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.8372,
+   "lng": 132.7389,
+   "approx": false,
+   "desc": "松山市にある人気のパイ専門店。サクサクのパイ生地に様々なフィリングが詰まった手作りパイが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJe-563wPvTzURaD197qYvZ3k",
+   "address": "日本、〒791-8031 愛媛県松山市北斎院町２０−１"
+  },
+  {
+   "slug": "o-konomi-yaki-miyoshi-mitsu-mise",
+   "name": "お好み焼き みよし 三津店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.86269,
+   "lng": 132.71431,
+   "approx": false,
+   "desc": "松山市三津浜地区のソウルフードである三津浜焼きの人気店。牛脂の旨味と魚粉が効いた半月型のお好み焼き。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJibElOE7lTzURCv8p85LD7GM",
+   "address": "日本、〒791-8062 愛媛県松山市住吉２丁目４−３",
+   "hours": [
+    "月曜日: 10時00分～18時00分",
+    "火曜日: 10時00分～18時00分",
+    "水曜日: 10時00分～18時00分",
+    "木曜日: 10時00分～18時00分",
+    "金曜日: 10時00分～18時00分",
+    "土曜日: 10時00分～18時00分",
+    "日曜日: 10時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "shiroyama-sou",
+   "name": "城山荘",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84438,
+   "lng": 132.76684,
+   "approx": false,
+   "desc": "松山城本丸広場にある売店。愛媛名物の蛇口からみかんジュースをビアジョッキで味わうことができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJrUunROvlTzURcIDMKsb1CJQ",
+   "address": "日本、〒790-0008 愛媛県松山市丸之内１",
+   "url": "https://japoncompany.business/matsuyama/547197-jozanso-restaurant",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "hoteru-katsuyama-the-second",
+   "name": "ホテル勝山 THE SECOND",
+   "area": "matsuyama",
+   "cat": "宿",
+   "lat": 33.83943,
+   "lng": 132.77478,
+   "approx": false,
+   "desc": "松山市内での宿泊施設。道後温泉や松山中心部へのアクセスが良好であり、観光の拠点として非常に便利である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJGcOfQO_lTzURVs0Us8Jb9zc",
+   "address": "日本、〒790-0002 愛媛県松山市二番町１丁目６−１２",
+   "url": "https://www.hotel-katsuyama.co.jp/"
+  },
+  {
+   "slug": "kuramoto-ya",
+   "name": "蔵元屋",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84122,
+   "lng": 132.77266,
+   "approx": false,
+   "desc": "愛媛県酒造組合直営の日本酒アンテナショップ。県内各地の地酒が揃い、オリジナル酵母の酒の飲み比べができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJI6KmzO7lTzURanOY4BHROJE",
+   "address": "日本、〒790-0001 愛媛県松山市一番町１丁目１１−７",
+   "url": "http://www.yokota-sake.com/kuramotoya/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 13時00分～21時00分",
+    "水曜日: 13時00分～21時00分",
+    "木曜日: 13時00分～21時00分",
+    "金曜日: 13時00分～22時00分",
+    "土曜日: 13時00分～22時00分",
+    "日曜日: 13時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "bishoku-bou-harupin",
+   "name": "美食坊 ハルピン",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.86231,
+   "lng": 132.75003,
+   "approx": false,
+   "desc": "松山市内にある本格中華料理店。シャキシャキのピーマンがたっぷり入った絶品の青椒肉絲セットが名物。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJ5-KlnfTlTzURO7nq8MyPaPY",
+   "address": "日本、〒791-8016 愛媛県松山市久万ノ台４０３−１",
+   "url": "https://instagram.com/bishokubou_harpin?igshid=s0o9931kljx2",
+   "hours": [
+    "月曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "火曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "水曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "木曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "金曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "土曜日: 11時00分～14時00分, 17時00分～23時00分",
+    "日曜日: 11時00分～14時00分, 17時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "rouken-manjuu-takeuchi-taigai-michi-shiten",
+   "name": "労研饅頭たけうち 大街道支店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84,
+   "lng": 132.77,
+   "approx": false,
+   "desc": "昭和初期から続く松山の伝統的な蒸しパンである労研饅頭の店。素朴でモチモチした生地の饅頭が並ぶ。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJq1Rmyu3lTzURxnV8gZU_q2s",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目３−１５"
+  },
+  {
+   "slug": "panya-uzu",
+   "name": "ぱんや雲珠",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.84241,
+   "lng": 132.79652,
+   "approx": false,
+   "desc": "ジブリの世界を思わせるユニークで可愛らしい外観のパン屋さん。人気の「まるこげ」やシナモンロール、焼き立てのピザなどが揃い、お庭で美味しく味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "uQ1fk-ycESk"
+    }
+   ],
+   "place_id": "ChIJZcKVk2jmTzUR2z7stxTOdts",
+   "address": "日本、〒790-0903 愛媛県松山市東野１丁目２−１５",
+   "url": "https://www.facebook.com/panyauzu/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 定休日",
+    "水曜日: 7時00分～16時00分",
+    "木曜日: 7時00分～16時00分",
+    "金曜日: 7時00分～16時00分",
+    "土曜日: 7時00分～16時00分",
+    "日曜日: 7時00分～16時00分"
+   ]
+  },
+  {
+   "slug": "10-factory-matsuyama-honten",
+   "name": "10 FACTORY 松山本店",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.84253,
+   "lng": 132.77042,
+   "approx": false,
+   "desc": "愛媛県産のみかんジュース専門店。不知火・清見・せとかの3種飲み比べプレミアムセットや、生搾りの温州みかんジュースなどを堪能できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "uQ1fk-ycESk"
+    }
+   ],
+   "place_id": "ChIJaYPL8OvlTzUR0iidHXM82Z4",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目２−２５",
+   "url": "https://10-factory.com/",
+   "hours": [
+    "月曜日: 9時30分～19時00分",
+    "火曜日: 9時30分～19時00分",
+    "水曜日: 9時30分～19時00分",
+    "木曜日: 9時30分～19時00分",
+    "金曜日: 9時30分～19時00分",
+    "土曜日: 9時30分～19時00分",
+    "日曜日: 9時30分～19時00分"
+   ]
+  },
+  {
+   "slug": "utakodorippu",
+   "name": "ウタコドリップ",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.84061,
+   "lng": 132.75286,
+   "approx": false,
+   "desc": "落ち着いた雰囲気の非常におしゃれなコーヒー専門店。店主こだわりの飲みやすいブレンドコーヒーを提供し、静かな空間でリラックスした時間を過ごせる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "uQ1fk-ycESk"
+    }
+   ],
+   "place_id": "ChIJoaDsn4blTzUR0nDCG4z3wBM",
+   "address": "日本、〒790-0067 愛媛県松山市大手町２丁目９−２０",
+   "url": "https://www.instagram.com/utacodrip_2/",
+   "hours": [
+    "月曜日: 13時00分～19時00分",
+    "火曜日: 11時00分～19時00分",
+    "水曜日: 11時00分～19時00分",
+    "木曜日: 11時00分～19時00分",
+    "金曜日: 11時00分～19時00分",
+    "土曜日: 11時00分～19時00分",
+    "日曜日: 11時00分～19時00分"
+   ]
+  },
+  {
+   "slug": "tennensui-shijou-mizuichi",
+   "name": "天然水市場 ミズイチ",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.83835,
+   "lng": 132.77019,
+   "approx": false,
+   "desc": "大街道商店街にあるお店。食べやすくカットされたカップ入りのりんご飴（シナノスイート）を販売し、その美味しさと食感を楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "uQ1fk-ycESk"
+    }
+   ],
+   "place_id": "ChIJ437YX0LlTzURwbauLBn5IgU",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目１−２ ２",
+   "url": "https://www.inlakech.co.jp/service#cafe",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 定休日",
+    "水曜日: 11時00分～18時00分",
+    "木曜日: 11時00分～18時00分",
+    "金曜日: 11時00分～18時00分",
+    "土曜日: 10時00分～18時00分",
+    "日曜日: 10時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "omocha-kissa",
+   "name": "おもちゃ喫茶",
+   "area": "matsuyama",
+   "cat": "レトロ",
+   "lat": 33.8391,
+   "lng": 132.7703,
+   "approx": true,
+   "desc": "大街道商店街の「ALPHA KYOEI」内で期間限定開催されていた展示スペース。ウルトラマンや仮面ライダーなど、昭和レトロな懐かしいフィギュアやおもちゃの数々を鑑賞できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "uQ1fk-ycESk"
+    }
+   ]
+  },
+  {
+   "slug": "jiburi-gaippai-donguri-kyouwakoku-matsuyama-mise",
+   "name": "ジブリがいっぱい どんぐり共和国 松山店",
+   "area": "dogo",
+   "cat": "雑貨・土産",
+   "lat": 33.85211,
+   "lng": 132.7857,
+   "approx": false,
+   "desc": "道後商店街にあるジブリグッズの専門店。カオナシのがま口バッグやランダムの刺繍ブローチなどが販売されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ],
+   "place_id": "ChIJt0kWKNblTzURizEAtXBADa4",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町２０−２０",
+   "url": "https://benelic.com/donguri/",
+   "hours": [
+    "月曜日: 11時00分～19時00分",
+    "火曜日: 11時00分～18時00分",
+    "水曜日: 11時00分～19時00分",
+    "木曜日: 11時00分～18時00分",
+    "金曜日: 10時00分～18時00分",
+    "土曜日: 11時00分～20時00分",
+    "日曜日: 9時30分～18時00分"
+   ]
+  },
+  {
+   "slug": "yamatoya-honten",
+   "name": "大和屋本店",
+   "area": "dogo",
+   "cat": "宿",
+   "lat": 33.85283,
+   "lng": 132.78614,
+   "approx": false,
+   "desc": "道後温泉にある老舗旅館。本格的な能舞台での体験や、無料の駄菓子、日本酒BARなどの充実したサービスが魅力である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    }
+   ],
+   "place_id": "ChIJiy7sonjmTzURINjtGNfnmHE",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町２０−８",
+   "url": "https://www.yamatoyahonten.com/"
+  },
+  {
+   "slug": "dougoonsen-honkan",
+   "name": "道後温泉本館",
+   "area": "dogo",
+   "cat": "温泉",
+   "lat": 33.85207,
+   "lng": 132.78641,
+   "approx": false,
+   "desc": "日本最古と言われる道後温泉のシンボル。歴史あるレトロな木造建築が美しく、多くの動画で旅の疲れを癒やす名湯として紹介。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    },
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    },
+    {
+     "type": "youtube",
+     "id": "9x4ssai21T8"
+    }
+   ],
+   "place_id": "ChIJ84F-kHjmTzURebGHHI1YWXw",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町５−６",
+   "url": "https://dogo.jp/onsen/honkan",
+   "hours": [
+    "月曜日: 6時00分～23時00分",
+    "火曜日: 6時00分～23時00分",
+    "水曜日: 6時00分～23時00分",
+    "木曜日: 6時00分～23時00分",
+    "金曜日: 6時00分～23時00分",
+    "土曜日: 6時00分～23時00分",
+    "日曜日: 6時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "sora-no-sanpomichi",
+   "name": "空の散歩道",
+   "area": "dogo",
+   "cat": "温泉",
+   "lat": 33.85168,
+   "lng": 132.78668,
+   "approx": false,
+   "desc": "道後温泉本館を見下ろす高台にある足湯スポット。温かいお湯に浸かりながら、道後の街並みや夜景を一望できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJOekIkHjmTzURpOw0RvFnr34",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町４−３０",
+   "url": "https://dogo.jp/tour",
+   "hours": [
+    "月曜日: 6時00分～21時00分",
+    "火曜日: 6時00分～21時00分",
+    "水曜日: 6時00分～21時00分",
+    "木曜日: 6時00分～21時00分",
+    "金曜日: 6時00分～21時00分",
+    "土曜日: 6時00分～21時00分",
+    "日曜日: 6時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "dougoonsen-eki",
+   "name": "道後温泉駅",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.85041,
+   "lng": 132.78505,
+   "approx": false,
+   "desc": "明治時代の洋風建築を模したレトロで美しい駅舎。駅前には坊っちゃん列車が展示されており、路面電車が発着する様子を楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJe9IW79flTzURiR6AGKOXUXY",
+   "address": "日本、〒790-0843 愛媛県松山市道後町１丁目１０−１２"
+  },
+  {
+   "slug": "botchan-karakuri-tokei",
+   "name": "坊っちゃんカラクリ時計",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.85072,
+   "lng": 132.78547,
+   "approx": false,
+   "desc": "道後温泉駅前にあるカラクリ時計。定時になると音楽に合わせて小説『坊っちゃん』の登場人物たちが現れ、観光客を楽しませる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJH44K3tflTzURJSfHhYXm3fg",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町６−７",
+   "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/karakuri.html",
+   "hours": [
+    "月曜日: 8時00分～22時00分",
+    "火曜日: 8時00分～22時00分",
+    "水曜日: 8時00分～22時00分",
+    "木曜日: 8時00分～22時00分",
+    "金曜日: 8時00分～22時00分",
+    "土曜日: 8時00分～22時00分",
+    "日曜日: 8時00分～22時00分"
+   ]
+  },
+  {
+   "slug": "dougo-shoutengai-dougo-haikara-touri",
+   "name": "道後商店街 (道後ハイカラ通り)",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.8521,
+   "lng": 132.78523,
+   "approx": false,
+   "desc": "道後温泉駅から本館へと続くアーケード商店街。お土産店や飲食店が立ち並び、散策や食べ歩きにぴったりのメインストリートである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJEad90dflTzURT5wlf1EytpY",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１５−２３",
+   "url": "https://dogo-shoutengai.jp/",
+   "hours": [
+    "月曜日: 8時00分～23時30分",
+    "火曜日: 8時00分～23時30分",
+    "水曜日: 8時00分～23時30分",
+    "木曜日: 8時00分～23時30分",
+    "金曜日: 8時00分～23時30分",
+    "土曜日: 8時00分～23時30分",
+    "日曜日: 8時00分～23時30分"
+   ]
+  },
+  {
+   "slug": "dougoonsen-bekkan-asuka-no-yuzen",
+   "name": "道後温泉別館 飛鳥乃湯泉",
+   "area": "dogo",
+   "cat": "温泉",
+   "lat": 33.8524,
+   "lng": 132.78465,
+   "approx": false,
+   "desc": "飛鳥時代の建築様式を取り入れた湯屋。中庭に広がる鮮やかな花のアートやプロジェクションマッピング、今治タオルのレンタルなどが紹介されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJH4XTMNblTzURtekmo516GY8",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１９−２２",
+   "url": "https://dogo.jp/onsen/asuka",
+   "hours": [
+    "月曜日: 6時00分～23時00分",
+    "火曜日: 6時00分～23時00分",
+    "水曜日: 6時00分～23時00分",
+    "木曜日: 6時00分～23時00分",
+    "金曜日: 6時00分～23時00分",
+    "土曜日: 6時00分～23時00分",
+    "日曜日: 6時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "kasuriya-honten",
+   "name": "かすりや本店",
+   "area": "dogo",
+   "cat": "雑貨・土産",
+   "lat": 33.85183,
+   "lng": 132.78516,
+   "approx": false,
+   "desc": "道後商店街にあるお土産店。赤い提灯が並ぶレトロな通路「カスリロード」がフォトスポットとして人気である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Ef9nwM_5Tcg"
+    }
+   ],
+   "place_id": "ChIJ6aOgzdflTzUR9Yy1Wbe2mN4",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１４−２４",
+   "url": "https://dougonokasuriya.stores.jp/",
+   "hours": [
+    "月曜日: 8時30分～21時00分",
+    "火曜日: 8時30分～21時00分",
+    "水曜日: 8時30分～21時00分",
+    "木曜日: 8時30分～21時00分",
+    "金曜日: 8時30分～21時00分",
+    "土曜日: 8時30分～21時00分",
+    "日曜日: 8時30分～21時00分"
+   ]
+  },
+  {
+   "slug": "tomoe-dou-shiki-tomoe-dou",
+   "name": "巴堂（子規巴堂）",
+   "area": "dogo",
+   "cat": "雑貨・土産",
+   "lat": 33.8515,
+   "lng": 132.7853,
+   "approx": false,
+   "desc": "道後商店街にある和菓子店。天皇皇后献上のお菓子などが販売されている。※Google Places上は一時休業中（2026年9月時点）。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJEad90dflTzURiRl2Ueh_gGA",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１３−７"
+  },
+  {
+   "slug": "omiyagedokoro-dougo-rirakkumano-yu",
+   "name": "おみやげどころ 道後 りらっくまの湯",
+   "area": "dogo",
+   "cat": "雑貨・土産",
+   "lat": 33.85199,
+   "lng": 132.78602,
+   "approx": false,
+   "desc": "リラックマをテーマにした和風のショップ。可愛いリラックマの形をした人形焼きなどが人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJyw33-DznTzURmEqldCLJ_ZM",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１３−２０",
+   "url": "https://rilakkumasabo.jp/",
+   "hours": [
+    "月曜日: 10時00分～18時00分",
+    "火曜日: 10時00分～18時00分",
+    "水曜日: 10時00分～18時00分",
+    "木曜日: 10時00分～18時00分",
+    "金曜日: 10時00分～18時00分",
+    "土曜日: 10時00分～18時00分",
+    "日曜日: 10時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "isa-ji-nami-jinja",
+   "name": "伊佐爾波神社",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.85077,
+   "lng": 132.78897,
+   "approx": false,
+   "desc": "国の重要文化財に指定されている歴史ある神社。135段の急な石段と、美しい八幡造りの社殿が見どころ。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJPVCpD3nmTzURsJS74BoNXoE",
+   "address": "日本、〒790-0838 愛媛県松山市桜谷町１７３",
+   "url": "https://isaniwa.official.jp/",
+   "hours": [
+    "月曜日: 6時00分～18時00分",
+    "火曜日: 6時00分～18時00分",
+    "水曜日: 6時00分～18時00分",
+    "木曜日: 6時00分～18時00分",
+    "金曜日: 6時00分～18時00分",
+    "土曜日: 6時00分～18時00分",
+    "日曜日: 6時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "nabeyaki-kiudon-manma",
+   "name": "鍋焼きうどん まんま",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.85061,
+   "lng": 132.7878,
+   "approx": false,
+   "desc": "伊佐爾波神社の参道近くにある鍋焼きうどん店。アルミ鍋で提供される甘めのつゆと柔らかいうどんが特徴。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJFS42QnjmTzURnq_27y6gL84",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１−３９",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 8時00分～10時00分, 11時00分～14時00分",
+    "水曜日: 11時00分～14時00分",
+    "木曜日: 8時00分～10時00分, 11時00分～14時00分",
+    "金曜日: 8時00分～10時00分, 11時00分～14時00分, 18時30分～21時00分",
+    "土曜日: 8時00分～10時00分, 11時00分～14時00分, 18時30分～21時00分",
+    "日曜日: 8時00分～10時00分, 11時00分～14時00分"
+   ]
+  },
+  {
+   "slug": "yu-jinja",
+   "name": "湯神社",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.85133,
+   "lng": 132.78706,
+   "approx": false,
+   "desc": "道後温泉本館のすぐ近くの高台にある、道後温泉の守護神を祀る神社。縁結びや開運のご利益があり、静かな境内で参拝が可能。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJ_S67XXjmTzURZhDzgGDpxlo",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町４−４−１０",
+   "url": "https://yu-jinja.official.jp/",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "ehime-no-shokutaku-1970",
+   "name": "愛媛の食卓1970",
+   "area": "dogo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.85111,
+   "lng": 132.78514,
+   "approx": false,
+   "desc": "道後商店街にある、様々な品種のみかんジュースを蛇口から注いで飲み比べできる店舗。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "v3I-jQ3ZfjE"
+    }
+   ],
+   "place_id": "ChIJsyq7SgDlTzURqK1MSiwtuwE",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１２−３０",
+   "url": "https://w-harmony.jp/shop/ehimenosyokutaku1970/",
+   "hours": [
+    "月曜日: 9時00分～21時00分",
+    "火曜日: 9時00分～21時00分",
+    "水曜日: 9時00分～21時00分",
+    "木曜日: 9時00分～21時00分",
+    "金曜日: 9時00分～21時00分",
+    "土曜日: 9時00分～21時00分",
+    "日曜日: 9時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "tsubaki-no-yu-no-nakaniwa",
+   "name": "椿の湯の中庭",
+   "area": "dogo",
+   "cat": "観光",
+   "lat": 33.85226,
+   "lng": 132.78486,
+   "approx": false,
+   "desc": "地面一面にカラフルな花のグラフィックが描かれたフォトジェニックな中庭。タイミングが合えば噴水も見られる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJo67_U0rlTzUR__S7MvxcruM",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１９−４",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "okaki-tokoro-terakoya-honpo-dougo-mise",
+   "name": "おかき処 寺子屋本舗 道後店",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.85199,
+   "lng": 132.78573,
+   "approx": false,
+   "desc": "道後商店街にあるおかき専門店。食べ歩きにぴったりな手焼きせんべいや、しっとりとしたぬれおかきが人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJWdAOKtblTzURJKk8qs6cXZU",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１３−１７",
+   "url": "https://www.terakoyahonpo.jp/shikoku/%E9%81%93%E5%BE%8C%E5%BA%97",
+   "hours": [
+    "月曜日: 10時00分～18時00分",
+    "火曜日: 10時00分～18時00分",
+    "水曜日: 10時00分～18時00分",
+    "木曜日: 10時00分～18時00分",
+    "金曜日: 10時00分～18時00分",
+    "土曜日: 10時00分～18時00分",
+    "日曜日: 10時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "dougoyukemurikafe",
+   "name": "どうごゆけむりかふぇ",
+   "area": "dogo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.8505,
+   "lng": 132.78585,
+   "approx": false,
+   "desc": "古民家を改装したおしゃれな和カフェ。アイスが乗ったお団子や抹茶などの甘味が楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJw_70MmTnTzURiSGEIbSYX2Y",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町３−１６",
+   "url": "https://korepano.jp/yukemuricafe/",
+   "hours": [
+    "月曜日: 10時00分～19時40分",
+    "火曜日: 10時00分～19時40分",
+    "水曜日: 10時00分～19時40分",
+    "木曜日: 10時00分～19時40分",
+    "金曜日: 10時00分～19時40分",
+    "土曜日: 10時00分～19時40分",
+    "日曜日: 10時00分～19時40分"
+   ]
+  },
+  {
+   "slug": "kadoya-dougo-mise",
+   "name": "かどや 道後店",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.85213,
+   "lng": 132.78576,
+   "approx": false,
+   "desc": "道後商店街にある宇和島鯛めしの有名店。新鮮な鯛の刺身を出汁と卵に絡めてご飯にかける絶品鯛めしが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJF0nsGIPnTzURL-ku6GKymBk",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町２０−１９",
+   "url": "https://www.kadoya-taimeshi.com/",
+   "hours": [
+    "月曜日: 11時00分～19時30分",
+    "火曜日: 11時00分～19時30分",
+    "水曜日: 11時00分～19時30分",
+    "木曜日: 11時00分～19時30分",
+    "金曜日: 11時00分～19時30分",
+    "土曜日: 11時00分～19時30分",
+    "日曜日: 11時00分～19時30分"
+   ]
+  },
+  {
+   "slug": "tanimoto-kamaboko-mise-dougo-mise",
+   "name": "谷本蒲鉾店 道後店",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.8522,
+   "lng": 132.78605,
+   "approx": false,
+   "desc": "道後温泉のすぐ近くにある蒲鉾店。愛媛名物のじゃこ天をサクサクの衣で揚げたじゃこカツが食べ歩きに大人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJm3f0nHjmTzURtmkIum1q8Hk",
+   "address": "日本、〒795-0842 愛媛県松山市道後湯之町２０−１７",
+   "url": "https://tanimotokamabokoten.com/",
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 定休日",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～20時00分",
+    "日曜日: 9時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "dougoonsen-houjou-sono-ashiyu",
+   "name": "道後温泉放生園 足湯",
+   "area": "dogo",
+   "cat": "温泉",
+   "lat": 33.8507,
+   "lng": 132.78552,
+   "approx": false,
+   "desc": "道後温泉駅前にある無料の足湯スポット。明治時代の道後温泉本館で使用されていた湯釜からお湯が注がれ、旅の疲れを癒せる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "xHz50cFP5BQ"
+    }
+   ],
+   "place_id": "ChIJWWYZ3tflTzURDkqwt-eS89c",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町６−７",
+   "url": "https://www.city.matsuyama.ehime.jp/kanko/kankoguide/shitestukoen/hojyoen.html",
+   "hours": [
+    "月曜日: 6時00分～23時00分",
+    "火曜日: 6時00分～23時00分",
+    "水曜日: 6時00分～23時00分",
+    "木曜日: 6時00分～23時00分",
+    "金曜日: 6時00分～23時00分",
+    "土曜日: 6時00分～23時00分",
+    "日曜日: 6時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "iori-honten",
+   "name": "伊織 本店",
+   "area": "dogo",
+   "cat": "雑貨・土産",
+   "lat": 33.85213,
+   "lng": 132.7856,
+   "approx": false,
+   "desc": "道後商店街にある今治タオルの専門店。本店限定の一六タルトや坊っちゃん団子の可愛い刺繍入りハンカチなどが購入可能。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJAQBwKNblTzURfBtVgdPubog",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町２０−２１",
+   "url": "https://www.i-ori.jp/shop-info/yunomachi",
+   "hours": [
+    "月曜日: 9時00分～21時00分",
+    "火曜日: 9時00分～21時00分",
+    "水曜日: 9時00分～21時00分",
+    "木曜日: 9時00分～21時00分",
+    "金曜日: 9時00分～21時00分",
+    "土曜日: 9時00分～21時00分",
+    "日曜日: 9時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "hoteru-pateio-dougo",
+   "name": "ホテル・パティオ・ドウゴ",
+   "area": "dogo",
+   "cat": "宿",
+   "lat": 33.85238,
+   "lng": 132.78633,
+   "approx": false,
+   "desc": "道後温泉本館のすぐ横にあるホテル。立地が良くリーズナブルで、夜の散策にも最適。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJCerFmXjmTzURU01TDoe6NNw",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町２０−１２",
+   "url": "https://patio-dogo.co.jp/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "hoteru-tsubaki-kan",
+   "name": "ホテル 椿館",
+   "area": "dogo",
+   "cat": "宿",
+   "lat": 33.85395,
+   "lng": 132.7867,
+   "approx": false,
+   "desc": "明治レトロな雰囲気が漂う道後温泉の宿。広々とした露天風呂で旅の疲れを癒やし、豪華な夕食を堪能できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "9x4ssai21T8"
+    }
+   ],
+   "place_id": "ChIJd0ZASH_mTzURP3XONE2xw7k",
+   "address": "日本、〒790-0836 愛媛県松山市道後鷺谷町５−３２",
+   "url": "https://www.tsubakikan.co.jp/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "iyo-suigun",
+   "name": "伊予水軍",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 34.09274,
+   "lng": 132.98972,
+   "approx": false,
+   "desc": "来島海峡の絶景を眺めながら新鮮な海の幸を堪能できる人気海鮮料理店。今治名物の鯛めしや車海老の刺身が絶品。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJc4qqaS86UDURwKSNNoUa9Nk",
+   "address": "日本、〒794-0003 愛媛県今治市湊町２丁目６−３７",
+   "url": "http://www.iyosuigun.co.jp/iyosuigun/index.html",
+   "hours": [
+    "月曜日: 11時00分～20時30分",
+    "火曜日: 11時00分～20時30分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～20時30分",
+    "金曜日: 11時00分～20時30分",
+    "土曜日: 11時00分～20時30分",
+    "日曜日: 11時00分～20時30分"
+   ]
+  },
+  {
+   "slug": "wanfuuchin",
+   "name": "ワンフーチン",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 33.96995,
+   "lng": 133.03305,
+   "approx": false,
+   "desc": "今治市のタオル美術館に併設されている中華料理店。美しいヨーロピアンガーデンを眺めながら、本格的かつリーズナブルな中華ランチセットが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJwdPwW3YvUDURDCKR6GHGwjg",
+   "address": "日本、〒799-1607 愛媛県今治市朝倉上甲２９３０",
+   "url": "https://www.towelmuseum.com/",
+   "hours": [
+    "月曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "火曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "水曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "木曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "金曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "土曜日: 11時00分～14時30分, 17時00分～20時30分",
+    "日曜日: 11時00分～14時30分, 17時00分～20時30分"
+   ]
+  },
+  {
+   "slug": "hachi-kachi-tei-touyo-mise",
+   "name": "八勝亭 東予店",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.9491,
+   "lng": 133.08086,
+   "approx": false,
+   "desc": "ボリューム満点な定食が人気の和食レストラン。サクサクのトンカツや唐揚げ、お得なまかないランチなどが楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJyRKLaIouUDURFbKVd1-S7mo",
+   "address": "日本、〒799-1321 愛媛県西条市高田３６６−１",
+   "url": "https://hasshoutei-orient-toyo.com/",
+   "hours": [
+    "月曜日: 11時00分～14時30分, 17時00分～21時30分",
+    "火曜日: 11時00分～14時30分, 17時00分～21時30分",
+    "水曜日: 11時00分～14時30分, 17時00分～21時30分",
+    "木曜日: 定休日",
+    "金曜日: 11時00分～14時30分, 17時00分～21時30分",
+    "土曜日: 11時00分～14時30分, 17時00分～21時30分",
+    "日曜日: 11時00分～14時30分, 17時00分～21時30分"
+   ]
+  },
+  {
+   "slug": "guranmeeru",
+   "name": "グランメール",
+   "area": "toyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.93094,
+   "lng": 133.08744,
+   "approx": false,
+   "desc": "壬生川駅近くにある人気の洋菓子店。定番のイチゴのショートケーキやモンブラン、ロールケーキなど、バリエーション豊かなスイーツが揃う。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJj0mYh5cuUDURrwfALdiXWyk",
+   "address": "日本、〒799-1353 愛媛県西条市三津屋南１１−２０",
+   "url": "http://www.grand-mere.jp/",
+   "hours": [
+    "月曜日: 11時00分～16時00分",
+    "火曜日: 11時00分～16時00分",
+    "水曜日: 11時00分～16時00分",
+    "木曜日: 11時00分～16時00分",
+    "金曜日: 11時00分～16時00分",
+    "土曜日: 定休日",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "ritorumaameido-mibu-kawa-mise",
+   "name": "リトルマーメイド 壬生川店",
+   "area": "toyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.92978,
+   "lng": 133.0857,
+   "approx": false,
+   "desc": "壬生川駅の駅構内にあるパン屋さん。一番人気の塩クロワッサンをはじめ、様々な種類の惣菜パンやデニッシュが並んでいる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJk75Bfb0uUDUR0nJGdUQc5hE",
+   "address": "日本、〒799-1353 愛媛県西条市三津屋４４４−２",
+   "url": "https://www.littlemermaid.jp/shopsearch/ehime/post-355.html",
+   "hours": [
+    "月曜日: 7時00分～19時00分",
+    "火曜日: 7時00分～19時00分",
+    "水曜日: 定休日",
+    "木曜日: 7時00分～19時00分",
+    "金曜日: 7時00分～19時00分",
+    "土曜日: 7時00分～19時00分",
+    "日曜日: 7時00分～19時00分"
+   ]
+  },
+  {
+   "slug": "rai-shima-kaikyou-sa",
+   "name": "来島海峡SA",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.09995,
+   "lng": 132.97884,
+   "approx": false,
+   "desc": "しまなみ海道にあるサービスエリア。展望台からは来島海峡大橋の絶景を望むことができ、お土産も充実している。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJpX5J69Q7UDURBMweYpO4KQc",
+   "address": "日本、〒794-0002 愛媛県今治市大浜町３丁目９−６８",
+   "url": "https://s-leading.co.jp/kurushima",
+   "hours": [
+    "月曜日: 8時00分～21時00分",
+    "火曜日: 8時00分～21時00分",
+    "水曜日: 8時00分～21時00分",
+    "木曜日: 8時00分～21時00分",
+    "金曜日: 8時00分～21時00分",
+    "土曜日: 7時00分～22時00分",
+    "日曜日: 7時00分～22時00分"
+   ]
+  },
+  {
+   "slug": "rai-shima-kaikyou-oohashi",
+   "name": "来島海峡大橋",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.1167,
+   "lng": 133.0,
+   "approx": true,
+   "desc": "世界初の3連吊り橋で、しまなみ海道を代表する美しい橋。ドライブしながら瀬戸内海の多島美を楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ]
+  },
+  {
+   "slug": "kame-rou-yama-tenbou-kouen",
+   "name": "亀老山展望公園",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.11993,
+   "lng": 133.03346,
+   "approx": false,
+   "desc": "大島の南端にある展望公園。建築家・隈研吾氏設計の展望台から、来島海峡大橋と瀬戸内海のパノラマ絶景が見渡せる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJd5nIGpw3UDURJL5pIrlUA34",
+   "address": "日本、〒794-2115 愛媛県今治市吉海町南浦487番地4",
+   "url": "https://www.city.imabari.ehime.jp/kanko/spot/?a=182",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "imabari-shiro",
+   "name": "今治城",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.06339,
+   "lng": 133.00675,
+   "approx": false,
+   "desc": "築城の名手・藤堂高虎によって建てられた海岸平城。海水を引き込んだ広大な堀が特徴で、天守からは今治市街を一望できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJMwKYmmU6UDURLg1gq7wGDyk",
+   "address": "日本、〒794-0036 愛媛県今治市通町３丁目１−３",
+   "url": "http://museum.city.imabari.ehime.jp/imabarijo/",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "sui-you-jinja",
+   "name": "吹揚神社",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.06291,
+   "lng": 133.00656,
+   "approx": false,
+   "desc": "今治城の城内である本丸跡に鎮座する神社。城の景観と調和した美しい境内で、静かに参拝ができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJOe1JhGU6UDURCQEXMepjPnw",
+   "address": "日本、〒794-0036 愛媛県今治市通町３丁目１−１",
+   "url": "http://fukiageshrine.jp/",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "shigematsu-hanten",
+   "name": "重松飯店",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 34.07136,
+   "lng": 132.99574,
+   "approx": false,
+   "desc": "今治のB級グルメである焼豚玉子飯の人気店。甘辛いタレと半熟の目玉焼き、焼豚の相性が抜群である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJb26ihEM6UDURNyg7Ia2iHqs",
+   "address": "日本、〒794-0025 愛媛県今治市大正町５丁目４−４７",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 11時45分～13時45分, 18時00分～19時45分",
+    "水曜日: 11時45分～13時45分",
+    "木曜日: 11時45分～13時45分",
+    "金曜日: 11時45分～13時45分",
+    "土曜日: 11時45分～13時45分, 18時00分～19時45分",
+    "日曜日: 11時45分～13時45分, 18時00分～19時45分"
+   ]
+  },
+  {
+   "slug": "misaki-jinja-no-torii",
+   "name": "御崎神社の鳥居",
+   "area": "imabari",
+   "cat": "観光",
+   "lat": 34.1131,
+   "lng": 132.90443,
+   "approx": false,
+   "desc": "海岸沿いの岩場にひっそりと立つ神秘的な鳥居。青い海を背景に佇む姿がフォトジェニックで、ドライブの立ち寄りに最適である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJOaRvZEs8UDUR-gXBlt2jYX4",
+   "address": "日本、〒799-2104 愛媛県今治市波方町宮崎",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "imabari-taoru-honten",
+   "name": "今治タオル 本店",
+   "area": "imabari",
+   "cat": "雑貨・土産",
+   "lat": 34.06148,
+   "lng": 133.01638,
+   "approx": false,
+   "desc": "今治タオルの直営店。本店限定のタオルや、タオル生地で作られたハーフパンツ、ヘアバンドなどが揃っている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "9x4ssai21T8"
+    }
+   ],
+   "place_id": "ChIJEUIxQHc6UDURUMXumgDgr_s",
+   "address": "日本、〒794-0033 愛媛県今治市東門町５丁目１４−３",
+   "url": "https://imabari-towel.jp/shop/pages/store.aspx#honten",
+   "hours": [
+    "月曜日: 9時30分～18時00分",
+    "火曜日: 9時30分～18時00分",
+    "水曜日: 9時30分～18時00分",
+    "木曜日: 9時30分～18時00分",
+    "金曜日: 9時30分～18時00分",
+    "土曜日: 9時30分～18時00分",
+    "日曜日: 9時30分～18時00分"
+   ]
+  },
+  {
+   "slug": "hakuraku-ten-imabari-honten",
+   "name": "白楽天 今治本店",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 34.06435,
+   "lng": 132.9987,
+   "approx": false,
+   "desc": "今治のソウルフードである焼豚玉子飯の元祖とされる中華料理店。甘辛いタレと半熟卵、焼豚の絶妙なハーモニーが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "9x4ssai21T8"
+    }
+   ],
+   "place_id": "ChIJGYqbvl06UDURK-M1bdwpKOo",
+   "address": "日本、〒794-0015 愛媛県今治市常盤町４丁目１−１９",
+   "url": "http://www.hakurakuten.net/",
+   "hours": [
+    "月曜日: 11時00分～14時30分, 17時00分～21時00分",
+    "火曜日: 定休日",
+    "水曜日: 11時00分～14時30分, 17時00分～21時00分",
+    "木曜日: 11時00分～14時30分, 17時00分～21時00分",
+    "金曜日: 11時00分～14時30分, 17時00分～21時00分",
+    "土曜日: 11時00分～14時30分, 17時00分～21時00分",
+    "日曜日: 11時00分～14時30分, 17時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "kappou-fujimura",
+   "name": "割烹 ふじむら",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.9336,
+   "lng": 133.087,
+   "approx": false,
+   "desc": "西条市にある割烹料理店。うちぬきの名水で引いた出汁を活かしたお吸い物や煮物、新鮮な鮮魚を使った手間暇かけた和食が楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJm1upU5cuUDURLzvSt4_jVSo",
+   "address": "日本、〒799-1353 愛媛県西条市三津屋南８−４３"
+  },
+  {
+   "slug": "buta-tarou-saijou-mise",
+   "name": "豚太郎 西条店",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.9181,
+   "lng": 133.1785,
+   "approx": true,
+   "desc": "愛媛県民のソウルフードとも言えるローカルラーメンチェーン。コクのある豚骨ベースのラーメンや、おでん、ボリューム満点の焼き飯が複数の動画で紹介",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ]
+  },
+  {
+   "slug": "soba-hiroshi",
+   "name": "そば宏",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.92012,
+   "lng": 133.07884,
+   "approx": false,
+   "desc": "西条市にある落ち着いた雰囲気の蕎麦・うどん店。おでんや丼物も充実しており、地元の人々に長年愛されている名店である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJffn9FLYuUDURObSh3KcJ20U",
+   "address": "日本、〒799-1371 愛媛県西条市周布７０４−１",
+   "hours": [
+    "月曜日: 11時00分～20時00分",
+    "火曜日: 11時00分～16時00分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～20時00分",
+    "金曜日: 11時00分～20時00分",
+    "土曜日: 11時00分～20時00分",
+    "日曜日: 11時00分～20時00分"
+   ]
+  },
+  {
+   "slug": "kogane-seimen-tokoro-saijou-mise",
+   "name": "こがね製麺所 西条店",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.896,
+   "lng": 133.1264,
+   "approx": false,
+   "desc": "セルフ形式の讃岐うどんチェーン店。国産小麦を使用したコシの強い麺と、豊富なトッピングやサイドメニューをリーズナブルに楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJoU4CeXcsUDURFQkwOb2lZPs",
+   "address": "日本、〒793-0072 愛媛県西条市氷見乙１１８３ マルナカ氷見店敷地内"
+  },
+  {
+   "slug": "koohii-sakan-kurabu",
+   "name": "珈琲茶館 倶楽部",
+   "area": "toyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.9155,
+   "lng": 133.1855,
+   "approx": true,
+   "desc": "西条市にある落ち着いた雰囲気の喫茶店。名水うちぬきで淹れた珈琲や、おにぎりや唐揚げ、卵焼きなどがセットになった大満足のモーニングが人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ]
+  },
+  {
+   "slug": "marutomo-suisan",
+   "name": "マルトモ水産",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.92768,
+   "lng": 133.17444,
+   "approx": false,
+   "desc": "魚屋直営の海鮮食堂兼鮮魚市場。生簀から揚げたての魚や、10種類以上のネタが豪快に盛られた海鮮丼、大きなエビフライが名物である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJLUMfqkotUDUR3wemiCaw4HE",
+   "address": "日本、〒793-0043 愛媛県西条市樋之口４５６−５",
+   "url": "https://ja-jp.facebook.com/marutomo1137/",
+   "hours": [
+    "月曜日: 10時00分～15時00分, 17時00分～21時30分",
+    "火曜日: 10時00分～15時00分, 17時00分～21時30分",
+    "水曜日: 定休日",
+    "木曜日: 10時00分～15時00分, 17時00分～21時30分",
+    "金曜日: 10時00分～15時00分, 17時00分～21時30分",
+    "土曜日: 10時00分～21時30分",
+    "日曜日: 10時00分～21時30分"
+   ]
+  },
+  {
+   "slug": "fuji-tako-saijou-mise",
+   "name": "藤蛸 西条店",
+   "area": "toyo",
+   "cat": "グルメ",
+   "lat": 33.9162,
+   "lng": 133.1759,
+   "approx": false,
+   "desc": "パチンコ店の駐車場内にあるテイクアウト主体のたこ焼き店。ネギとマヨネーズがどっさり乗った、ふわふわでクリーミーなたこ焼きが人気。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJI7_059LSUTUR3o7updzTIFU",
+   "address": "日本、〒793-0042 愛媛県西条市喜多川"
+  },
+  {
+   "slug": "shimonada-eki",
+   "name": "下灘駅",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.65516,
+   "lng": 132.58934,
+   "approx": false,
+   "desc": "瀬戸内海が目の前に広がる、日本一海に近いとも言われる有名な無人駅。複数の動画でジブリのような美しい景色や夕暮れ時の夕日、映画やドラマのロケ地としての魅力が紹介されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJRwsl6qmJTzURpVNHZx_aWNI",
+   "address": "日本、〒799-3311 愛媛県伊予市双海町大久保"
+  },
+  {
+   "slug": "michi-no-eki-tenkuu-no-sato-sansan",
+   "name": "道の駅 天空の郷 さんさん",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.66145,
+   "lng": 132.89836,
+   "approx": false,
+   "desc": "久万高原町にある道の駅。地元の新鮮な高原野菜や特産品が並び、焼きたてパンが人気のパン工房もある。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJWZCNZVTATzUR5KwTI-xsqTQ",
+   "address": "日本、〒791-1202 愛媛県上浮穴郡久万高原町入野１８５５−６",
+   "url": "https://www.kumakogen-sansan.com/",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-mikawa",
+   "name": "道の駅 みかわ",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.61431,
+   "lng": 132.96979,
+   "approx": false,
+   "desc": "清流・御坂川の近くにある道の駅。階段を下りると川辺まで行くことができ、自然豊かな景色の中で休憩できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJKaxZQW3HTzURAYEtIzBfMG0",
+   "address": "日本、〒791-1501 愛媛県上浮穴郡久万高原町上黒岩２８４０−１",
+   "url": "https://michinoeki-mikawa.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "hours": [
+    "月曜日: 7時00分～18時00分",
+    "火曜日: 7時00分～18時00分",
+    "水曜日: 7時00分～18時00分",
+    "木曜日: 7時00分～18時00分",
+    "金曜日: 7時00分～18時00分",
+    "土曜日: 7時00分～18時00分",
+    "日曜日: 7時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "hime-tsuruhei-tenbou-tokoro-shikoku-karusuto",
+   "name": "姫鶴平 展望所 (四国カルスト)",
+   "area": "iyo",
+   "cat": "自然",
+   "lat": 33.46905,
+   "lng": 132.9631,
+   "approx": false,
+   "desc": "四国カルストを代表する絶景スポット。緑の草原に白い石灰岩が点在する、日本離れした美しい大パノラマが広がる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJFRHIGBW7TzUR1X52Aq0_CCI",
+   "address": "日本、〒791-1802 愛媛県上浮穴郡久万高原町西谷８１１１"
+  },
+  {
+   "slug": "tengu-kougen-shikoku-karusuto",
+   "name": "天狗高原 (四国カルスト)",
+   "area": "iyo",
+   "cat": "自然",
+   "lat": 33.47483,
+   "lng": 132.99773,
+   "approx": false,
+   "desc": "四国カルストの東端に位置する、最も標高が高いエリア。複数の動画で白い石灰岩が点在する緑の大草原と、目の前に広がる山々の大パノラマやハイキングが推されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJbdB9rna6TzURiROl_mWI1m8",
+   "address": "日本、〒785-0504 高知県高岡郡津野町芳生野",
+   "url": "https://kochi-tabi.jp/search_spot.html?pcflg=PC&ID=7478",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "karusutoterasu",
+   "name": "カルストテラス",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.47664,
+   "lng": 133.00358,
+   "approx": false,
+   "desc": "天狗高原にある観光案内所を兼ねたカフェ。四国カルストの景色を眺めながら、コーヒーを飲んでゆっくり休憩できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJUydlN2G6TzUR3hXxtdoYWa0",
+   "address": "日本、〒785-0504 高知県高岡郡津野町芳生野乙４９２１−２２",
+   "url": "https://karstterrace.com/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "hoshi-furu-virejji-tengu",
+   "name": "星ふるヴィレッジTENGU",
+   "area": "iyo",
+   "cat": "宿",
+   "lat": 33.47706,
+   "lng": 133.00424,
+   "approx": false,
+   "desc": "四国カルストの天狗高原に建つ高原ホテル。レストランは宿泊者以外も利用でき、愛媛と高知の県境が敷地内にある。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJhanMSmG6TzURgQLOhXo6kB0",
+   "address": "日本、〒785-0504 高知県高岡郡津野町芳生野乙４９２１−２２",
+   "url": "https://village-tengu.com/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 定休日",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "minato-oashisu-yawatahama-minatto",
+   "name": "みなとオアシス 八幡浜みなっと",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.4586,
+   "lng": 132.41843,
+   "approx": false,
+   "desc": "八幡浜港に隣接する道の駅・みなとオアシス。新鮮な魚介類が並ぶ市場や、みかんジュース、スイーツが楽しめるカフェがある。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJT1xmY5mERTURTDYzWYkc5t8",
+   "address": "日本、〒796-0088 愛媛県八幡浜市沖新田１５８１−２３",
+   "url": "http://www.minatto.net/",
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 9時00分～18時00分",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～18時00分",
+    "日曜日: 9時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-futami",
+   "name": "道の駅 ふたみ",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.68539,
+   "lng": 132.63429,
+   "approx": false,
+   "desc": "伊予市双海町にある道の駅。美しい砂浜のビーチに隣接しており、夕日の名所としても知られている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJTfeSVguMTzURFprjfHoQ44Q",
+   "address": "日本、〒799-3207 愛媛県伊予市双海町高岸甲２３２６",
+   "url": "http://www.futamiseaside.com/",
+   "hours": [
+    "月曜日: 8時30分～17時00分",
+    "火曜日: 8時30分～17時00分",
+    "水曜日: 8時30分～17時00分",
+    "木曜日: 8時30分～17時00分",
+    "金曜日: 8時30分～17時00分",
+    "土曜日: 8時30分～17時00分",
+    "日曜日: 8時30分～17時00分"
+   ]
+  },
+  {
+   "slug": "pan-mezon-yawatahama-mise",
+   "name": "パン・メゾン 八幡浜店",
+   "area": "iyo",
+   "cat": "グルメ",
+   "lat": 33.4632,
+   "lng": 132.42386,
+   "approx": false,
+   "desc": "今や全国で大人気の塩パン発祥のお店。外はカリッと、中はじゅわっとバターが染み出す元祖塩パンの美味しさが特徴である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJ6RlfSH2DRTURFYb_g8qgDis",
+   "address": "日本、〒796-0048 愛媛県八幡浜市北浜１丁目８−１５",
+   "url": "https://www.instagram.com/pain_maison_/",
+   "hours": [
+    "月曜日: 7時00分～18時30分",
+    "火曜日: 定休日",
+    "水曜日: 7時00分～18時30分",
+    "木曜日: 7時00分～18時30分",
+    "金曜日: 7時00分～18時30分",
+    "土曜日: 7時00分～18時30分",
+    "日曜日: 7時00分～18時30分"
+   ]
+  },
+  {
+   "slug": "chanpon-tei-iiguru",
+   "name": "ちゃんぽん亭 イーグル",
+   "area": "iyo",
+   "cat": "グルメ",
+   "lat": 33.46051,
+   "lng": 132.42379,
+   "approx": false,
+   "desc": "八幡浜ちゃんぽんの老舗有名店。鶏ガラベースのあっさりしながらもコクのあるスープのちゃんぽんと、秘伝のタレで炒めた黒い焼き飯が名物である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJLwXTz4KERTUR9EUKA1Nye1E",
+   "address": "日本、〒796-0075 愛媛県八幡浜市仲之町３５８−２",
+   "url": "https://www.instagram.com/chanpon_1196/",
+   "hours": [
+    "月曜日: 11時00分～15時00分",
+    "火曜日: 11時00分～15時00分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～15時00分",
+    "金曜日: 11時00分～15時00分",
+    "土曜日: 11時00分～15時00分",
+    "日曜日: 11時00分～15時00分"
+   ]
+  },
+  {
+   "slug": "miruku-sono",
+   "name": "ミルク園",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.47966,
+   "lng": 132.87477,
+   "approx": false,
+   "desc": "四国カルストにある自家牧場直営の売店。搾りたての生乳をたっぷり使った、濃厚でボリューム満点の牛乳ソフトクリームが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJwVyJ2seiTzUROfeBpjvP1z8",
+   "address": "日本、〒797-1434 愛媛県西予市野村町大野ケ原２８０−１",
+   "url": "https://www.onogahara-milken.com/",
+   "hours": [
+    "月曜日: 10時30分～16時30分",
+    "火曜日: 10時30分～16時30分",
+    "水曜日: 10時30分～16時30分",
+    "木曜日: 10時30分～16時30分",
+    "金曜日: 10時30分～16時30分",
+    "土曜日: 10時30分～16時30分",
+    "日曜日: 10時30分～16時30分"
+   ]
+  },
+  {
+   "slug": "karusuto-koohii",
+   "name": "カルスト珈琲",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.46696,
+   "lng": 132.96169,
+   "approx": false,
+   "desc": "四国カルストの絶景の中に佇むおしゃれな移動販売カフェ。大自然を眺めながら、牛乳たっぷりの温かいカフェオレを楽しめる場所である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJMTqYeeS7TzURyhew7-IzHGk",
+   "address": "日本、〒791-1802 愛媛県上浮穴郡久万高原町西谷８１１７−１",
+   "url": "https://www.instagram.com/karstcoffee",
+   "hours": [
+    "月曜日: 11時00分～16時00分",
+    "火曜日: 11時00分～16時00分",
+    "水曜日: 11時00分～16時00分",
+    "木曜日: 11時00分～16時00分",
+    "金曜日: 11時00分～16時00分",
+    "土曜日: 10時00分～16時30分",
+    "日曜日: 10時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "momino-ki",
+   "name": "もみの木",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.4808,
+   "lng": 132.871,
+   "approx": false,
+   "desc": "四国カルストで大人気のカフェ。とろとろの自家製チーズケーキが有名であるが、時間帯によっては売り切れることもある人気店である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJkbhyWKSiTzURgK065ljIA_c",
+   "address": "日本、〒797-1434 愛媛県西予市野村町大野ケ原２１０",
+   "url": "http://四国カルストもみの木.com/",
+   "hours": [
+    "月曜日: 10時30分～16時30分",
+    "火曜日: 10時30分～16時30分",
+    "水曜日: 10時30分～16時30分",
+    "木曜日: 10時30分～16時30分",
+    "金曜日: 10時30分～16時30分",
+    "土曜日: 10時30分～16時30分",
+    "日曜日: 10時30分～16時30分"
+   ]
+  },
+  {
+   "slug": "hoteruoota",
+   "name": "ホテルオータ",
+   "area": "iyo",
+   "cat": "宿",
+   "lat": 33.51514,
+   "lng": 132.5474,
+   "approx": false,
+   "desc": "大洲市にあるホテル。駐車場が自由に出入り可能であり、車旅の拠点として非常に使いやすく、城下町にも近い便利な立地である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJpTG7l9Z_RTUR9HdocE6vbNM",
+   "address": "日本、〒795-0063 愛媛県大洲市田口36−4",
+   "url": "https://hotel-ota.com/",
+   "hours": [
+    "月曜日: 15時00分～23時00分",
+    "火曜日: 15時00分～23時00分",
+    "水曜日: 15時00分～23時00分",
+    "木曜日: 15時00分～23時00分",
+    "金曜日: 15時00分～23時00分",
+    "土曜日: 15時00分～23時00分",
+    "日曜日: 15時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "oozu-shiro",
+   "name": "大洲城",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.50955,
+   "lng": 132.54131,
+   "approx": false,
+   "desc": "藤堂高虎がプロデュースし伝統工法で木造復元された天守が特徴。複数の動画で城内見学や天守からの素晴らしい眺望が紹介されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    },
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJHftTq8R_RTURfu8rYuPe6V8",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲９０３",
+   "url": "http://www.ozucastle.jp/",
+   "hours": [
+    "月曜日: 9時00分～16時30分",
+    "火曜日: 9時00分～16時30分",
+    "水曜日: 9時00分～16時30分",
+    "木曜日: 9時00分～16時30分",
+    "金曜日: 9時00分～16時30分",
+    "土曜日: 9時00分～16時30分",
+    "日曜日: 9時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "garyuu-sansou",
+   "name": "臥龍山荘",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.50631,
+   "lng": 132.55008,
+   "approx": false,
+   "desc": "肱川の崖上に建つ国の重要文化財。川の照り返しが反射する天井の不老庵や茶室からの絶景が複数の動画で絶賛されている名建築の別荘。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    },
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJwYj3u9h_RTURSF5n6_ypEuw",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲４１１−２",
+   "url": "http://www.garyusanso.jp/",
+   "hours": [
+    "月曜日: 9時00分～16時30分",
+    "火曜日: 9時00分～16時30分",
+    "水曜日: 9時00分～16時30分",
+    "木曜日: 9時00分～16時30分",
+    "金曜日: 9時00分～16時30分",
+    "土曜日: 9時00分～16時30分",
+    "日曜日: 9時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "chouka-shiryoukan",
+   "name": "町家資料館",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.55451,
+   "lng": 132.65334,
+   "approx": false,
+   "desc": "内子町にある資料館である。当時の暮らしぶりが垣間見える落ち着いた空間が広がっており、歴史的背景を感じられるスポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJ46pBt7aFTzURRTMGEdmMiwM",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子３０２３",
+   "url": "https://www.town.uchiko.ehime.jp/site/hozonsenta/machiyasiryoukan.html",
+   "hours": [
+    "月曜日: 9時00分～16時30分",
+    "火曜日: 定休日",
+    "水曜日: 9時00分～16時30分",
+    "木曜日: 9時00分～16時30分",
+    "金曜日: 9時00分～16時30分",
+    "土曜日: 9時00分～16時30分",
+    "日曜日: 9時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "mokurou-shiryoukan-ue-haga-tei",
+   "name": "木蝋資料館 上芳我邸",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.55728,
+   "lng": 132.6538,
+   "approx": false,
+   "desc": "製蝋業最盛期の生産施設が残る重要文化財の豪商邸宅。当時の暮らしぶりを体感できる広大な屋敷や美しい日本庭園が複数の動画で紹介。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    },
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJJbRyrbCFTzURTBtqiZQA6c4",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子２６９６",
+   "url": "https://www.town.uchiko.ehime.jp/site/hozonsenta/kamihaga.html",
+   "hours": [
+    "月曜日: 9時00分～16時30分",
+    "火曜日: 9時00分～16時30分",
+    "水曜日: 9時00分～16時30分",
+    "木曜日: 9時00分～16時30分",
+    "金曜日: 9時00分～16時30分",
+    "土曜日: 9時00分～16時30分",
+    "日曜日: 9時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "sharumu",
+   "name": "シャルム",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.55555,
+   "lng": 132.65325,
+   "approx": false,
+   "desc": "古民家を活かしたレトロな雰囲気のおしゃれなベーカリー。あんバターや炙りチーズケーキなどの多彩なパンが人気を集める店舗である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJQTGUXlyFTzUR3mRCy7GXfPo",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子２８９６",
+   "url": "https://www.instagram.com/charme_bakery",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 定休日",
+    "水曜日: 11時00分～17時00分",
+    "木曜日: 11時00分～17時00分",
+    "金曜日: 11時00分～17時00分",
+    "土曜日: 11時00分～17時00分",
+    "日曜日: 11時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "mori-bun-jouzou",
+   "name": "森文醸造",
+   "area": "iyo",
+   "cat": "雑貨・土産",
+   "lat": 33.5536,
+   "lng": 132.65387,
+   "approx": false,
+   "desc": "創業明治26年の醸造元。食酢や醤油味噌を製造しており、アセロラやユズが入ったおいしい酢卵の試飲や販売を行っている老舗である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJFcxtU7GFTzURsBPxOocZd9M",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子２２４０−１",
+   "url": "http://www.mori-bun.com/",
+   "hours": [
+    "月曜日: 8時00分～18時30分",
+    "火曜日: 8時00分～18時30分",
+    "水曜日: 8時00分～18時30分",
+    "木曜日: 8時00分～18時30分",
+    "金曜日: 8時00分～18時30分",
+    "土曜日: 8時00分～18時30分",
+    "日曜日: 8時00分～18時30分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-uchiko-furesshupaaku-karari",
+   "name": "道の駅 内子フレッシュパークからり",
+   "area": "iyo",
+   "cat": "雑貨・土産",
+   "lat": 33.55526,
+   "lng": 132.65844,
+   "approx": false,
+   "desc": "内子町にある人気の道の駅。新鮮な果物や花、お菓子などが豊富に揃うほか、風情ある吊り橋やリラックスできるテラス席もある。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJDcImH7CFTzURgBtnXq4ozVI",
+   "address": "日本、〒790-0934 愛媛県喜多郡内子町内子２４５２",
+   "url": "http://www.karari.jp/",
+   "hours": [
+    "月曜日: 8時00分～17時00分",
+    "火曜日: 8時00分～17時00分",
+    "水曜日: 8時00分～17時00分",
+    "木曜日: 8時00分～17時00分",
+    "金曜日: 8時00分～17時00分",
+    "土曜日: 8時00分～17時00分",
+    "日曜日: 8時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "yuge-jinja",
+   "name": "弓削神社",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.63384,
+   "lng": 132.64945,
+   "approx": false,
+   "desc": "山あいにひっそりと佇む神社。池の上に架かる木造の太鼓橋である屋根付き橋が息を呑むほど美しい神秘的な景観スポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJ5X9wTACPTzURqG7uz22JddI",
+   "address": "日本、〒791-3343 愛媛県喜多郡内子町石畳"
+  },
+  {
+   "slug": "michi-no-eki-nakayama",
+   "name": "道の駅 なかやま",
+   "area": "iyo",
+   "cat": "雑貨・土産",
+   "lat": 33.67,
+   "lng": 132.69479,
+   "approx": false,
+   "desc": "伊予市中山町にある道の駅。特産の中山栗を使ったさまざまなお土産や、必勝祈願の縁起物である勝ち栗守などが販売されている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJW2rLQZqNTzURynnLLkR9Fvk",
+   "address": "日本、〒791-3206 愛媛県伊予市中山町中山子２７１ 子271番地",
+   "url": "https://www.michinoekinakayama.com/",
+   "hours": [
+    "月曜日: 8時00分～17時00分",
+    "火曜日: 8時00分～17時00分",
+    "水曜日: 8時00分～17時00分",
+    "木曜日: 8時00分～17時00分",
+    "金曜日: 8時00分～17時00分",
+    "土曜日: 8時00分～17時00分",
+    "日曜日: 8時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "inu-yori-touge-no-kiiroi-oka",
+   "name": "犬寄峠の黄色い丘",
+   "area": "iyo",
+   "cat": "自然",
+   "lat": 33.69148,
+   "lng": 132.70503,
+   "approx": false,
+   "desc": "元々はみかん畑だった丘である。3月には菜の花やミモザが咲き誇り、丘一面が鮮やかな黄色に染まる絶景が広がる観光スポット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "MUA33ouVZ9A"
+    }
+   ],
+   "place_id": "ChIJxYDJaGCNTzURfRU_LUViKF8",
+   "address": "日本、〒799-3202 愛媛県伊予市双海町上灘２０５８",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "shioji",
+   "name": "シオジ",
+   "area": "iyo",
+   "cat": "グルメ",
+   "lat": 33.64957,
+   "lng": 132.57268,
+   "approx": false,
+   "desc": "下灘駅近郊の海沿いに佇むお洒落なレストラン。新鮮な魚介がふんだんに乗った豪華な海鮮丼を提供している。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJ0cErq0mITzURgJOlxTqilDk",
+   "address": "日本、〒799-3312 愛媛県伊予市双海町串１２１３−３８",
+   "url": "https://r.goope.jp/shioji-shimonada/",
+   "hours": [
+    "月曜日: 10時30分～15時00分",
+    "火曜日: 定休日",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～15時00分",
+    "金曜日: 10時30分～15時00分",
+    "土曜日: 10時30分～15時00分",
+    "日曜日: 10時30分～15時00分"
+   ]
+  },
+  {
+   "slug": "kushi-eki",
+   "name": "串駅",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.6471,
+   "lng": 132.56284,
+   "approx": false,
+   "desc": "下灘駅から徒歩でアクセスできる、海を見下ろす高台にひっそりと佇む静かな無人駅。風光明媚な景色が広がる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJq9cwfzuITzUR8opLS2DHKOQ",
+   "address": "日本、〒799-3312 愛媛県伊予市双海町串"
+  },
+  {
+   "slug": "charyou-heiya-ya",
+   "name": "茶寮 平野屋",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.50683,
+   "lng": 132.54898,
+   "approx": false,
+   "desc": "大洲の城下町にある古民家カフェ。賞味期限はわずか20分という、とろける食感の極上な本わらび餅が名物である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJU4Ix-vx_RTURN0bNicQ8ssM",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲３９４−１",
+   "hours": [
+    "月曜日: 13時00分～16時30分",
+    "火曜日: 定休日",
+    "水曜日: 定休日",
+    "木曜日: 定休日",
+    "金曜日: 13時00分～16時30分",
+    "土曜日: 13時00分～16時30分",
+    "日曜日: 13時00分～16時30分"
+   ]
+  },
+  {
+   "slug": "kyuu-fujimoto-iin",
+   "name": "旧藤本医院",
+   "area": "iyo",
+   "cat": "雑貨・土産",
+   "lat": 33.50708,
+   "lng": 132.54626,
+   "approx": false,
+   "desc": "大正時代の医院をリノベーションした趣のある古民家モール。館内にはお洒落なお香やレトロな雑貨が並んでいる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJV9k5q95_RTUR7qSfh4QNkLI",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲４８３ 旧藤本医院"
+  },
+  {
+   "slug": "oozu-aka-renga-kan",
+   "name": "おおず赤煉瓦館",
+   "area": "iyo",
+   "cat": "雑貨・土産",
+   "lat": 33.50782,
+   "lng": 132.54694,
+   "approx": false,
+   "desc": "明治時代の元銀行の建物を活用した観光施設。多彩なお土産品や特産品、お洒落な水出しハーブティーなどを販売。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJCwfNQ9l_RTURzTJbcl2OjvM",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲６０",
+   "url": "https://jp.visitozu.com/archives/highlight/184",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "nipponiahoteru-oozu-joukamachi",
+   "name": "ニッポニアホテル 大洲 城下町",
+   "area": "iyo",
+   "cat": "宿",
+   "lat": 33.50838,
+   "lng": 132.54112,
+   "approx": false,
+   "desc": "城下町に点在する古民家をリノベーションした分散型ホテル。歴史ある日本家屋での宿泊と地産地消のディナーが魅力。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJsfiiIN5_RTURH4nQ8jUR8VI",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲８８８",
+   "url": "https://www.ozucastle.com/restaurant/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+   "hours": [
+    "月曜日: 17時30分～22時00分",
+    "火曜日: 17時30分～22時00分",
+    "水曜日: 17時30分～22時00分",
+    "木曜日: 17時30分～22時00分",
+    "金曜日: 17時30分～22時00分",
+    "土曜日: 17時30分～22時00分",
+    "日曜日: 17時30分～22時00分"
+   ]
+  },
+  {
+   "slug": "oozu-jinja",
+   "name": "大洲神社",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.50588,
+   "lng": 132.54957,
+   "approx": false,
+   "desc": "高台に位置する由緒正しい神社。長い石段を登った先からは、大洲の美しい町並みを一望することができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJv3ggzdh_RTURai7AsimwQIo",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲４１７−１６",
+   "url": "https://oozujinja.jp/",
+   "hours": [
+    "月曜日: 6時00分～18時00分",
+    "火曜日: 6時00分～18時00分",
+    "水曜日: 6時00分～18時00分",
+    "木曜日: 6時00分～18時00分",
+    "金曜日: 6時00分～18時00分",
+    "土曜日: 6時00分～18時00分",
+    "日曜日: 6時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "hijikawa-yuuransen",
+   "name": "肱川（遊覧船）",
+   "area": "iyo",
+   "cat": "体験",
+   "lat": 33.50817,
+   "lng": 132.54716,
+   "approx": false,
+   "desc": "朝の静かな肱川を巡る遊覧船。水鏡のように美しい景色を眺めながら贅沢な朝食を味わうことができるスポット。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJEY-4aMt_RTURF40yWk45QFM",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲４２",
+   "url": "https://jp.visitozu.com/archives/feature/1352",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 10時00分～15時15分",
+    "水曜日: 10時00分～15時15分",
+    "木曜日: 定休日",
+    "金曜日: 10時00分～15時15分",
+    "土曜日: 10時00分～15時15分",
+    "日曜日: 10時00分～15時15分"
+   ]
+  },
+  {
+   "slug": "wagashi-kotokoto",
+   "name": "和菓子 コトコト",
+   "area": "iyo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.55538,
+   "lng": 132.65325,
+   "approx": false,
+   "desc": "内子の八日市護国の町並みに位置するおはぎ専門店。レトロな店内でこだわりのおはぎや抹茶オレを提供している。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJtfCC4RmFTzUROUsD06pc_so",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子２８９８",
+   "url": "https://www.instagram.com/ohagiyacotocoto?igsh=dWNyYmdiMXBvbzc0&utm_source=qr",
+   "hours": [
+    "月曜日: 10時00分～17時00分",
+    "火曜日: 定休日",
+    "水曜日: 定休日",
+    "木曜日: 10時00分～17時00分",
+    "金曜日: 10時00分～17時00分",
+    "土曜日: 10時00分～17時00分",
+    "日曜日: 10時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "kichi-chou",
+   "name": "吉長",
+   "area": "iyo",
+   "cat": "グルメ",
+   "lat": 33.55329,
+   "lng": 132.65424,
+   "approx": false,
+   "desc": "内子にある郷土料理店。愛媛名物の鯛めしを、卵と醤油のタレに絡めてご飯と一緒に美味しく食べられる店である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "Kj25d00_7wU"
+    }
+   ],
+   "place_id": "ChIJORj0VrGFTzURbTs16y4yJNg",
+   "address": "日本、〒791-3301 愛媛県喜多郡内子町内子１６８７",
+   "url": "https://www.uchiko-yoshichou.com/",
+   "hours": [
+    "月曜日: 11時30分～20時00分",
+    "火曜日: 11時30分～20時00分",
+    "水曜日: 11時30分～20時00分",
+    "木曜日: 11時30分～20時00分",
+    "金曜日: 11時30分～20時00分",
+    "土曜日: 11時30分～20時00分",
+    "日曜日: 11時30分～20時00分"
+   ]
+  },
+  {
+   "slug": "shokatsu",
+   "name": "しょかつ",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.22005,
+   "lng": 132.5674,
+   "approx": false,
+   "desc": "宇和島市にある割烹寿司の人気店。新鮮な車海老の刺身や握り寿司など、地元の豊かな海の幸を存分に堪能できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "X6TQlZX6Xiw"
+    }
+   ],
+   "place_id": "ChIJ_QYIH91hTzURH__AwaUeYLk",
+   "address": "日本、〒798-0040 愛媛県宇和島市中央町１丁目７−７ プラザ都ビル １階",
+   "hours": [
+    "月曜日: 18時00分～0時00分",
+    "火曜日: 18時00分～0時00分",
+    "水曜日: 18時00分～0時00分",
+    "木曜日: 18時00分～0時00分",
+    "金曜日: 18時00分～0時00分",
+    "土曜日: 18時00分～0時00分",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "nagomi-ie-gottsuosan",
+   "name": "和み家 ごっつおさん",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.22459,
+   "lng": 132.5666,
+   "approx": false,
+   "desc": "宇和島市にある居酒屋。新鮮なお刺身や、おしゃれに盛り付けられたエビマヨ、鶏肉料理、釜飯などを提供する。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJuSN0ys5hTzURUFXJq90PyJ4",
+   "address": "日本、〒798-0034 愛媛県宇和島市錦町４−１９",
+   "hours": [
+    "月曜日: 17時30分～22時30分",
+    "火曜日: 17時30分～22時30分",
+    "水曜日: 17時30分～22時30分",
+    "木曜日: 17時30分～22時30分",
+    "金曜日: 17時30分～22時30分",
+    "土曜日: 17時30分～22時30分",
+    "日曜日: 定休日"
+   ]
+  },
+  {
+   "slug": "yarai-jinja",
+   "name": "和霊神社",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.22974,
+   "lng": 132.56529,
+   "approx": false,
+   "desc": "宇和島にある和霊信仰の総本山。日本一の大きさを誇る石造りの大鳥居があり、家内安全や商売繁盛の神様として有名。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJA3yGkN7oTzUR3sARSJBJQaw",
+   "address": "日本、〒798-0012 愛媛県宇和島市和霊町１４５１",
+   "url": "https://wareijinja.fc2.net/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "uwa-shima-shiro",
+   "name": "宇和島城",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.21945,
+   "lng": 132.56528,
+   "approx": false,
+   "desc": "現存12天守の一つに数えられる名城。複数の動画で紹介されており、天守からは宇和島湾と市街地を一望できる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJjSQ9vsxhTzUR0dkID7BosWY",
+   "address": "日本、〒798-0060 愛媛県宇和島市丸之内１丁目３",
+   "url": "https://www.city.uwajima.ehime.jp/site/uwajima-jo/",
+   "hours": [
+    "月曜日: 9時00分～17時00分",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-uwajima-kisaiya-hiroba",
+   "name": "道の駅 うわじま きさいや広場",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.22256,
+   "lng": 132.55822,
+   "approx": false,
+   "desc": "宇和島市にある活気あふれる道の駅。複数の動画で紹介され、新鮮な魚介や特産品が並びフードコートも充実する。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    },
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJLwJMJ9NhTzURlY27xJFugq4",
+   "address": "日本、〒798-0006 愛媛県宇和島市弁天町１丁目１−３１８−１６",
+   "url": "https://www.kisaiyahiroba.com/",
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 9時00分～18時00分",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～18時00分",
+    "日曜日: 9時00分～18時00分"
+   ]
+  },
+  {
+   "slug": "ehimeken-rekishi-bunka-hakubutsukan",
+   "name": "愛媛県歴史文化博物館",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.36449,
+   "lng": 132.51865,
+   "approx": false,
+   "desc": "西予市にある歴史博物館。愛媛の歴史や民俗に関する展示が充実し、実物大の復元模型やレトロな街並みの再現が見どころである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJOwaaFcmHRTURCZd_1eEz7Uw",
+   "address": "日本、〒797-8511 愛媛県西予市宇和町卯之町４丁目１１−２",
+   "url": "http://www.i-rekihaku.jp/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 9時00分～17時30分",
+    "水曜日: 9時00分～17時30分",
+    "木曜日: 9時00分～17時30分",
+    "金曜日: 9時00分～17時30分",
+    "土曜日: 9時00分～17時30分",
+    "日曜日: 9時00分～17時30分"
+   ]
+  },
+  {
+   "slug": "wara-manmosu",
+   "name": "わらマンモス",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.39154,
+   "lng": 132.47109,
+   "approx": false,
+   "desc": "西予市宇和町の田んぼの中に現れる、わらで作られた巨大なマンモスの親子。のどかな田園風景の中に佇むユニークなアートスポットである。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "HNP-Uet40jQ"
+    }
+   ],
+   "place_id": "ChIJ5dbDzP-FRTURshEcRv2bPBU",
+   "address": "日本、〒797-0025 愛媛県西予市宇和町岩木２３２",
+   "url": "https://seiyojikan.jp/spot/%E3%82%8F%E3%82%89%E3%83%9E%E3%83%B3%E3%83%A2%E3%82%B9/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "uwa-kome-hakubutsukan",
+   "name": "宇和米博物館",
+   "area": "nanyo",
+   "cat": "体験",
+   "lat": 33.36757,
+   "lng": 132.51255,
+   "approx": false,
+   "desc": "旧宇和町小学校の木造校舎を移築した博物館。長さ109メートルの日本一長い廊下があり、名物のぞうきんがけレースの舞台である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJiWP-0MqHRTURnO2pgJU1yYE",
+   "address": "日本、〒797-0015 愛媛県西予市宇和町卯之町２丁目２４",
+   "url": "https://komehaku.localinfo.jp/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "orientaruhoteru-uwa-shima",
+   "name": "オリエンタルホテル宇和島",
+   "area": "nanyo",
+   "cat": "宿",
+   "lat": 33.22734,
+   "lng": 132.56573,
+   "approx": false,
+   "desc": "宇和島での宿泊に利用されるビジネスホテル。ロビーでのフリードリンクサービスや、地元農家のみかん試食など充実したサービスが特徴。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJK660rMhhTzURMA2hqLKuAKc",
+   "address": "日本、〒798-0033 愛媛県宇和島市鶴島町６−１０",
+   "url": "https://www.oriental-web.co.jp/uwajima/",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "shoku-tokoro-tomi-ya",
+   "name": "食処 富屋",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.22675,
+   "lng": 132.56692,
+   "approx": false,
+   "desc": "宇和島の郷土料理が味わえる割烹。新鮮な鯛の刺身を特製の甘いお出汁と卵に絡めていただく、絶品の宇和島鯛めしが名物である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJZyWFJ8lhTzURp9AXEMTww3Y",
+   "address": "日本、〒798-0015 愛媛県宇和島市和霊元町１丁目３−２",
+   "url": "https://www.instagram.com/tomiya_uwajima/",
+   "hours": [
+    "月曜日: 11時00分～14時00分, 17時00分～21時00分",
+    "火曜日: 定休日",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～14時00分",
+    "金曜日: 11時00分～14時00分, 17時00分～21時00分",
+    "土曜日: 11時00分～14時00分, 17時00分～21時00分",
+    "日曜日: 11時00分～14時00分, 17時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "nonaka-kamaboko-mise",
+   "name": "野中かまぼこ店",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.21828,
+   "lng": 132.56876,
+   "approx": false,
+   "desc": "明治創業の老舗かまぼこ店。宇和海で獲れたハランボを100%使用し、手作業で1枚ずつ揚げる熱々ぷりぷりの手押してんぷらが味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJX7Ro3cphTzURAGCed3wPZfc",
+   "address": "日本、〒798-0050 愛媛県宇和島市堀端町１−５３",
+   "url": "https://www.jakoten.co.jp/",
+   "hours": [
+    "月曜日: 7時00分～17時45分",
+    "火曜日: 7時00分～17時45分",
+    "水曜日: 7時00分～17時45分",
+    "木曜日: 7時00分～17時45分",
+    "金曜日: 7時00分～17時45分",
+    "土曜日: 7時00分～17時45分",
+    "日曜日: 8時00分～17時45分"
+   ]
+  },
+  {
+   "slug": "yuuko-mizu-ka-ura-no-danbata",
+   "name": "遊子水荷浦の段畑",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.20681,
+   "lng": 132.45534,
+   "approx": false,
+   "desc": "急斜面に石垣を積み上げて造られた美しい階段状の畑。国の重要文化的景観にも選定され、頂上からは宇和海の素晴らしい絶景が見渡せる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "UOFZq8N1lc0"
+    }
+   ],
+   "place_id": "ChIJ6S1mqGvzRTURVU9VqDDQWDo",
+   "address": "日本、〒798-0103 愛媛県宇和島市遊子２３２３−３",
+   "url": "http://www.danbata.jp/",
+   "hours": [
+    "月曜日: 9時30分～16時30分",
+    "火曜日: 9時30分～16時30分",
+    "水曜日: 9時30分～16時30分",
+    "木曜日: 9時30分～16時30分",
+    "金曜日: 9時30分～16時30分",
+    "土曜日: 9時30分～16時30分",
+    "日曜日: 9時30分～16時30分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-hiromi-mori-no-sankaku-boushi",
+   "name": "道の駅 広見森の三角ぼうし",
+   "area": "nanyo",
+   "cat": "雑貨・土産",
+   "lat": 33.25394,
+   "lng": 132.6871,
+   "approx": false,
+   "desc": "鬼北町にある道の駅。いかつい鬼のモニュメントが特徴的であり、お弁当や惣菜、特産品が豊富に揃っている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJ-5YZQxNlTzURQoaB_YJdk9w",
+   "address": "日本、〒798-1333 愛媛県北宇和郡鬼北町永野市１３８−６",
+   "url": "https://www.sankaku-boushi.jp/",
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 8時00分～17時30分",
+    "水曜日: 8時00分～17時30分",
+    "木曜日: 8時00分～17時30分",
+    "金曜日: 8時00分～17時30分",
+    "土曜日: 8時00分～17時30分",
+    "日曜日: 8時00分～17時30分"
+   ]
+  },
+  {
+   "slug": "michi-no-eki-niji-no-mori-kouen-matsuno",
+   "name": "道の駅 虹の森公園まつの",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.22951,
+   "lng": 132.70965,
+   "approx": false,
+   "desc": "松野町にある道の駅。ガラス工房やレストラン、パン屋、水族館などが併設された複合施設である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJjcoPBn9vTzURsikoHiHc6MQ",
+   "address": "日本、〒798-2102 愛媛県北宇和郡松野町延野々１５１０−１ 内",
+   "url": "https://morinokuni.or.jp/",
+   "hours": [
+    "月曜日: 8時30分～17時00分",
+    "火曜日: 8時30分～17時00分",
+    "水曜日: 8時30分～17時00分",
+    "木曜日: 8時30分～17時00分",
+    "金曜日: 8時30分～17時00分",
+    "土曜日: 8時30分～17時00分",
+    "日曜日: 8時30分～17時00分"
+   ]
+  },
+  {
+   "slug": "kawauchi-jinja",
+   "name": "河内神社",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.1786,
+   "lng": 132.6511,
+   "approx": true,
+   "desc": "滑床渓谷へ向かう道中にある、苔むした鳥居とまっすぐ伸びる石段が神秘的な神社である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ]
+  },
+  {
+   "slug": "shimantogawa-gakushuu-yuu-kan-osakana-kan",
+   "name": "四万十川学習遊館 おさかな館",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.22935,
+   "lng": 132.71034,
+   "approx": false,
+   "desc": "道の駅虹の森公園まつのに併設された淡水魚の水族館。四万十川の生態系などを学ぶことができる施設である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJPaGSBn9vTzURTS5UJ4JSeAU",
+   "address": "日本、〒798-2102 愛媛県北宇和郡松野町延野々１５１０−１ 内 虹の森公園",
+   "url": "https://morinokuni.or.jp/publics/index/27/",
+   "hours": [
+    "月曜日: 10時00分～17時00分",
+    "火曜日: 10時00分～17時00分",
+    "水曜日: 10時00分～17時00分",
+    "木曜日: 10時00分～17時00分",
+    "金曜日: 10時00分～17時00分",
+    "土曜日: 10時00分～17時00分",
+    "日曜日: 10時00分～17時00分"
+   ]
+  },
+  {
+   "slug": "o-shokuji-tokoro-hozumi-tei-kisaiya-hiroba-mise",
+   "name": "お食事処 ほづみ亭 きさいや広場店",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.22243,
+   "lng": 132.5579,
+   "approx": false,
+   "desc": "きさいや広場のフードコート内にあるお食事処。宇和島名物の宇和島鯛めしを味わうことができる店舗である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJr-kMoNlhTzURfJmKWIjShCc",
+   "address": "日本、〒798-0006 愛媛県宇和島市弁天町１丁目１−３１８−１６",
+   "url": "https://www.kisaiyahiroba.com/eat/hozumitei/",
+   "hours": [
+    "月曜日: 10時30分～16時30分",
+    "火曜日: 10時30分～16時30分",
+    "水曜日: 定休日",
+    "木曜日: 10時30分～16時30分",
+    "金曜日: 10時30分～16時30分",
+    "土曜日: 10時30分～16時30分",
+    "日曜日: 10時30分～16時30分"
+   ]
+  },
+  {
+   "slug": "yoko-sui-keikoku",
+   "name": "横吹渓谷",
+   "area": "nanyo",
+   "cat": "自然",
+   "lat": 33.09493,
+   "lng": 132.58978,
+   "approx": false,
+   "desc": "宇和島市津島町にある渓谷。苔むした岩肌と清流が美しく、まるで異世界のような神秘的な散策路が続いている。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJHQhnj9VYTzURsHF4gViQMSg",
+   "address": "日本、〒798-3271 愛媛県宇和島市津島町御内 横吹溪谷"
+  },
+  {
+   "slug": "umi-suzume-tenbou-tokoro",
+   "name": "海すずめ展望所",
+   "area": "nanyo",
+   "cat": "観光",
+   "lat": 33.22652,
+   "lng": 132.53273,
+   "approx": false,
+   "desc": "九島大橋の開通を記念して作られた展望所。九島大橋や宇和島湾の美しい景色を一望することができる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJkxLk6oyKRTUR98v9rOf9TMc",
+   "address": "日本、〒798-0098 愛媛県宇和島市蛤３２",
+   "url": "https://www.uwajima.org/spot/kusima.html",
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "kuzu-shima",
+   "name": "葛島",
+   "area": "nanyo",
+   "cat": "自然",
+   "lat": 33.2132,
+   "lng": 132.5113,
+   "approx": true,
+   "desc": "九島の南端に位置する小島。夕暮れ時には、海に浮かぶ鳥居と美しい夕日の絶景が広がる場所である。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ]
+  },
+  {
+   "slug": "michi-no-eki-tsushima-yasuragino-sato",
+   "name": "道の駅 津島やすらぎの里",
+   "area": "nanyo",
+   "cat": "温泉",
+   "lat": 33.13984,
+   "lng": 132.52041,
+   "approx": false,
+   "desc": "温泉施設やサウナが併設された道の駅。ヌルヌルとした泉質の温泉と本格的なサウナを楽しめる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJnWqcas_1RTURIi4Ua1tKmsI",
+   "address": "日本、〒798-3302 愛媛県宇和島市津島町高田甲８３０−１",
+   "url": "https://tsushima-atsuta-onsen.com/",
+   "hours": [
+    "月曜日: 10時00分～22時00分",
+    "火曜日: 10時00分～22時00分",
+    "水曜日: 10時00分～22時00分",
+    "木曜日: 10時00分～22時00分",
+    "金曜日: 10時00分～22時00分",
+    "土曜日: 10時00分～22時00分",
+    "日曜日: 10時00分～22時00分"
+   ]
+  },
+  {
+   "slug": "kaitenzushi-sushiemon-uwa-shimamoto-mise",
+   "name": "回転寿司 すしえもん 宇和島本店",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.22222,
+   "lng": 132.55701,
+   "approx": false,
+   "desc": "元プロ野球選手がプロデュースする人気の回転寿司店。みかんブリやシマアジなど、宇和島ならではの新鮮な地魚を味わえる。",
+   "sources": [
+    {
+     "type": "youtube",
+     "id": "_tHxN2lLjE8"
+    }
+   ],
+   "place_id": "ChIJP4B7NdNhTzURUEPUDK-PxSs",
+   "address": "日本、〒798-0006 愛媛県宇和島市弁天町２丁目１−６０",
+   "url": "https://sushiemon.jp/",
+   "hours": [
+    "月曜日: 10時30分～22時00分",
+    "火曜日: 10時30分～22時00分",
+    "水曜日: 10時30分～22時00分",
+    "木曜日: 10時30分～22時00分",
+    "金曜日: 10時30分～22時00分",
+    "土曜日: 10時30分～22時00分",
+    "日曜日: 10時30分～22時00分"
+   ]
+  }
+ ]
+}
