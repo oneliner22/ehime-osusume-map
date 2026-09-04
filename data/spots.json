@@ -98,11 +98,18 @@
    "lat": 33.8415,
    "lng": 132.7725,
    "approx": true,
-   "desc": "愛媛名物の宇和島鯛めしが味わえる有名店。新鮮な鯛の刺身に特製のタレと生卵を絡めてご飯にかける絶品グルメである。",
+   "desc": "愛媛名物の宇和島鯛めしが味わえる有名店。新鮮な鯛の刺身に特製のタレと生卵を絡めてご飯にかける絶品グルメとしてファンの間でも非常に有名である。",
    "sources": [
     {
      "type": "youtube",
      "id": "E9-pVHkqCYA"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "「かどや」が有名。"
     }
    ]
   },
@@ -444,7 +451,7 @@
    "lat": 33.84558,
    "lng": 132.76553,
    "approx": false,
-   "desc": "勝山山頂にそびえる名城。複数の動画で紹介。天守閣からは松山市街や瀬戸内海を一望でき、甲冑装着体験なども楽しめるスポット。",
+   "desc": "勝山山頂にそびえる名城。敷地内の松山市民会館はお堀の内側に位置する。天守閣からは松山市街や瀬戸内海を一望でき、甲冑装着体験も楽しめる。",
    "sources": [
     {
      "type": "youtube",
@@ -457,6 +464,13 @@
     {
      "type": "youtube",
      "id": "UOFZq8N1lc0"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "松山城(松山市民会館はお城のお堀の内側にあるよ)"
     }
    ],
    "place_id": "ChIJG4z5T-vlTzURgnujh60lGEo",
@@ -575,11 +589,18 @@
    "lat": 33.83613,
    "lng": 132.76961,
    "approx": false,
-   "desc": "松山市民のソウルフードである鍋焼きうどんの名店。アルミ製の鍋で提供される、少し甘めの優しい出汁と柔らかい麺が特徴。",
+   "desc": "松山市民のソウルフードである鍋焼きうどんの名店。アルミ製の鍋で提供される、少し甘めの優しい出汁と柔らかい麺が特徴であり、愛好家も訪れる外せないスポット。",
    "sources": [
     {
      "type": "youtube",
      "id": "X6TQlZX6Xiw"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "アサヒ、ことり、日の出"
     }
    ],
    "place_id": "ChIJVTQcTPLlTzURWg4GbBuW_7I",
@@ -602,11 +623,18 @@
    "lat": 33.8364,
    "lng": 132.76942,
    "approx": false,
-   "desc": "ことりの近くにある、同じく鍋焼きうどんで超有名な老舗店。甘めの出汁が地元の人々に愛されている。",
+   "desc": "ことりの近くにある鍋焼きうどんの超有名老舗店。甘めの出汁が特徴で、地元の人々に愛され続ける名店。",
    "sources": [
     {
      "type": "youtube",
      "id": "X6TQlZX6Xiw"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "アサヒ、ことり、日の出"
     }
    ],
    "place_id": "ChIJyZJiRfLlTzUR1l4ViXbNurw",
@@ -1212,6 +1240,13 @@
     {
      "type": "youtube",
      "id": "uQ1fk-ycESk"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/CitrusJunos_Pop/status/2094253194549551125",
+     "author": "CitrusJunos_Pop",
+     "date": "2026-08-31",
+     "quote": "・10FACTORY"
     }
    ],
    "place_id": "ChIJaYPL8OvlTzUR0iidHXM82Z4",
@@ -1354,7 +1389,7 @@
    "lat": 33.85207,
    "lng": 132.78641,
    "approx": false,
-   "desc": "日本最古と言われる道後温泉のシンボル。歴史あるレトロな木造建築が美しく、多くの動画で旅の疲れを癒やす名湯として紹介。",
+   "desc": "日本最古の歴史を誇る道後温泉のシンボル。レトロな木造建築が美しく、旅の疲れを癒やす名湯として多くの人に愛される温泉。",
    "sources": [
     {
      "type": "youtube",
@@ -1383,6 +1418,13 @@
     {
      "type": "youtube",
      "id": "9x4ssai21T8"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "道後温泉 日本最古の温泉"
     }
    ],
    "place_id": "ChIJ84F-kHjmTzURebGHHI1YWXw",
@@ -1733,11 +1775,18 @@
    "lat": 33.85111,
    "lng": 132.78514,
    "approx": false,
-   "desc": "道後商店街にある、様々な品種のみかんジュースを蛇口から注いで飲み比べできる店舗。",
+   "desc": "道後商店街にあり、多彩な品種のみかんジュースを蛇口から注いで心ゆくまで飲み比べできる人気店舗。",
    "sources": [
     {
      "type": "youtube",
      "id": "v3I-jQ3ZfjE"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "愛媛の食卓1970 蛇口からみかんジュースがたくさんできるお店。"
     }
    ],
    "place_id": "ChIJsyq7SgDlTzURqK1MSiwtuwE",
@@ -1928,11 +1977,18 @@
    "lat": 33.85213,
    "lng": 132.7856,
    "approx": false,
-   "desc": "道後商店街にある今治タオルの専門店。本店限定の一六タルトや坊っちゃん団子の可愛い刺繍入りハンカチなどが購入可能。",
+   "desc": "道後商店街にある今治タオルの専門店。お土産選びに最適で、本店限定の一六タルトや坊っちゃん団子の可愛い刺繍入りハンカチなどが購入可能。",
    "sources": [
     {
      "type": "youtube",
      "id": "UOFZq8N1lc0"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/CitrusJunos_Pop/status/2094253194549551125",
+     "author": "CitrusJunos_Pop",
+     "date": "2026-08-31",
+     "quote": "・伊織（お土産屋さん）"
     }
    ],
    "place_id": "ChIJAQBwKNblTzURfBtVgdPubog",
@@ -2531,7 +2587,7 @@
    "lat": 33.65516,
    "lng": 132.58934,
    "approx": false,
-   "desc": "瀬戸内海が目の前に広がる、日本一海に近いとも言われる有名な無人駅。複数の動画でジブリのような美しい景色や夕暮れ時の夕日、映画やドラマのロケ地としての魅力が紹介されている。",
+   "desc": "瀬戸内海が目の前に広がり、日本一海に近いとされる無人駅。美しい景色や夕暮れ時の夕日、映画のロケ地として知られ、圧倒的なエモさと物語のはじまりを感じさせる絶景が広がる。",
    "sources": [
     {
      "type": "youtube",
@@ -2544,6 +2600,20 @@
     {
      "type": "youtube",
      "id": "Kj25d00_7wU"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "海にめちゃくちゃ近い駅。とても映え！"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/akstn_hamaguri/status/2094469093420392856",
+     "author": "akstn_hamaguri",
+     "date": "2026-08-31",
+     "quote": "下灘駅エモｯ…絶対物語が始まる所"
     }
    ],
    "place_id": "ChIJRwsl6qmJTzURpVNHZx_aWNI",
@@ -4062,6 +4132,752 @@
     "土曜日: 10時30分～22時00分",
     "日曜日: 10時30分～22時00分"
    ]
+  },
+  {
+   "slug": "botchan-ressha",
+   "name": "坊っちゃん列車",
+   "area": "dogo",
+   "cat": "レトロ",
+   "lat": 33.85058,
+   "lng": 132.78497,
+   "approx": false,
+   "desc": "夏目漱石の小説『坊っちゃん』に登場する蒸気機関車を復元したレトロな観光列車。松山市内を走り、道後温泉や松山城などの観光地を結ぶ。車掌の制服も当時のデザインを再現。",
+   "address": "日本、〒790-0842 愛媛県松山市道後町７",
+   "place_id": "ChIJlQP3wPXlTzURRcpKFTQddh0",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "坊っちゃん列車"
+    }
+   ],
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ],
+   "url": "https://www.iyotetsu.co.jp/botchan/"
+  },
+  {
+   "slug": "shimanami-cycling",
+   "name": "しまなみサイクリングロード",
+   "area": "imabari",
+   "cat": "体験",
+   "lat": 34.11124,
+   "lng": 132.97595,
+   "approx": false,
+   "desc": "今治から尾道まで続く約70kmのサイクリングロード。瀬戸内海の美しい島々や橋を巡りながら、海風を感じる爽快なサイクリングが楽しめる。",
+   "address": "日本、〒794-0001 愛媛県今治市砂場町２丁目５",
+   "place_id": "ChIJCyB3two5UDURO6VrPXqu72o",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "いつかしまなみ海道(約70km)サイクリングとかどうですか!?"
+    }
+   ],
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ],
+   "url": "https://shimanami-cycle.or.jp/"
+  },
+  {
+   "slug": "tonaru-besshi",
+   "name": "旧別子銅山東平地区",
+   "area": "toyo",
+   "cat": "観光",
+   "lat": 33.87748,
+   "lng": 133.31468,
+   "approx": false,
+   "desc": "「東洋のマチュピチュ」と呼ばれる別子銅山の産業遺産群。標高約750mの山中にレンガ造りの貯鉱庫跡などが残り、神秘的な景観が広がる。",
+   "address": "日本、〒792-0846 愛媛県新居浜市立川町６５４",
+   "place_id": "ChIJFQb5IArQUTURMIwgZ_YfIKg",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "別子銅山「東洋のマチュピチュ」と呼ばれる銅山跡。"
+    }
+   ],
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ]
+  },
+  {
+   "slug": "my-botchan-dango-30",
+   "name": "my botchan dango 30",
+   "area": "dogo",
+   "cat": "体験",
+   "lat": 33.85127,
+   "lng": 132.78528,
+   "approx": false,
+   "desc": "オリジナル坊っちゃん団子が作れる体験型店舗。道後温泉エリアに位置し、自分だけの特別な坊っちゃん団子作りを楽しめる。",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町６−１５",
+   "place_id": "ChIJV7ZYg9jlTzURHzKg26Df6B0",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "my botchan dango 30 オリジナル坊っちゃん団子が作れる。"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時00分～19時00分",
+    "火曜日: 9時00分～19時00分",
+    "水曜日: 9時00分～19時00分",
+    "木曜日: 9時00分～19時00分",
+    "金曜日: 9時00分～19時00分",
+    "土曜日: 9時00分～19時00分",
+    "日曜日: 9時00分～19時00分"
+   ],
+   "url": "https://w-harmony.jp/shop/my-botchan-dango-30/"
+  },
+  {
+   "slug": "shirasagi-coffee",
+   "name": "白鷺珈琲",
+   "area": "dogo",
+   "cat": "カフェ・喫茶",
+   "lat": 33.85074,
+   "lng": 132.78516,
+   "approx": false,
+   "desc": "道後温泉駅前にあるレトロな雰囲気のカフェ。駅前の景色を眺めながら、ゆったりとした時間を過ごすことができる。湯上がりの休憩にもぴったり。",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町１２−１",
+   "place_id": "ChIJswtCXB_lTzURif7l0YtlCqo",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/kaginekko/status/2032447130951106975",
+     "author": "kaginekko",
+     "date": "2026-03-13",
+     "quote": "白鷺珈琲 レトロな駅前をながめながらのカフェ。"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時00分～18時00分",
+    "火曜日: 9時00分～18時00分",
+    "水曜日: 9時00分～18時00分",
+    "木曜日: 9時00分～18時00分",
+    "金曜日: 9時00分～18時00分",
+    "土曜日: 9時00分～18時00分",
+    "日曜日: 9時00分～18時00分"
+   ],
+   "url": "https://shirasagicoffee.com/"
+  },
+  {
+   "slug": "tobe-zoo",
+   "name": "とべ動物園",
+   "area": "iyo",
+   "cat": "動物",
+   "lat": 33.76403,
+   "lng": 132.79206,
+   "approx": false,
+   "desc": "愛媛県伊予郡砥部町にある、西日本屈指の規模を誇る動物園。ホッキョクグマのピースをはじめ、多様な動物たちに出会える。ファンからもぜひ訪れてほしいとおすすめされる人気スポット。",
+   "address": "日本、〒791-2191 愛媛県伊予郡砥部町上原町２４０",
+   "place_id": "ChIJwZqHwknpTzURT4huDZ-_WXw",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2030846358534660496",
+     "author": "santaku_tomato",
+     "date": "2026-03-09",
+     "quote": "@8989oic とべ動物園も是非行って欲しいです！🥹✨"
+    }
+   ],
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 9時00分～17時00分",
+    "水曜日: 9時00分～17時00分",
+    "木曜日: 9時00分～17時00分",
+    "金曜日: 9時00分～17時00分",
+    "土曜日: 9時00分～17時00分",
+    "日曜日: 9時00分～17時00分"
+   ],
+   "url": "https://www.tobezoo.com/"
+  },
+  {
+   "slug": "yamaguchi-reijin",
+   "name": "山口霊神",
+   "area": "matsuyama",
+   "cat": "観光",
+   "lat": 33.73582,
+   "lng": 132.83125,
+   "approx": false,
+   "desc": "八百八狸の総帥として知られる隠神刑部（いぬがみぎょうぶ）を祀る神社。松山市南部の久谷町に位置し、狸伝説や妖怪好きのファンが訪れるスポット。静かな環境でお参りができる。",
+   "address": "日本、〒791-1132 愛媛県松山市久谷町",
+   "place_id": "ChIJf9hUoK_pTzURJOar0fhrt7I",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/9UGbzEl2zpH5XKl/status/2074759069144146358",
+     "author": "9UGbzEl2zpH5XKl",
+     "date": "2026-07-08",
+     "quote": "隠神刑部ゆかりの山口霊神にお参りに行きたいな"
+    }
+   ]
+  },
+  {
+   "slug": "omoide-souko",
+   "name": "思ひ出倉庫",
+   "area": "iyo",
+   "cat": "レトロ",
+   "lat": 33.50797,
+   "lng": 132.5474,
+   "approx": false,
+   "desc": "愛媛県大洲市にある昭和レトロなアイテムが所狭しと展示されている施設。昔懐かしい看板や雑貨、おもちゃなどが並び、タイムスリップしたかのような空間を楽しめる。",
+   "address": "日本、〒795-0012 愛媛県大洲市大洲１０３",
+   "place_id": "ChIJAQB0FNl_RTURyMgFoFmGVIE",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/akstn_hamaguri/status/2093866642845708515",
+     "author": "akstn_hamaguri",
+     "date": "2026-08-30",
+     "quote": "思ひ出倉庫だけでも行こうかしらと検討中です"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時30分～16時30分",
+    "火曜日: 9時30分～16時30分",
+    "水曜日: 9時30分～16時30分",
+    "木曜日: 9時30分～16時30分",
+    "金曜日: 9時30分～16時30分",
+    "土曜日: 9時30分～16時30分",
+    "日曜日: 9時30分～16時30分"
+   ],
+   "url": "https://jp.visitozu.com/archives/highlight/147"
+  },
+  {
+   "slug": "tanita",
+   "name": "四季瀬戸の味 たにた",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8393,
+   "lng": 132.76908,
+   "approx": false,
+   "desc": "松山市二番町にある和食居酒屋。瀬戸内の新鮮な魚介類や郷土料理を堪能できる。和酒さとう、寿浬庵、丸万などとともに名前が挙がる名店。",
+   "address": "日本、〒790-0002 愛媛県松山市二番町３丁目７−４",
+   "place_id": "ChIJjWxUmO3lTzURCMCyUSTaXHY",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "たにた、和酒さとう、寿浬庵、丸万"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時30分～13時15分, 17時30分～23時00分",
+    "火曜日: 11時30分～13時15分, 17時30分～23時00分",
+    "水曜日: 11時30分～13時15分, 17時30分～23時00分",
+    "木曜日: 11時30分～13時15分, 17時30分～23時00分",
+    "金曜日: 11時30分～13時15分, 17時30分～23時00分",
+    "土曜日: 17時30分～23時00分",
+    "日曜日: 17時30分～23時00分"
+   ]
+  },
+  {
+   "slug": "washu-sato",
+   "name": "和酒 さとう",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84105,
+   "lng": 132.77288,
+   "approx": false,
+   "desc": "松山市一番町にある居酒屋。たにた、寿浬庵、丸万などと並んで名前が挙がる、愛媛の美味しいお酒と料理が楽しめる名店。",
+   "address": "日本、〒790-0001 愛媛県松山市一番町１丁目５−１４ 八束ビル 1階",
+   "place_id": "ChIJefMnVuDlTzURA9kBydvR0Lg",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "たにた、和酒さとう、寿浬庵、丸万"
+    }
+   ],
+   "hours": [
+    "月曜日: 17時00分～0時00分",
+    "火曜日: 定休日",
+    "水曜日: 17時00分～0時00分",
+    "木曜日: 17時00分～0時00分",
+    "金曜日: 17時00分～0時00分",
+    "土曜日: 17時00分～0時00分",
+    "日曜日: 17時00分～0時00分"
+   ],
+   "url": "https://www.facebook.com/share/14MUxtZCEMN/"
+  },
+  {
+   "slug": "maruman",
+   "name": "さかな工房 丸万",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83003,
+   "lng": 132.7734,
+   "approx": false,
+   "desc": "松山市祇園町にある海鮮居酒屋。新鮮な魚介類を使った料理が楽しめる。たにた、和酒さとう、寿浬庵などと並んで紹介された名店。",
+   "address": "日本、〒790-0965 愛媛県松山市祇園町３−２１",
+   "place_id": "ChIJs6ng_PblTzURibrnoIdgOt0",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "たにた、和酒さとう、寿浬庵、丸万"
+    }
+   ],
+   "hours": [
+    "月曜日: 17時30分～22時30分",
+    "火曜日: 17時30分～22時30分",
+    "水曜日: 定休日",
+    "木曜日: 17時30分～22時30分",
+    "金曜日: 17時30分～22時30分",
+    "土曜日: 17時30分～22時30分",
+    "日曜日: 17時30分～22時30分"
+   ],
+   "url": "https://s403700.gorp.jp/"
+  },
+  {
+   "slug": "escobar",
+   "name": "南米料理ESCOBAR",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84483,
+   "lng": 132.77249,
+   "approx": false,
+   "desc": "松山市大街道にある南米料理店。ワールド系の店舗として紹介され、ricaricaやsanze、ジロラモなどとともに言及されたスポット。",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目８−１２ 本田ビル",
+   "place_id": "ChIJ01IZwenlTzURz7OBZ71a9ck",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "エスコバール、ricarica、sanze、ジロラモ"
+    }
+   ],
+   "hours": [
+    "月曜日: 18時00分～22時00分",
+    "火曜日: 12時00分～22時00分",
+    "水曜日: 12時00分～22時00分",
+    "木曜日: 12時00分～22時00分",
+    "金曜日: 12時00分～22時00分",
+    "土曜日: 12時00分～22時00分",
+    "日曜日: 12時00分～22時00分"
+   ],
+   "url": "https://escobarjp.com/"
+  },
+  {
+   "slug": "sanze",
+   "name": "sanzé",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84704,
+   "lng": 132.77529,
+   "approx": false,
+   "desc": "エスコバールやricarica、ジロラモなどと同じワールド系の飲食店。松山市街の勝山町に位置し、おしゃれな雰囲気で食事やワインを楽しめる。",
+   "address": "日本、〒790-0803 愛媛県松山市勝山町２丁目22−２",
+   "place_id": "ChIJZ8b1DnrlTzURwthFN3SFcTo",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "エスコバール、ricarica、sanze、ジロラモ"
+    }
+   ],
+   "url": "https://instagram.com/sanze_shimizu?igshid=OGQ5ZDc2ODk2ZA=="
+  },
+  {
+   "slug": "girolamo",
+   "name": "シーフードイタリアン GIROLAMO",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.8409,
+   "lng": 132.7714,
+   "approx": false,
+   "desc": "エスコバールやricarica、sanzeなどと同じワールド系列のシーフードイタリアン。松山市街の一番町に位置し、新鮮な魚介を使った本格的なイタリア料理を楽しめる。",
+   "address": "日本、〒790-0001 愛媛県松山市一番町２丁目５−９",
+   "place_id": "ChIJhWHho-7lTzUR7loNMb1v3xY",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "エスコバール、ricarica、sanze、ジロラモ"
+    }
+   ],
+   "hours": [
+    "月曜日: 18時00分～1時00分",
+    "火曜日: 18時00分～1時00分",
+    "水曜日: 18時00分～1時00分",
+    "木曜日: 18時00分～1時00分",
+    "金曜日: 18時00分～1時00分",
+    "土曜日: 18時00分～1時00分",
+    "日曜日: 18時00分～1時00分"
+   ],
+   "url": "https://s410800.gorp.jp/"
+  },
+  {
+   "slug": "ikigai",
+   "name": "鱧割烹いきがい",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83963,
+   "lng": 132.77329,
+   "approx": false,
+   "desc": "松山市二番町に位置する高級な雰囲気の鱧割烹。上質な鱧料理を堪能できる名店。同じく言及された「名前のないイタリア料理店」とともに、特別な日の食事に訪れたいスポット。",
+   "address": "日本、〒790-0002 愛媛県松山市二番町１丁目９−２１ 魚政ビル 1階",
+   "place_id": "ChIJiWYRYpzlTzURYrtIJ8yJMA8",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "鱧割烹 IKIGAI、名前のないイタリア料理店"
+    }
+   ],
+   "hours": [
+    "月曜日: 18時00分～23時00分",
+    "火曜日: 18時00分～23時00分",
+    "水曜日: 18時00分～23時00分",
+    "木曜日: 18時00分～23時00分",
+    "金曜日: 18時00分～23時00分",
+    "土曜日: 18時00分～23時00分",
+    "日曜日: 定休日"
+   ],
+   "url": "https://lin.ee/Z8nLjKh"
+  },
+  {
+   "slug": "nameless-italian",
+   "name": "名前のないイタリア料理店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83658,
+   "lng": 132.7674,
+   "approx": false,
+   "desc": "松山市街にある高級感漂う隠れ家的なイタリア料理店。鱧割烹IKIGAIとともに言及された、知る人ぞ知る名店。特別な日のディナーに最適。",
+   "address": "日本、〒790-0011 愛媛県松山市千舟町４丁目１−４ ヒラキビル １Ｆ",
+   "place_id": "ChIJY7S2IfPlTzURP7TvvcUm-c8",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "鱧割烹 IKIGAI、名前のないイタリア料理店"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "火曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "水曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "木曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "金曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "土曜日: 11時30分～14時00分, 18時00分～22時30分",
+    "日曜日: 11時30分～14時00分, 18時00分～21時00分"
+   ]
+  },
+  {
+   "slug": "fukase",
+   "name": "ふかせ",
+   "area": "iyo",
+   "cat": "グルメ",
+   "lat": 33.47643,
+   "lng": 132.67068,
+   "approx": false,
+   "desc": "大洲市肱川町にある和菓子店。名物の「志ぐれ」などを販売しており、呉本屋などと並んで地元で愛される名店。お土産や食べ歩きにおすすめ。",
+   "address": "日本、〒797-1503 愛媛県大洲市肱川町宇和川３７５２",
+   "place_id": "ChIJVwC_zgeDTzURvqH7l5wV-p8",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "ふかせ、呉本屋"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時30分～14時00分",
+    "火曜日: 定休日",
+    "水曜日: 11時30分～14時00分",
+    "木曜日: 11時30分～14時00分",
+    "金曜日: 11時30分～14時00分",
+    "土曜日: 11時30分～14時00分",
+    "日曜日: 11時30分～14時00分"
+   ],
+   "url": "https://japoncompany.business/ozu/544756-fukase"
+  },
+  {
+   "slug": "kurehonya",
+   "name": "ホルモン料理 呉本屋",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 34.05404,
+   "lng": 133.00972,
+   "approx": false,
+   "desc": "ふかせが言及した、今治市の中心地から少し離れた場所にあるホルモン料理店。地元で愛される新鮮なホルモンや焼肉を堪能できる。",
+   "address": "日本、〒794-0802 愛媛県今治市南鳥生町２丁目１−３９",
+   "place_id": "ChIJUdLgrGI6UDURb0G-QuVQPRU",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2095512448296226860",
+     "author": "otanipei0729",
+     "date": "2026-09-03",
+     "quote": "ふかせ、呉本屋"
+    }
+   ],
+   "hours": [
+    "月曜日: 10時00分～14時00分, 16時00分～22時00分",
+    "火曜日: 定休日",
+    "水曜日: 10時00分～14時00分, 16時00分～22時00分",
+    "木曜日: 10時00分～14時00分, 16時00分～22時00分",
+    "金曜日: 10時00分～14時00分, 16時00分～22時00分",
+    "土曜日: 10時00分～14時00分, 16時00分～22時00分",
+    "日曜日: 10時00分～14時00分, 16時00分～22時00分"
+   ],
+   "url": "https://japoncompany.business/imabari/548168-kuremotoya"
+  },
+  {
+   "slug": "kisuke-box",
+   "name": "キスケBOX・KIT",
+   "area": "matsuyama",
+   "cat": "体験",
+   "lat": 33.84128,
+   "lng": 132.75296,
+   "approx": false,
+   "desc": "JR松山駅前にある複合エンターテインメント施設。天然温泉「喜助の湯」をはじめ、ボウリングやカラオケなどのアミューズメントが充実している。",
+   "address": "日本、〒790-0066 愛媛県松山市宮田町４−４ キスケボックス 3階",
+   "place_id": "ChIJRZUR6THlTzURIZVYEQ0Qosw",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095149676110709172",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "JR松山駅利用する人は駅前の「キスケ」！"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時00分～23時00分",
+    "火曜日: 9時00分～23時00分",
+    "水曜日: 9時00分～23時00分",
+    "木曜日: 9時00分～23時00分",
+    "金曜日: 9時00分～1時00分",
+    "土曜日: 9時00分～1時00分",
+    "日曜日: 9時00分～23時00分"
+   ],
+   "url": "https://kisuke.com/kit/"
+  },
+  {
+   "slug": "soratomori",
+   "name": "東道後のそらともり",
+   "area": "matsuyama",
+   "cat": "温泉",
+   "lat": 33.81856,
+   "lng": 132.80495,
+   "approx": false,
+   "desc": "松山市郊外にある人気の温泉施設。車でのアクセスが便利。広々とした大浴場やサウナ、岩盤浴などを備え、ゆったりとくつろぐことができる。",
+   "address": "日本、〒790-0924 愛媛県松山市南久米町３−１",
+   "place_id": "ChIJg_garBjmTzURHKUhC4irslw",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095149676110709172",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "車使える人は「そらともり」"
+    }
+   ],
+   "hours": [
+    "月曜日: 5時00分～1時00分",
+    "火曜日: 5時00分～1時00分",
+    "水曜日: 5時00分～1時00分",
+    "木曜日: 5時00分～1時00分",
+    "金曜日: 5時00分～1時00分",
+    "土曜日: 5時00分～1時00分",
+    "日曜日: 5時00分～1時00分"
+   ],
+   "url": "http://www.soratomori.com/"
+  },
+  {
+   "slug": "himehiko-onsen",
+   "name": "媛彦温泉",
+   "area": "matsuyama",
+   "cat": "温泉",
+   "lat": 33.82745,
+   "lng": 132.80092,
+   "approx": false,
+   "desc": "松山市郊外にある温泉施設。車でのアクセスが便利で、ドライブがてら立ち寄るのにおすすめ。大浴場や家族風呂を備え、ゆったりとくつろげる。",
+   "address": "日本、〒790-0913 愛媛県松山市畑寺３丁目４−５",
+   "place_id": "ChIJFVQu0BbmTzURg9DC9S0KZSw",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095149676110709172",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "車使える人は「そらともり」「媛彦温泉」"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時00分～7時00分",
+    "火曜日: 9時00分～7時00分",
+    "水曜日: 9時00分～7時00分",
+    "木曜日: 9時00分～7時00分",
+    "金曜日: 9時00分～7時00分",
+    "土曜日: 9時00分～7時00分",
+    "日曜日: 9時00分～7時00分"
+   ],
+   "url": "http://himehiko.jp/"
+  },
+  {
+   "slug": "takanokonoyu",
+   "name": "たかのこの湯（旧鷹ノ子温泉）",
+   "area": "matsuyama",
+   "cat": "温泉",
+   "lat": 33.81411,
+   "lng": 132.80859,
+   "approx": false,
+   "desc": "松山市郊外にある温泉施設。旧称は鷹ノ子温泉。広々とした大浴場や露天風呂を備え、地元の人々に親しまれている。日帰り入浴でゆったりと疲れを癒やすことができる。",
+   "address": "日本、〒790-0925 愛媛県松山市鷹子町７３６−４",
+   "place_id": "ChIJ6egG7yDmTzURlIadSK890hs",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095149676110709172",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "「鷹子の湯」"
+    }
+   ],
+   "hours": [
+    "月曜日: 5時00分～1時00分",
+    "火曜日: 5時00分～1時00分",
+    "水曜日: 5時00分～1時00分",
+    "木曜日: 5時00分～1時00分",
+    "金曜日: 5時00分～1時00分",
+    "土曜日: 5時00分～1時00分",
+    "日曜日: 5時00分～1時00分"
+   ],
+   "url": "http://takanokono.jp/"
+  },
+  {
+   "slug": "kumenoyu",
+   "name": "東道後温泉 久米之癒",
+   "area": "matsuyama",
+   "cat": "温泉",
+   "lat": 33.81402,
+   "lng": 132.80309,
+   "approx": false,
+   "desc": "松山市郊外にある温泉施設。東道後温泉とも呼ばれ、地元の人々に親しまれている。サウナや岩盤浴も完備されており、日々の疲れを癒やすリフレッシュスポットとしておすすめ。",
+   "address": "日本、〒790-0924 愛媛県松山市南久米町３２５−１",
+   "place_id": "ChIJbePMfKDoTzURH8Op1U9IBvU",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095149676110709172",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "「久米之癒」などなどオススメです！"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～9時00分",
+    "火曜日: 11時00分～9時00分",
+    "水曜日: 11時00分～9時00分",
+    "木曜日: 11時00分～9時00分",
+    "金曜日: 11時00分～9時00分",
+    "土曜日: 11時00分～9時00分",
+    "日曜日: 11時00分～9時00分"
+   ],
+   "url": "http://www.kumenoyu.com/"
+  },
+  {
+   "slug": "daikokuya-dogo",
+   "name": "大黒屋 道後店",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.85205,
+   "lng": 132.78078,
+   "approx": false,
+   "desc": "道後エリアにある人気の和食店。名物の鯛釜めしがおすすめ。愛媛ならではの新鮮な鯛を使った絶品の釜めしを味わうことができる。",
+   "address": "日本、〒790-0848 愛媛県松山市道後喜多町８−２１",
+   "place_id": "ChIJXbTlrNDlTzURgk1Oinsjy_g",
+   "added": "2026-09-05",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2095102825374286002",
+     "author": "santaku_tomato",
+     "date": "2026-09-02",
+     "quote": "とくに「大黒屋」の鯛釜めしがおすすめ✨"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～20時30分",
+    "火曜日: 11時00分～20時30分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～20時30分",
+    "金曜日: 11時00分～20時30分",
+    "土曜日: 11時00分～20時30分",
+    "日曜日: 11時00分～20時30分"
+   ],
+   "url": "https://korepano.jp/web/daikokuya-dogo/"
   }
  ]
 }

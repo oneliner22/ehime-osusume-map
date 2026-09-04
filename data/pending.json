@@ -1,3 +1,102 @@
 {
- "items": []
+ "items": [
+  {
+   "name": "松山鯛めし",
+   "reason": "low_confidence",
+   "hint": "松山市・グルメ",
+   "post": "https://x.com/kaginekko/status/2032447130951106975",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "佐田岬",
+   "reason": "business_status=None",
+   "hint": "伊方町・岬",
+   "post": "https://x.com/kaginekko/status/2032447130951106975",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "宇和島鯛めし",
+   "reason": "places_no_match",
+   "hint": "宇和島市・グルメ",
+   "post": "https://x.com/kaginekko/status/2032447130951106975",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "たぬき・まんじゅう",
+   "reason": "low_confidence",
+   "hint": "愛媛の土産・和菓子",
+   "post": "https://x.com/susuu__pink/status/2052010189671534806",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "お野菜食堂SOHSOH",
+   "reason": "low_confidence",
+   "hint": "飲食店",
+   "post": "https://x.com/CitrusJunos_Pop/status/2094253194549551125",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "霧の森大福",
+   "reason": "low_confidence",
+   "hint": "愛媛",
+   "post": "https://x.com/CitrusJunos_Pop/status/2094253194549551125",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "いもたき",
+   "reason": "low_confidence",
+   "hint": "愛媛県・名物・風物詩",
+   "post": "https://x.com/akstn_hamaguri/status/2093866642845708515",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "周平",
+   "reason": "author_uncertain",
+   "hint": "愛媛・松山 / つけ麺・ラーメン",
+   "post": "https://x.com/Delphi_otome/status/2095517408983412825",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "寿浬庵",
+   "reason": "low_confidence",
+   "hint": "居酒屋系",
+   "post": "https://x.com/otanipei0729/status/2095512448296226860",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "ricarica",
+   "reason": "places_no_match",
+   "hint": "ワールド系",
+   "post": "https://x.com/otanipei0729/status/2095512448296226860",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "日の出",
+   "reason": "low_confidence",
+   "hint": "ローカル",
+   "post": "https://x.com/otanipei0729/status/2095512448296226860",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "たぬきまんじゅう",
+   "reason": "low_confidence",
+   "hint": "お土産",
+   "post": "https://x.com/santaku_tomato/status/2095105792613761403",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "たぬきまんじゅう",
+   "reason": "low_confidence",
+   "hint": "愛媛",
+   "post": "https://x.com/susuu__pink/status/2052310975974609337",
+   "date": "2026-09-05"
+  },
+  {
+   "name": "いもたき",
+   "reason": "low_confidence",
+   "hint": "愛媛・イベント・郷土料理",
+   "post": "https://x.com/akstn_hamaguri/status/2094102726066278804",
+   "date": "2026-09-05"
+  }
+ ]
 }
