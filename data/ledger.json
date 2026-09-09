@@ -3509,6 +3509,19 @@
   "2097188835725893690": {
    "date": "2026-09-08",
    "result": "not_recommendation"
+  },
+  "2097610683747897560": {
+   "date": "2026-09-09",
+   "result": "not_recommendation"
+  },
+  "2097492575037071522": {
+   "date": "2026-09-09",
+   "result": "not_recommendation"
+  },
+  "2097446774785163437": {
+   "date": "2026-09-09",
+   "result": "processed",
+   "author": "MIDWEEK_club"
   }
  },
  "authors": {
@@ -3551,6 +3564,11 @@
    "verdict": "uncertain",
    "name": "Delphi_otome",
    "date": "2026-09-05"
+  },
+  "2097373829798801408": {
+   "verdict": "fan",
+   "name": "MIDWEEK_club",
+   "date": "2026-09-09"
   }
  },
  "seeds": {}
