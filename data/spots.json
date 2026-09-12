@@ -130,6 +130,14 @@
     {
      "type": "youtube",
      "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2094253194549551125",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
     }
    ],
    "place_id": "ChIJGUq2COzlTzURqyE110GEY-k",
@@ -241,6 +249,14 @@
     {
      "type": "youtube",
      "id": "Ef9nwM_5Tcg"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2095517408983412825",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
     }
    ],
    "place_id": "ChIJbdYkoO7lTzURpDX2BvCC-Xs",
@@ -4910,6 +4926,202 @@
     "日曜日: 11時00分～23時00分"
    ],
    "url": "http://roman-tei.info/"
+  },
+  {
+   "slug": "sada-misaki-toudai",
+   "name": "佐田岬灯台",
+   "area": "nanyo",
+   "cat": "自然",
+   "lat": 33.34305,
+   "lng": 132.01486,
+   "approx": false,
+   "desc": "四国最西端に位置する日本一細長い半島・佐田岬の先端に立つ白亜の灯台。晴れた日には豊予海峡を挟んで九州を望むことができる絶景スポット。",
+   "address": "日本、〒796-0823 愛媛県西宇和郡伊方町正野２９３５",
+   "place_id": "ChIJW0DaQ0nJRTURloV_zoOdb48",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2032447130951106975",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "hours": [
+    "月曜日: 24 時間営業",
+    "火曜日: 24 時間営業",
+    "水曜日: 24 時間営業",
+    "木曜日: 24 時間営業",
+    "金曜日: 24 時間営業",
+    "土曜日: 24 時間営業",
+    "日曜日: 24 時間営業"
+   ],
+   "url": "https://www.town.ikata.ehime.jp/"
+  },
+  {
+   "slug": "izakaya-jurian",
+   "name": "居酒屋 寿浬庵",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84788,
+   "lng": 132.75717,
+   "approx": false,
+   "desc": "松山市平和通にある人気の居酒屋。新鮮な魚介類やボリューム満点の料理がリーズナブルに味わえることで知られる。地元客で賑わうため予約推奨。",
+   "address": "日本、〒790-0807 愛媛県松山市平和通６丁目９−６ 野中ビル",
+   "place_id": "ChIJTxi3spDlTzURWbMsquFWYi4",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2095512448296226860",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "hours": [
+    "月曜日: 15時00分～22時15分",
+    "火曜日: 15時00分～22時15分",
+    "水曜日: 15時00分～22時15分",
+    "木曜日: 15時00分～22時15分",
+    "金曜日: 15時00分～23時15分",
+    "土曜日: 15時00分～23時15分",
+    "日曜日: 15時00分～21時15分"
+   ],
+   "url": "https://s.tabelog.com/ehime/A3801/A380101/38001902/"
+  },
+  {
+   "slug": "ricarica",
+   "name": "ricarica",
+   "area": "matsuyama",
+   "cat": "カフェ・喫茶",
+   "lat": 33.84109,
+   "lng": 132.77122,
+   "approx": false,
+   "desc": "松山市一番町、大街道エリアに位置する店舗。ファンの間ではワールド系との声も寄せられており、周辺散策の際の立ち寄りスポットとしておすすめ。",
+   "address": "日本、〒790-0001 愛媛県松山市一番町２丁目５−１６",
+   "place_id": "ChIJMe64pe7lTzURw3BS1tJr2D4",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2095512448296226860",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "hours": [
+    "月曜日: 定休日",
+    "火曜日: 18時00分～23時00分",
+    "水曜日: 18時00分～23時00分",
+    "木曜日: 18時00分～23時00分",
+    "金曜日: 18時00分～23時00分",
+    "土曜日: 18時00分～23時00分",
+    "日曜日: 18時00分～23時00分"
+   ]
+  },
+  {
+   "slug": "okonomiyaki-hinode",
+   "name": "お好み焼き 日の出",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.86498,
+   "lng": 132.71914,
+   "approx": false,
+   "desc": "松山市三津浜エリアにある老舗のお好み焼き店。愛媛のローカルフードとして親しまれているボリューム満点の三津浜焼きが味わえる。",
+   "address": "日本、〒791-8065 愛媛県松山市三杉町１１−８",
+   "place_id": "ChIJM7b6ZUblTzURTIwZlOaDqUY",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2095512448296226860",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～18時30分",
+    "火曜日: 11時00分～18時30分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～18時30分",
+    "金曜日: 11時00分～18時30分",
+    "土曜日: 11時00分～18時30分",
+    "日曜日: 11時00分～18時30分"
+   ],
+   "url": "https://japoncompany.business/matsuyama/543081-hinode"
+  },
+  {
+   "slug": "tanuki-honpo",
+   "name": "たぬき本舗 株式会社",
+   "area": "toyo",
+   "cat": "雑貨・土産",
+   "lat": 33.89543,
+   "lng": 133.13389,
+   "approx": false,
+   "desc": "愛媛県西条市の銘菓「たぬきまんじゅう」の製造・販売元。一口サイズの可愛らしいお饅頭で、お土産として親しまれている。",
+   "address": "日本、〒793-0072 愛媛県西条市氷見乙７６２−４",
+   "place_id": "ChIJ2fVq9n0tUDUR-1MFTuZeAxw",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2095105792613761403",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2052310975974609337",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "url": "https://tanukimanju.shop/"
+  },
+  {
+   "slug": "yamadaya-manjuu-uwa-honten",
+   "name": "山田屋まんじゅう 宇和本店",
+   "area": "nanyo",
+   "cat": "グルメ",
+   "lat": 33.36263,
+   "lng": 132.51341,
+   "approx": false,
+   "desc": "愛媛を代表する銘菓「山田屋まんじゅう」の宇和本店。薄い皮に包まれた上品な甘さのこしあんが特徴。お土産としても人気が高い。",
+   "address": "日本、〒797-0015 愛媛県西予市宇和町卯之町３丁目3−２８８",
+   "place_id": "ChIJ7wCY48yHRTURahA19tOtmyw",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2097446774785163437",
+     "author": "",
+     "date": "2026-09-09",
+     "quote": "",
+     "embed": false
+    }
+   ],
+   "hours": [
+    "月曜日: 10時00分～17時00分",
+    "火曜日: 10時00分～17時00分",
+    "水曜日: 定休日",
+    "木曜日: 定休日",
+    "金曜日: 10時00分～17時00分",
+    "土曜日: 10時00分～17時00分",
+    "日曜日: 10時00分～17時00分"
+   ],
+   "url": "http://yamadayamanju.jp/shops/"
   }
  ]
 }
