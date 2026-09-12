@@ -3566,6 +3566,48 @@
   "2098251479039782969": {
    "date": "2026-09-11",
    "result": "not_recommendation"
+  },
+  "2098741503971745903": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098738833114513408": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098738822402158897": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098787916940193948": {
+   "date": "2026-09-12",
+   "result": "processed",
+   "author": "otanipei0729"
+  },
+  "2098779442030301435": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098726320469631143": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098625930336117126": {
+   "date": "2026-09-12",
+   "result": "processed",
+   "author": "walk_teku_teku"
+  },
+  "2098621220984127685": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098571474407936103": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
+  },
+  "2098817765507567999": {
+   "date": "2026-09-12",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -3613,6 +3655,11 @@
    "verdict": "fan",
    "name": "MIDWEEK_club",
    "date": "2026-09-09"
+  },
+  "1323541397366927360": {
+   "verdict": "fan",
+   "name": "walk_teku_teku",
+   "date": "2026-09-12"
   }
  },
  "seeds": {}
