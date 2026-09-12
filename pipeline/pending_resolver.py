@@ -199,10 +199,20 @@ def register_aliases(decision, aliases, spot_name, item_name, stats):
             stats["aliases"] += 1
 
 
+def handle_of(url):
+    """URL から著者ハンドルを取り出す (/i/web/status/<id> 形式なら空文字)。"""
+    m = re.match(r"https?://(?:www\.)?x\.com/([A-Za-z0-9_]{1,15})/status", url or "")
+    return m.group(1) if m else ""
+
+
 def build_source(item, post, decision):
     """pending item から X 出典を組み立てる。pending.json に入っている URL は
-    /i/web/ 形式のことがあるため、著者が分かればここで正規形に直す。"""
-    author = (post or {}).get("author_name", "")
+    /i/web/ 形式のことがあるため、著者が分かればここで正規形に直す。
+
+    著者は原則 xdev の元ポストから取るが、xdev の tweets ストアはローリング保持で
+    古い行が消えるため、pending が数日残ると引けなくなる。その場合は入稿時に
+    pending.json へ書かれた URL のハンドルを使う (これも無ければ /i/web/ 形式)。"""
+    author = (post or {}).get("author_name", "") or handle_of(item["post"])
     url = dj.x_post_url(dj.post_id_of(item["post"]), author) \
         if dj.post_id_of(item["post"]) else item["post"]
     src = {"type": "x", "url": url, "author": author,
