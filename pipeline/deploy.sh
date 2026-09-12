@@ -79,6 +79,12 @@ gcloud run jobs deploy "$PJOB" --image "$IMAGE" --region "$REGION" \
   --set-env-vars "GCP_PROJECT=${PROJECT},VERTEX_LOCATION=global,GITHUB_REPO=oneliner22/ehime-osusume-map" \
   --set-secrets "GITHUB_TOKEN=github-token:latest,XDEV_MCP_URL=xdev-mcp-url:latest,PLACES_API_KEY=places-api-key:latest"
 
+# Scheduler は SA の OAuth トークンでジョブを起動するので、日次ジョブと同じく
+# invoker 権限が要る (これが無いと Scheduler は毎朝 403 PERMISSION_DENIED で空振りし、
+# Cloud Run 側には実行が1件も残らない)
+gcloud run jobs add-iam-policy-binding "$PJOB" --region "$REGION" \
+  --member="serviceAccount:$SA" --role=roles/run.invoker >/dev/null
+
 PSCHED=ehime-spots-pending-trigger
 PSCHED_URI="https://run.googleapis.com/v2/projects/${PROJECT}/locations/${REGION}/jobs/${PJOB}:run"
 if gcloud scheduler jobs describe "$PSCHED" --location "$REGION" >/dev/null 2>&1; then
