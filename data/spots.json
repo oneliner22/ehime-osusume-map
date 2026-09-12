@@ -1085,6 +1085,13 @@
     {
      "type": "youtube",
      "id": "UOFZq8N1lc0"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/walk_teku_teku/status/2098625930336117126",
+     "author": "walk_teku_teku",
+     "date": "2026-09-12",
+     "quote": "松山のソウルフード、ちくわや魚粉入りのお好み焼き"
     }
    ],
    "place_id": "ChIJibElOE7lTzURCv8p85LD7GM",
@@ -2920,6 +2927,13 @@
     {
      "type": "youtube",
      "id": "UOFZq8N1lc0"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/walk_teku_teku/status/2098625930336117126",
+     "author": "walk_teku_teku",
+     "date": "2026-09-12",
+     "quote": "塩パン発祥の店。焼きたては口当たりが軽くほのかに甘く"
     }
    ],
    "place_id": "ChIJ6RlfSH2DRTURFYb_g8qgDis",
@@ -5134,6 +5148,14 @@
      "author": "susuu__pink",
      "date": "2026-09-05",
      "quote": ""
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/i/web/status/2052010189671534806",
+     "author": "",
+     "date": "2026-09-05",
+     "quote": "",
+     "embed": false
     }
    ],
    "url": "https://tanukimanju.shop/"
@@ -5342,6 +5364,38 @@
     "日曜日: 10時00分～21時00分"
    ],
    "url": "https://www.iyotetsu.co.jp/sp/kankou/kururin/"
+  },
+  {
+   "slug": "mishima-jinja",
+   "name": "三島神社",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.67937,
+   "lng": 132.6297,
+   "approx": false,
+   "desc": "下灘駅から自転車で立ち寄れる神社。急な階段を登る必要があるが、中腹から見下ろす海の眺めは絶景。せっかくなら頂上まで登ってお参りしたい。",
+   "address": "日本、〒799-3207 愛媛県伊予市双海町高岸１３１７",
+   "place_id": "ChIJ97_stcGNTzUR6Arp72UhfK0",
+   "added": "2026-09-12",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/walk_teku_teku/status/2098625930336117126",
+     "author": "walk_teku_teku",
+     "date": "2026-09-12",
+     "quote": "中腹から見下ろす海の眺めは絶景。"
+    }
+   ],
+   "hours": [
+    "月曜日: 7時00分～19時00分",
+    "火曜日: 7時00分～19時00分",
+    "水曜日: 7時00分～19時00分",
+    "木曜日: 7時00分～19時00分",
+    "金曜日: 7時00分～19時00分",
+    "土曜日: 7時00分～19時00分",
+    "日曜日: 7時00分～19時00分"
+   ],
+   "url": "http://ehime-jinjacho.jp/jinja/?p=4277"
   }
  ]
 }
