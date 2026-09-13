@@ -103,6 +103,11 @@ header.hero{ text-align:center; padding:26px 16px 10px; position:relative; }
 .rt-num span{display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;
   color:#fff;font-weight:900;font-size:11.5px;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.4);cursor:pointer;
   font-family:inherit}
+/* 縮尺バー: サイトの配色（墨色の線・クリーム地）に合わせる */
+.leaflet-control-scale{margin-left:10px;margin-bottom:10px}
+.leaflet-control-scale-line{background:rgba(255,250,240,.85);border:1.5px solid var(--ink);border-top:none;
+  color:var(--ink);font-family:inherit;font-size:10.5px;font-weight:700;line-height:1.3;padding:1px 5px 0;
+  box-shadow:1.5px 1.5px 0 var(--shadow)}
 .origin-pin{background:none;border:none}
 .origin-pin span{display:block;width:16px;height:16px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);
   background:var(--ink);border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.4)}
@@ -459,6 +464,8 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
   const center=CFG.map_center||[36.55,136.60];
   const map=L.map('map',{scrollWheelZoom:true}).setView(center, CFG.map_zoom||10);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18, attribution:'© OpenStreetMap contributors'}).addTo(map);
+  // 縮尺バー（左下・メートルのみ）。棒の幅に収まるキリのよい距離を自動で選ぶ
+  L.control.scale({position:'bottomleft', metric:true, imperial:false, maxWidth:120}).addTo(map);
   const cluster=L.markerClusterGroup({maxClusterRadius:38, spiderfyOnMaxZoom:true});
   const markerBySlug={};
   // 指でのタップは狙いがずれやすいので、粗いポインタ（タッチ）では点を大きくし、
