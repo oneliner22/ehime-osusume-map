@@ -202,7 +202,9 @@ header.hero{ text-align:center; padding:26px 16px 10px; position:relative; }
 /* ランダムおすすめ（カルーセル）。地図が画面外に押し出されないよう高さは固定 */
 .reco{margin:6px 0 0;position:relative}
 .reco-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 2px 6px}
-.reco-head .ttl{font-weight:800;font-size:14px;flex:1}
+.reco-head .ttl{font-weight:800;font-size:14px}
+.reco-head .pg{font-size:11px;color:#8a7350;flex:1;white-space:nowrap}
+#reco{margin-top:12px}
 .reco-head button{border:2px solid var(--line);background:var(--paper);border-radius:14px;padding:3px 10px;font-size:12px;
   cursor:pointer;color:var(--ink)}
 .reco-head button:hover{border-color:var(--ink)}
@@ -215,6 +217,9 @@ header.hero{ text-align:center; padding:26px 16px 10px; position:relative; }
 .rc-name{font-weight:800;font-size:14px;line-height:1.35;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;cursor:pointer}
 .rc-name:hover{color:var(--accent)}
 .rc-sub{font-size:11px;color:#8a7350;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rc-added{display:inline-block;font-size:10px;font-weight:800;color:#2f7d4f;background:rgba(58,170,110,.12);
+  border:1px solid rgba(58,170,110,.45);border-radius:8px;padding:0 6px;margin-left:4px;vertical-align:1px}
+.rc-added.init{color:#8a7350;background:none;border-color:var(--line)}
 .rc-thumb{width:88px;height:50px;object-fit:cover;border-radius:8px;border:1.5px solid var(--line);flex:none;background:#000}
 .rc-desc{font-size:12px;line-height:1.55;color:#5b4631;margin-top:6px;overflow:hidden;display:-webkit-box;
   -webkit-line-clamp:3;-webkit-box-orient:vertical;flex:1}
@@ -310,6 +315,19 @@ footer{text-align:center;font-size:11.5px;color:#8a7350;padding:24px 14px}
 </header>
 
 <div class="wrap">
+  <!-- 新着スポット：追加日の新しい順に5件ずつページ送り -->
+  <section class="reco" id="new" hidden>
+    <div class="reco-head"><span class="ttl">🆕 新着スポット</span><span class="pg" id="new-pg"></span>
+      <button id="new-next" type="button">▶ 次の5件を見る</button>
+      <button id="new-hide" type="button">隠す</button></div>
+    <div class="reco-wrap">
+      <button class="reco-nav prev" id="new-prev" type="button" aria-label="前へ">‹</button>
+      <div class="reco-track" id="new-track"></div>
+      <button class="reco-nav next" id="new-nextc" type="button" aria-label="次へ">›</button>
+    </div>
+  </section>
+  <div class="reco-show" id="new-show" hidden><button type="button">🆕 新着スポットを表示する</button></div>
+
   <!-- ランダムおすすめ：詳細モーダルの縮約版を5件、横スクロールで -->
   <section class="reco" id="reco" hidden>
     <div class="reco-head"><span class="ttl">🎲 ランダムおすすめ</span>
@@ -318,7 +336,7 @@ footer{text-align:center;font-size:11.5px;color:#8a7350;padding:24px 14px}
     <div class="reco-wrap">
       <button class="reco-nav prev" id="reco-prev" type="button" aria-label="前へ">‹</button>
       <div class="reco-track" id="reco-track"></div>
-      <button class="reco-nav next" id="reco-next" type="button" aria-label="次へ">›</button>
+      <button class="reco-nav next" id="reco-nextc" type="button" aria-label="次へ">›</button>
     </div>
   </section>
   <div class="reco-show" id="reco-show" hidden><button type="button">🎲 ランダムおすすめを表示する</button></div>
@@ -861,45 +879,63 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
     refreshStars();
   }
 
-  // ===== ランダムおすすめ（カルーセル） =====
-  const RECO_KEY='spotmap:reco-hidden:'+location.pathname, RECO_N=CFG.reco_count||5;
-  const recoEl=document.getElementById('reco'), recoShow=document.getElementById('reco-show'), track=document.getElementById('reco-track');
+  // ===== カルーセル（新着 / ランダムおすすめ）。カードは詳細モーダルの縮約版 =====
+  const RECO_N=CFG.reco_count||5;
+  const POOL=SPOTS.filter(s=>s.cat!=='会場');
+  // 追加日 "2026-09-12" → "9/12"。初期収録（added なし）は日付なし
+  const fmtAdded=d=>{ const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||''); return m?`${+m[2]}/${+m[3]}`:''; };
+  function recoCard(s){
+    const yts=ytOf(s), xn=xOf(s).length, ad=fmtAdded(s.added);
+    const card=document.createElement('div'); card.className='reco-card';
+    card.innerHTML=`<div class="rc-top"><div class="rc-ttl"><div class="rc-name">${esc(nameOf(s))}</div>`+
+        `<div class="rc-sub">${esc(areaName(s))} ・ ${esc(s.cat)}${s.approx?' ・ およその位置':''}`+
+        (ad?`<span class="rc-added" title="${esc(s.added)} に追加">📅 ${ad} 追加</span>`:`<span class="rc-added init">初期収録</span>`)+`</div></div>`+
+        (yts.length?`<img class="rc-thumb" loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(yts[0])}/mqdefault.jpg">`:'')+`</div>`+
+      `<div class="rc-desc">${esc(s.desc)}</div>`+
+      `<div class="rc-foot"><span class="rc-src">${yts.length?`<span class="yt">▶${yts.length}</span> `:''}${xn?`<span class="xm">𝕏${xn}</span>`:''}</span>`+
+        `<button type="button" class="bm" data-bm="${esc(s.slug)}">☆</button>`+
+        `<button type="button" class="rc-btn detail">詳細</button>`+
+        `<button type="button" class="rc-btn go">🗺️ 地図</button></div>`;
+    card.querySelector('.rc-name').onclick=()=>openModal(s.slug);
+    card.querySelector('.detail').onclick=()=>openModal(s.slug);
+    card.querySelector('.go').onclick=()=>gotoMap(s.slug);
+    return card;
+  }
+  // id: 要素 id の接頭辞（<id>, <id>-track, <id>-show, <id>-hide, <id>-prev, <id>-nextc）。
+  // pick(): 表示する n 件を返す。「隠す」の状態は localStorage に記憶
+  function carousel(id, pick){
+    const key='spotmap:'+id+'-hidden:'+location.pathname;
+    const el=document.getElementById(id), show=document.getElementById(id+'-show'), track=document.getElementById(id+'-track');
+    function render(){ track.innerHTML=''; pick().forEach(s=>track.appendChild(recoCard(s))); track.scrollLeft=0; refreshStars(); }
+    function setHidden(h){ el.hidden=h; show.hidden=!h; lsSet(key,h?'1':''); if(!h && !track.children.length) render(); }
+    document.getElementById(id+'-hide').onclick=()=>setHidden(true);
+    show.querySelector('button').onclick=()=>setHidden(false);
+    const step=()=>{ const c=track.firstElementChild; return c?c.getBoundingClientRect().width+10:300; };
+    document.getElementById(id+'-prev').onclick=()=>track.scrollBy({left:-step(),behavior:'smooth'});
+    document.getElementById(id+'-nextc').onclick=()=>track.scrollBy({left:step(),behavior:'smooth'});
+    if(POOL.length) setHidden(lsGet(key)==='1');
+    return {render};
+  }
+
+  // 新着：追加日の新しい順（同日は後ろに追加された順）。added なしの初期収録分は末尾
+  const NEWEST=POOL.map((s,i)=>[s,i]).sort((a,b)=>((b[0].added||'').localeCompare(a[0].added||''))||(b[1]-a[1])).map(x=>x[0]);
+  let newPage=0; const newPages=Math.max(1,Math.ceil(NEWEST.length/RECO_N));
+  const newCar=carousel('new',()=>{
+    const from=newPage*RECO_N, items=NEWEST.slice(from,from+RECO_N);
+    document.getElementById('new-pg').textContent=`${from+1}〜${from+items.length}件目 / 全${NEWEST.length}件`;
+    document.getElementById('new-next').textContent=newPage+1<newPages?`▶ 次の${RECO_N}件を見る`:'↺ 最初に戻る';
+    return items;
+  });
+  document.getElementById('new-next').onclick=()=>{ newPage=(newPage+1)%newPages; newCar.render(); };
+
+  // ランダムおすすめ
   function pickRandom(n){
-    const pool=SPOTS.filter(s=>s.cat!=='会場'); const out=[];
+    const pool=POOL.slice(); const out=[];
     while(pool.length && out.length<n){ out.push(pool.splice(Math.floor(Math.random()*pool.length),1)[0]); }
     return out;
   }
-  function renderReco(){
-    track.innerHTML='';
-    pickRandom(RECO_N).forEach(s=>{
-      const yts=ytOf(s), xn=xOf(s).length;
-      const card=document.createElement('div'); card.className='reco-card';
-      card.innerHTML=`<div class="rc-top"><div class="rc-ttl"><div class="rc-name">${esc(nameOf(s))}</div>`+
-          `<div class="rc-sub">${esc(areaName(s))} ・ ${esc(s.cat)}${s.approx?' ・ およその位置':''}</div></div>`+
-          (yts.length?`<img class="rc-thumb" loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(yts[0])}/mqdefault.jpg">`:'')+`</div>`+
-        `<div class="rc-desc">${esc(s.desc)}</div>`+
-        `<div class="rc-foot"><span class="rc-src">${yts.length?`<span class="yt">▶${yts.length}</span> `:''}${xn?`<span class="xm">𝕏${xn}</span>`:''}</span>`+
-          `<button type="button" class="bm" data-bm="${esc(s.slug)}">☆</button>`+
-          `<button type="button" class="rc-btn detail">詳細</button>`+
-          `<button type="button" class="rc-btn go">🗺️ 地図</button></div>`;
-      card.querySelector('.rc-name').onclick=()=>openModal(s.slug);
-      card.querySelector('.detail').onclick=()=>openModal(s.slug);
-      card.querySelector('.go').onclick=()=>gotoMap(s.slug);
-      track.appendChild(card);
-    });
-    track.scrollLeft=0; refreshStars();
-  }
-  function setRecoHidden(h){
-    recoEl.hidden=h; recoShow.hidden=!h; lsSet(RECO_KEY,h?'1':'');
-    if(!h && !track.children.length) renderReco();
-  }
-  document.getElementById('reco-shuffle').onclick=renderReco;
-  document.getElementById('reco-hide').onclick=()=>setRecoHidden(true);
-  recoShow.querySelector('button').onclick=()=>setRecoHidden(false);
-  const step=()=>{ const c=track.firstElementChild; return c?c.getBoundingClientRect().width+10:300; };
-  document.getElementById('reco-prev').onclick=()=>track.scrollBy({left:-step(),behavior:'smooth'});
-  document.getElementById('reco-next').onclick=()=>track.scrollBy({left:step(),behavior:'smooth'});
-  if(SPOTS.filter(s=>s.cat!=='会場').length) setRecoHidden(lsGet(RECO_KEY)==='1');
+  const recoCar=carousel('reco',()=>pickRandom(RECO_N));
+  document.getElementById('reco-shuffle').onclick=recoCar.render;
 
   // 起動：保存済みブックマークを読み、一覧・パネル・動線を描く
   bmLoad(); render(); renderBookmarks(); syncRoutes();
