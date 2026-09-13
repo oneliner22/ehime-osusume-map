@@ -14,7 +14,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 os.environ.setdefault("GITHUB_REPO", "-")   # daily_job import 用のダミー (未使用)
 os.environ.setdefault("GITHUB_TOKEN", "-")
-from daily_job import gen_json, places_search, MODEL_JUDGE  # noqa: E402
+from daily_job import gen_json, places_search, official_url, load_url_blocklist, MODEL_JUDGE  # noqa: E402
 
 APPLY = "--apply" in sys.argv
 
@@ -36,6 +36,7 @@ def dist_m(lat1, lng1, lat2, lng2):
 doc = json.load(io.open("data/spots.json", encoding="utf-8"))
 pipeline_cfg = json.load(io.open("data/pipeline.json", encoding="utf-8"))
 bbox = pipeline_cfg["bbox"]
+load_url_blocklist(pipeline_cfg)
 area_name = {a["id"]: a["name"] for a in doc["areas"]}
 
 for s in doc["spots"]:
@@ -71,8 +72,8 @@ for s in doc["spots"]:
         s["approx"] = False
         if p.get("formattedAddress"):
             s["address"] = p["formattedAddress"]
-        if p.get("websiteUri") and not s.get("url"):
-            s["url"] = p["websiteUri"]
+        if official_url(p) and not s.get("url"):
+            s["url"] = official_url(p)
         hours = p.get("regularOpeningHours", {}).get("weekdayDescriptions")
         if hours and not s.get("hours"):
             s["hours"] = list(hours)   # 週7日ぶん (先頭2日だけだと月火の店に見える)

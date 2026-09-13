@@ -97,6 +97,25 @@ def load(workdir, name):
     return json.load(io.open(os.path.join(workdir, "data", name), encoding="utf-8"))
 
 
+# 第三者のディレクトリ系サイト。Places の websiteUri に入っていても公式サイトではないので
+# spot["url"] に採用しない (pipeline.json の url_blocked_domains で追加できる)
+URL_BLOCKED_DOMAINS = {"japoncompany.business"}
+
+
+def load_url_blocklist(pipeline_cfg):
+    URL_BLOCKED_DOMAINS.update(d.lower() for d in pipeline_cfg.get("url_blocked_domains", []))
+
+
+def official_url(place):
+    """Places の websiteUri を返す。除外ドメイン (サブドメイン含む) なら None。"""
+    from urllib.parse import urlparse
+    u = (place or {}).get("websiteUri") or ""
+    host = (urlparse(u).hostname or "").lower()
+    if not u or any(host == d or host.endswith("." + d) for d in URL_BLOCKED_DOMAINS):
+        return None
+    return u
+
+
 def save(workdir, name, obj):
     json.dump(obj, io.open(os.path.join(workdir, "data", name), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
@@ -601,6 +620,7 @@ def main():
     clone_repo(workdir)
     spots_doc = load(workdir, "spots.json")
     pipeline_cfg = load(workdir, "pipeline.json")
+    load_url_blocklist(pipeline_cfg)
     ledger = load(workdir, "ledger.json")
     aliases = load(workdir, "aliases.json")
     pending = load(workdir, "pending.json")
@@ -852,8 +872,8 @@ def main():
             # 週7日ぶんをそのまま持つ。先頭2日だけ残すと Places の並び (月始まり) の
             # せいで「月火だけの店」に見え、土日の予定を立てる用途で使えない
             spot["hours"] = list(hours)
-        if place.get("websiteUri"):
-            spot["url"] = place["websiteUri"]
+        if official_url(place):
+            spot["url"] = official_url(place)
         if not (PREF_STRICT["lat_min"] <= lat <= PREF_STRICT["lat_max"]
                 and PREF_STRICT["lng_min"] <= lng <= PREF_STRICT["lng_max"]):
             spot["out_of_pref"] = True

@@ -302,8 +302,8 @@ def apply_decision(decision, item, post, doc, aliases, pending_items, collected,
     hours = place.get("regularOpeningHours", {}).get("weekdayDescriptions")
     if hours:
         spot["hours"] = list(hours)   # 週7日ぶん (先頭2日だけだと月火の店に見える)
-    if place.get("websiteUri"):
-        spot["url"] = place["websiteUri"]
+    if dj.official_url(place):
+        spot["url"] = dj.official_url(place)
     if not (dj.PREF_STRICT["lat_min"] <= lat <= dj.PREF_STRICT["lat_max"]
             and dj.PREF_STRICT["lng_min"] <= lng <= dj.PREF_STRICT["lng_max"]):
         spot["out_of_pref"] = True
@@ -320,7 +320,9 @@ def main():
     doc = dj.load(workdir, "spots.json")
     aliases = dj.load(workdir, "aliases.json")
     pending = dj.load(workdir, "pending.json")
-    until = dj.load(workdir, "pipeline.json").get("until")
+    pipeline_cfg = dj.load(workdir, "pipeline.json")
+    dj.load_url_blocklist(pipeline_cfg)
+    until = pipeline_cfg.get("until")
     if until and dj.TODAY > until and os.environ.get("FORCE_RUN") != "1":
         log(f"更新期間終了 (until {until}): 何もしない")
         return

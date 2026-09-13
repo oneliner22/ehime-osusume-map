@@ -1134,7 +1134,6 @@
    ],
    "place_id": "ChIJrUunROvlTzURcIDMKsb1CJQ",
    "address": "日本、〒790-0008 愛媛県松山市丸之内１",
-   "url": "https://japoncompany.business/matsuyama/547197-jozanso-restaurant",
    "hours": [
     "月曜日: 9時00分～17時00分",
     "火曜日: 9時00分～17時00分",
@@ -4747,8 +4746,7 @@
     "金曜日: 11時30分～14時00分",
     "土曜日: 11時30分～14時00分",
     "日曜日: 11時30分～14時00分"
-   ],
-   "url": "https://japoncompany.business/ozu/544756-fukase"
+   ]
   },
   {
    "slug": "kurehonya",
@@ -4779,8 +4777,7 @@
     "金曜日: 10時00分～14時00分, 16時00分～22時00分",
     "土曜日: 10時00分～14時00分, 16時00分～22時00分",
     "日曜日: 10時00分～14時00分, 16時00分～22時00分"
-   ],
-   "url": "https://japoncompany.business/imabari/548168-kuremotoya"
+   ]
   },
   {
    "slug": "kisuke-box",

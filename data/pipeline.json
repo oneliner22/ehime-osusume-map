@@ -5,6 +5,8 @@
   "until": "2026-10-11",
   "until_note": "更新終了日。これを過ぎると日次ジョブ・pending整理ジョブは何もせず終了する (FORCE_RUN=1 で無視)。終了後は Cloud Scheduler の ehime-spots-*-trigger を削除してよい",
   "x_query": "回覧板 (愛媛 OR 松山 OR 道後 OR 今治) -is:retweet",
+  "url_blocked_domains": ["japoncompany.business"],
+  "url_blocked_domains_note": "Places の websiteUri がこのドメイン (サブドメイン含む) なら公式サイトとみなさず spot.url を付けない (第三者のディレクトリ系サイト)",
   "xdev_dataset": "pocopea-ehime",
   "schedule": "daily",
   "models": {
