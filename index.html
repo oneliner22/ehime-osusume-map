@@ -401,6 +401,8 @@ footer{text-align:center;font-size:11.5px;color:#8a7350;padding:24px 14px}
 <script>window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return window.twttr;}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t=window.twttr||{};t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
 <script>
 function esc(s){return (s==null?'':String(s)).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+// href に入れてよい URL は http(s) だけ (javascript: 等は空にしてリンク自体を出さない)
+function safeUrl(u){ u=(u==null?'':String(u)).trim(); return /^https?:\/\/[^\s]+$/i.test(u)?u:''; }
 // Places の weekdayDescriptions（月曜始まりの7行）を曜日と時間の2列に割る
 function hoursWeek(list){
   return '<div class="hours-week">'+list.map(line=>{
@@ -710,14 +712,14 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
   const catWrap=document.getElementById('catfilter');
   CATS.forEach(c=>{
     const el=document.createElement('div'); el.className='cfilter'; el.dataset.on='1'; el.dataset.cat=c;
-    el.innerHTML=`<span class="dot" style="background:${CAT_COLOR[c]||'#888'}"></span>${c}`;
+    el.innerHTML=`<span class="dot" style="background:${CAT_COLOR[c]||'#888'}"></span>${esc(c)}`;
     el.onclick=()=>{ if(activeCats.has(c)){activeCats.delete(c);el.dataset.on='0';}else{activeCats.add(c);el.dataset.on='1';} render(); };
     catWrap.appendChild(el);
   });
   const areaWrap=document.getElementById('areafilter');
   AREAS.filter(a=>SPOTS.some(s=>s.area===a.id)).forEach(a=>{
     const el=document.createElement('div'); el.className='cfilter'; el.dataset.on='1';
-    el.innerHTML=`<span class="dot" style="background:${a.color}"></span>${a.name}`;
+    el.innerHTML=`<span class="dot" style="background:${a.color}"></span>${esc(a.name)}`;
     el.onclick=()=>{ if(activeAreas.has(a.id)){activeAreas.delete(a.id);el.dataset.on='0';}else{activeAreas.add(a.id);el.dataset.on='1';} render(); };
     areaWrap.appendChild(el);
   });
@@ -765,7 +767,7 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
     origin=o; document.getElementById('origin-label').textContent=o?o.label:'未設定';
     originLayer.clearLayers();
     if(o) L.marker([o.lat,o.lng],{icon:L.divIcon({className:'origin-pin',html:'<span></span>',iconSize:[16,16],iconAnchor:[8,16]}),
-      zIndexOffset:2000, keyboard:false, interactive:false}).bindTooltip('起点: '+o.label,{direction:'top',offset:[0,-14]}).addTo(originLayer);
+      zIndexOffset:2000, keyboard:false, interactive:false}).bindTooltip('起点: '+esc(o.label),{direction:'top',offset:[0,-14]}).addTo(originLayer);
     render();
   }
   sortSel.onchange=()=>{
@@ -979,7 +981,7 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
     if(s.address) info.push('📮 '+esc(s.address));
     if(s.hours)   info.push(Array.isArray(s.hours) ? '🕐 営業時間'+hoursWeek(s.hours)
                                                   : '🕐 '+esc(s.hours));
-    if(s.url)     info.push(`🔗 <a href="${esc(s.url)}" target="_blank" rel="noopener">公式サイト ↗</a>`);
+    if(safeUrl(s.url)) info.push(`🔗 <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">公式サイト ↗</a>`);
     if(info.length) html+=`<div class="modal-info">${info.join('<br>')}</div>`;
     const yts=ytOf(s), xs=xOf(s);
     if(xs.length){
@@ -997,7 +999,7 @@ function boot(CFG, AREAS, SPOTS, VIDEOS){
             (x.date?`<span class="x-date">${esc(x.date)}</span>`:'')+
             (x.quote?`<div class="x-quote">${esc(x.quote)}</div>`:'')+
             (anon?`<div class="x-gated">※ 非公開アカウントの投稿のため、ユーザー名とリンクは伏せています。</div>`
-                 :`<div><a class="x-link" href="${esc(x.url)}" target="_blank" rel="noopener">𝕏 ポストを開く ↗</a></div>`+
+                 :(safeUrl(x.url)?`<div><a class="x-link" href="${esc(safeUrl(x.url))}" target="_blank" rel="noopener">𝕏 ポストを開く ↗</a></div>`:'')+
                   (gated?`<div class="x-gated">※ 投稿者のアカウント設定により、X にログインしていないとこのポストは表示できません。</div>`:''))+
           `</div>`+
           (tid?`<div class="tweet-slot" id="tw-${tid}"></div>`:'')+

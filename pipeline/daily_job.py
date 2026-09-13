@@ -52,18 +52,66 @@ MODEL_EXTRACT = os.environ.get("MODEL_EXTRACT", "gemini-3.5-flash-lite")
 MODEL_JUDGE = os.environ.get("MODEL_JUDGE", "gemini-3.1-pro-preview")
 
 
-SECRET_VALUES = [v for v in (TOKEN, os.environ.get("XDEV_MCP_URL"),
-                             os.environ.get("PLACES_API_KEY")) if v]
+def _git_auth_header():
+    """GitHub の HTTPS 認証を http.extraHeader で渡すための値。トークンを URL やコマンド引数に
+    載せない (CalledProcessError の repr にはコマンドがそのまま入るため)。"""
+    import base64
+    return "AUTHORIZATION: basic " + base64.b64encode(
+        f"x-access-token:{TOKEN}".encode()).decode()
+
+
+def git_env():
+    """git に認証ヘッダを環境変数経由で渡す (GitHub Actions の checkout と同じ方式)。
+    clone 後の remote URL にもトークンが残らない。"""
+    env = dict(os.environ)
+    env.update({"GIT_CONFIG_COUNT": "1",
+                "GIT_CONFIG_KEY_0": "http.https://github.com/.extraheader",
+                "GIT_CONFIG_VALUE_0": _git_auth_header()})
+    return env
+
+
+def _secret_values():
+    """伏せ字にする文字列。認証キー込みの URL は全文だけでなく「パス+クエリ」と各クエリ値も
+    対象にする (requests の接続エラーは 'Max retries exceeded with url: /path?key=...' のように
+    ホストを除いた部分だけを含むので、全文一致だけではすり抜ける)。"""
+    from urllib.parse import urlparse, parse_qsl
+    vals = [TOKEN, os.environ.get("PLACES_API_KEY"), _git_auth_header()]
+    u = os.environ.get("XDEV_MCP_URL")
+    if u:
+        vals.append(u)
+        pu = urlparse(u)
+        tail = pu.path + ("?" + pu.query if pu.query else "")
+        if len(tail) > 8:
+            vals.append(tail)
+        vals += [v for _, v in parse_qsl(pu.query) if len(v) >= 8]
+    # 長いものから置換する (短い値を先に伏せると、それを含む長い値が一致しなくなる)
+    return sorted({v for v in vals if v and v != "-"}, key=len, reverse=True)
+
+
+SECRET_VALUES = _secret_values()
 
 
 def redact(s):
-    """出力文字列から秘密情報を伏せる。障害時の例外 repr にはトークン入り clone URL や
-    認証キー込み XDEV_MCP_URL が含まれ得るため、ログ・Issue に出る全経路で通すこと
+    """出力文字列から秘密情報を伏せる。障害時の例外 repr には認証キー込み XDEV_MCP_URL 等が
+    含まれ得るため、ログ・Issue に出る全経路で通すこと
     (Issue は公開リポジトリなので漏れると即公開になる)。"""
     s = str(s)
     for v in SECRET_VALUES:
         s = s.replace(v, "***")
     return s
+
+
+def fail(tag, e):
+    """ジョブ失敗時の共通処理: 伏せ字にしたトレースバックをログに、例外の要約を Issue に書いて終了。
+    素の raise だと Python の未処理トレースバックが redact を通らずにログへ出るので使わない。"""
+    import traceback
+    log("FATAL:", repr(e))
+    log(traceback.format_exc())
+    try:
+        github_issue(f"[{tag}] ジョブ失敗 {TODAY}", f"```\n{type(e).__name__}: {e}\n```")
+    except Exception:
+        pass
+    sys.exit(1)
 
 
 def log(*a):
@@ -88,9 +136,8 @@ def gen_json(model, schema, parts):
 # ---------------- リポジトリ入出力 ----------------
 
 def clone_repo(workdir):
-    url = f"https://x-access-token:{TOKEN}@github.com/{REPO}.git"
-    subprocess.run(["git", "clone", "--depth", "1", url, workdir],
-                   check=True, capture_output=True)
+    subprocess.run(["git", "clone", "--depth", "1", f"https://github.com/{REPO}.git", workdir],
+                   check=True, capture_output=True, env=git_env())
 
 
 def load(workdir, name):
@@ -109,11 +156,21 @@ def load_url_blocklist(pipeline_cfg):
 def official_url(place):
     """Places の websiteUri を返す。除外ドメイン (サブドメイン含む) なら None。"""
     from urllib.parse import urlparse
-    u = (place or {}).get("websiteUri") or ""
-    host = (urlparse(u).hostname or "").lower()
-    if not u or any(host == d or host.endswith("." + d) for d in URL_BLOCKED_DOMAINS):
+    u = ((place or {}).get("websiteUri") or "").strip()
+    pu = urlparse(u)
+    host = (pu.hostname or "").lower()
+    if pu.scheme not in ("http", "https") or not host:
+        return None   # javascript: 等のスキームは href に入れない
+    if any(host == d or host.endswith("." + d) for d in URL_BLOCKED_DOMAINS):
         return None
     return u
+
+
+def clean_area_name(name):
+    """Gemini が提案する新エリア名の無害化。HTML 特殊文字・制御文字を落とし 20 字まで。
+    エリア名は index.html のチップにそのまま出るので、モデル出力を信用しない。"""
+    s = re.sub(r"[<>&\"'`\\\x00-\x1f]", "", str(name or "")).strip()[:20]
+    return s or "その他エリア"
 
 
 def save(workdir, name, obj):
@@ -137,7 +194,7 @@ def commit_if_changed(workdir, msg):
         log("DRY_RUN: skip commit/push")
         return
     subprocess.run(["git", "-C", workdir, "commit", "-m", msg], check=True)
-    subprocess.run(["git", "-C", workdir, "push"], check=True)
+    subprocess.run(["git", "-C", workdir, "push"], check=True, env=git_env())
     log("pushed")
 
 
@@ -844,7 +901,7 @@ def main():
             continue
         area_id = judged.get("area_id", "new")
         if area_id == "new" or area_id not in {a["id"] for a in areas}:
-            new_name = judged.get("new_area_name") or "その他エリア"
+            new_name = clean_area_name(judged.get("new_area_name"))
             # 判定は並列実行のため直前の候補が新設したエリアを知らない。同名なら再利用する
             hit = next((a for a in areas if a["name"] == new_name), None)
             if hit:
@@ -913,10 +970,5 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except Exception as e:  # 失敗を Issue で可視化してから落とす
-        log("FATAL:", repr(e))
-        try:
-            github_issue(f"[auto-ingest] ジョブ失敗 {TODAY}", f"```\n{e!r}\n```")
-        except Exception:
-            pass
-        raise
+    except Exception as e:  # 失敗を Issue で可視化してから落とす (トレースバックは伏せ字にして自前で出す)
+        fail("auto-ingest", e)

@@ -413,11 +413,5 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except Exception as e:  # 失敗を Issue で可視化してから落とす
-        log("FATAL:", repr(e))
-        try:
-            dj.github_issue(f"[pending-resolver] ジョブ失敗 {dj.TODAY}",
-                            f"```\n{e!r}\n```")
-        except Exception:
-            pass
-        raise
+    except Exception as e:  # 失敗を Issue で可視化してから落とす (トレースバックは伏せ字にして自前で出す)
+        dj.fail("pending-resolver", e)
