@@ -7,6 +7,9 @@ data/pending.json の保留候補(受入ゲート不合格分)を、Gemini の�
   - 表記揺れ   → aliases.json へ登録して再発防止
   - 閉業・県外 → pending から削除
   - 判断不能   → needs_human を付けて pending に残す
+  reason が author_uncertain (著者の素性が判定できなかった投稿) の item は、人が
+  ledger.json の authors[].verdict を "fan" に書き換えるまで処理せず pending に置いたままにする
+  (掲載しないなら item を pending.json から消す)。著者の信頼性は Gemini の再調査では決められない。
 を行い commit/push する。日次ジョブがワンショット判定で拾えない
 「クエリ再構成が必要な表記揺れ」「既存スポットとの名寄せ」を回収するのが役割。
 
@@ -320,6 +323,7 @@ def main():
     doc = dj.load(workdir, "spots.json")
     aliases = dj.load(workdir, "aliases.json")
     pending = dj.load(workdir, "pending.json")
+    ledger = dj.load(workdir, "ledger.json")
     pipeline_cfg = dj.load(workdir, "pipeline.json")
     dj.load_url_blocklist(pipeline_cfg)
     until = pipeline_cfg.get("until")
@@ -334,6 +338,23 @@ def main():
         log(f"PENDING_OVERRIDE: {len(items)} items")
     if not items:
         log("pending empty, nothing to do")
+        return
+
+    # 著者未判定の item は人の判断待ち。ledger で fan に変わっていれば回収対象に入れる
+    def author_cleared(item):
+        if not str(item.get("reason", "")).startswith("author_uncertain"):
+            return True
+        name = item.get("author") or handle_of(item.get("post", ""))
+        verdict = next((a.get("verdict") for a in ledger.get("authors", {}).values()
+                        if name and a.get("name") == name), None)
+        return verdict == "fan"
+    waiting = [it for it in items if not author_cleared(it)]
+    items = [it for it in items if author_cleared(it)]
+    if waiting:
+        log(f"author_uncertain のため人の判断待ち: {len(waiting)} 件 "
+            f"({', '.join(it['name'] for it in waiting[:5])})")
+    if not items:
+        log("処理対象なし")
         return
 
     todo, rest = items[:MAX_ITEMS], items[MAX_ITEMS:]
@@ -387,7 +408,7 @@ def main():
             log("  apply error:", repr(e))
             hold(item, new_items, f"実行エラー: {type(e).__name__}", stats)
 
-    pending["items"] = new_items + rest
+    pending["items"] = new_items + rest + waiting
     dj.save(workdir, "spots.json", doc)
     dj.save(workdir, "aliases.json", aliases)
     dj.save(workdir, "pending.json", pending)

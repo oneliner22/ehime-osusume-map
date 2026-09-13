@@ -101,7 +101,8 @@ Cloud Scheduler → Cloud Run Job (GCP: salmon-chan)
     - Places 一致（Gemini pro が同一性を判定）
     - business_status = OPERATIONAL
     - マージン付きbbox内 (lat 32.6-34.6 / lng 131.7-134.1)
-    - 著者がbotでない
+    - 著者がbotでない（判定 fan / bot / uncertain。uncertain は新規掲載も既存スポットへの出典追記も
+      pending 行きで、人が `ledger.json` の `authors[].verdict` を `fan` にするまで pending 整理ジョブも触らない）
     - 日次300件のサーキットブレーカー（超過時は全停止+Issue起票）
  7. 不合格は pending.json へ。合格分を commit & push（GitHub Pages が自動配信）
 ```

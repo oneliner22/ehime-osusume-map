@@ -827,12 +827,23 @@ def main():
                              "author_uncertain": verdict == "uncertain"}
             existing = match_existing(cand["name"], aliases, spots)
             if existing:
-                if not has_source(existing["sources"], post_url):
-                    existing["sources"].append({
-                        "type": "x", "url": post_url, "author": cand["_post"]["author"],
-                        "date": post_date, "quote": cand.get("quote", "")})
-                    stats["source_added"].append(existing["name"])
-                    desc_refresh[existing["slug"]] = existing
+                if has_source(existing["sources"], post_url):
+                    continue
+                if verdict == "uncertain":
+                    # 著者の素性が判断できない投稿は、既存スポットへの出典追記・紹介文の
+                    # 書き換え材料にもしない。pending に積み、人が ledger.authors の verdict を
+                    # fan にすれば pending 整理ジョブが回収する (bot なら item を消す)
+                    stats["pending"] += 1
+                    pending["items"].append({
+                        "name": cand["name"], "reason": "author_uncertain",
+                        "hint": f"既存スポット「{existing['name']}」への出典追記",
+                        "post": post_url, "author": cand["_post"]["author"], "date": TODAY})
+                    continue
+                existing["sources"].append({
+                    "type": "x", "url": post_url, "author": cand["_post"]["author"],
+                    "date": post_date, "quote": cand.get("quote", "")})
+                stats["source_added"].append(existing["name"])
+                desc_refresh[existing["slug"]] = existing
             else:
                 new_candidates.append(cand)
         ledger["processed_posts"][pid] = {"date": TODAY, "result": "processed",
@@ -875,7 +886,7 @@ def main():
             stats["pending"] += 1
             pending["items"].append({"name": cand["name"], "reason": reason,
                                      "hint": cand.get("hint", ""), "post": meta["url"],
-                                     "date": TODAY})
+                                     "author": meta["author"], "date": TODAY})
         if meta["author_uncertain"]:
             hold("author_uncertain")
             continue
