@@ -3645,6 +3645,23 @@
   "2099037625374101967": {
    "date": "2026-09-13",
    "result": "not_recommendation"
+  },
+  "2099490984681931108": {
+   "date": "2026-09-14",
+   "result": "not_recommendation"
+  },
+  "2099454870613106742": {
+   "date": "2026-09-14",
+   "result": "not_recommendation"
+  },
+  "2099447181602328886": {
+   "date": "2026-09-14",
+   "result": "processed",
+   "author": "Ho_kkailo"
+  },
+  "2099428374410416557": {
+   "date": "2026-09-14",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -3697,6 +3714,11 @@
    "verdict": "fan",
    "name": "walk_teku_teku",
    "date": "2026-09-12"
+  },
+  "2257392877": {
+   "verdict": "fan",
+   "name": "Ho_kkailo",
+   "date": "2026-09-14"
   }
  },
  "seeds": {}
