@@ -3690,6 +3690,27 @@
   "2099793423796703311": {
    "date": "2026-09-15",
    "result": "not_recommendation"
+  },
+  "2100238394748227733": {
+   "date": "2026-09-16",
+   "result": "not_recommendation"
+  },
+  "2100216453316358376": {
+   "date": "2026-09-16",
+   "result": "not_recommendation"
+  },
+  "2100206426006475213": {
+   "date": "2026-09-16",
+   "result": "not_recommendation"
+  },
+  "2100109964039901676": {
+   "date": "2026-09-16",
+   "result": "not_recommendation"
+  },
+  "2100082168903155941": {
+   "date": "2026-09-16",
+   "result": "processed",
+   "author": "hatosablee1"
   }
  },
  "authors": {
@@ -3747,6 +3768,11 @@
    "verdict": "fan",
    "name": "Ho_kkailo",
    "date": "2026-09-14"
+  },
+  "1105670227117801472": {
+   "verdict": "fan",
+   "name": "hatosablee1",
+   "date": "2026-09-16"
   }
  },
  "seeds": {}
