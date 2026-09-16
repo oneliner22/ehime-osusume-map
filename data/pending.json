@@ -2,7 +2,7 @@
  "items": [
   {
    "name": "ショッパーズ長浜店",
-   "reason": "business_status=CLOSED_TEMPORARILY",
+   "reason": "business_status=CLOSED_TEMPORARILY / needs_human: 実行エラー: ClientError",
    "hint": "愛媛",
    "post": "https://x.com/hatosablee1/status/2100082168903155941",
    "author": "hatosablee1",
