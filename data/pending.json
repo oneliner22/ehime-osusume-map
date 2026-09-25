@@ -1,3 +1,20 @@
 {
- "items": []
+ "items": [
+  {
+   "name": "喜助の宿",
+   "reason": "low_confidence",
+   "hint": "宿泊施設",
+   "post": "https://x.com/otanipei0729/status/2103459945924702416",
+   "author": "otanipei0729",
+   "date": "2026-09-25"
+  },
+  {
+   "name": "忽那諸島",
+   "reason": "places_no_match",
+   "hint": "愛媛県の島々・観光地",
+   "post": "https://x.com/otanipei0729/status/2103459945924702416",
+   "author": "otanipei0729",
+   "date": "2026-09-25"
+  }
+ ]
 }
