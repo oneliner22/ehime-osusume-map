@@ -5463,6 +5463,29 @@
     "日曜日: 6時30分～18時00分"
    ],
    "url": "https://www.instagram.com/pain_maison_/"
+  },
+  {
+   "slug": "kisuke-no-yado-matsuyama",
+   "name": "サウナ&スパ・ホテル 喜助の宿 松山駅前店",
+   "area": "matsuyama",
+   "cat": "宿",
+   "lat": 33.8414,
+   "lng": 132.75304,
+   "approx": false,
+   "desc": "JR松山駅前にあるサウナとスパを併設したカプセルホテル。松山空港からのアクセスも良く、回覧板遠征の宿泊地候補としてファンから名前が挙がる。",
+   "address": "日本、〒790-0066 愛媛県松山市宮田町4番地 キスケ BOX2階",
+   "place_id": "ChIJ45sJbnrlTzURyYdmv0d646E",
+   "added": "2026-09-25",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/otanipei0729/status/2103459945924702416",
+     "author": "otanipei0729",
+     "date": "2026-09-25",
+     "quote": "10/11の宿は喜助の宿にしてる"
+    }
+   ],
+   "url": "https://matsuyama.kisukenoyado.com/"
   }
  ]
 }
