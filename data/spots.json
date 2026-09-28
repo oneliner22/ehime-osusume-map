@@ -5486,6 +5486,38 @@
     }
    ],
    "url": "https://matsuyama.kisukenoyado.com/"
+  },
+  {
+   "slug": "sawai-honpo",
+   "name": "澤井本舗 ひぎりやき 市駅前本店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83639,
+   "lng": 132.76288,
+   "approx": false,
+   "desc": "いよてつ高島屋（松山市駅）の真向かいにある「澤井本舗」。名物の「ひぎりやき」を販売している。松山市民に親しまれるソウルフード。",
+   "address": "日本、〒790-0012 愛媛県松山市湊町５丁目４−１",
+   "place_id": "ChIJZ2Vid4zlTzURVFLwngaIbFc",
+   "added": "2026-09-28",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/santaku_tomato/status/2104523561109168417",
+     "author": "santaku_tomato",
+     "date": "2026-09-28",
+     "quote": "いよてつ高島屋(松山市駅)の真向かいにある「澤井本舗」にて販売してます"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時30分～17時20分",
+    "火曜日: 9時30分～17時20分",
+    "水曜日: 9時30分～17時20分",
+    "木曜日: 9時30分～17時20分",
+    "金曜日: 9時30分～18時20分",
+    "土曜日: 9時30分～18時20分",
+    "日曜日: 9時30分～17時20分"
+   ],
+   "url": "https://higiriyaki.jp/"
   }
  ]
 }
