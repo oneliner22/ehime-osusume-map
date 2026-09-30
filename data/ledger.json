@@ -4009,6 +4009,59 @@
   "2104909756486066651": {
    "date": "2026-09-29",
    "result": "not_recommendation"
+  },
+  "2105240480544096581": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105223183280623959": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105182298492792882": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105182095891116313": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105182021136097455": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105167158817038540": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105158057093378424": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105285952440873458": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105283969919201469": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105264314248769929": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105133295537447370": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105127914278957169": {
+   "date": "2026-09-30",
+   "result": "not_recommendation"
+  },
+  "2105057201429917952": {
+   "date": "2026-09-30",
+   "result": "processed",
+   "author": "blueman4645"
   }
  },
  "authors": {
@@ -4071,6 +4124,11 @@
    "verdict": "fan",
    "name": "hatosablee1",
    "date": "2026-09-16"
+  },
+  "2743416913": {
+   "verdict": "fan",
+   "name": "blueman4645",
+   "date": "2026-09-30"
   }
  },
  "seeds": {}
