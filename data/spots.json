@@ -5532,6 +5532,61 @@
     "日曜日: 9時30分～17時20分"
    ],
    "url": "https://higiriyaki.jp/"
+  },
+  {
+   "slug": "cinema-sunshine-kinuyama",
+   "name": "シネマサンシャイン衣山",
+   "area": "matsuyama",
+   "cat": "体験",
+   "lat": 33.85401,
+   "lng": 132.74656,
+   "approx": false,
+   "desc": "IMAXレーザーが導入された、パルティフジ衣山内にある映画館。大迫力の映像と音響で没入感のある映画体験が楽しめる。",
+   "address": "日本、〒791-8025 愛媛県松山市衣山１丁目１８８ パルティフジ衣山 2F",
+   "place_id": "ChIJGV4JiHXlTzUR_xBofMEKcb0",
+   "added": "2026-10-02",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/saba_misonikomi/status/2105812874262380637",
+     "author": "saba_misonikomi",
+     "date": "2026-10-02",
+     "quote": "衣山に入ったimaxレーザー"
+    }
+   ],
+   "hours": [
+    "月曜日: 9時00分～0時00分",
+    "火曜日: 9時00分～0時00分",
+    "水曜日: 9時00分～0時00分",
+    "木曜日: 9時00分～0時00分",
+    "金曜日: 9時00分～0時00分",
+    "土曜日: 9時00分～0時00分",
+    "日曜日: 9時00分～0時00分"
+   ],
+   "url": "http://www.cinemasunshine.co.jp/theater/kinuyama/access/"
+  },
+  {
+   "slug": "emifull-cinema",
+   "name": "シネマサンシャイン エミフルMASAKI",
+   "area": "iyo",
+   "cat": "観光",
+   "lat": 33.78811,
+   "lng": 132.71492,
+   "approx": false,
+   "desc": "エミフルMASAKI内にある映画館。視界いっぱいに広がる3面マルチプロジェクション映画上映システム「ScreenX」を導入しており、没入感のある映画体験が楽しめる。",
+   "address": "日本、〒791-3120 愛媛県伊予郡松前町筒井８５０ エミアミューズ 棟 2F",
+   "place_id": "ChIJu1L0f1jvTzURuPYpQ8eU8c0",
+   "added": "2026-10-02",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/saba_misonikomi/status/2105812874262380637",
+     "author": "saba_misonikomi",
+     "date": "2026-10-02",
+     "quote": "エミフルのxスクリーン観れたら良いかな～って感じ"
+    }
+   ],
+   "url": "http://www.cinemasunshine.co.jp/theater/masaki/"
   }
  ]
 }

@@ -4062,6 +4062,31 @@
    "date": "2026-09-30",
    "result": "processed",
    "author": "blueman4645"
+  },
+  "2106069583354540531": {
+   "date": "2026-10-02",
+   "result": "not_recommendation"
+  },
+  "2106016167068627341": {
+   "date": "2026-10-02",
+   "result": "not_recommendation"
+  },
+  "2106002389857935547": {
+   "date": "2026-10-02",
+   "result": "not_recommendation"
+  },
+  "2105959029675852035": {
+   "date": "2026-10-02",
+   "result": "not_recommendation"
+  },
+  "2105890522669936747": {
+   "date": "2026-10-02",
+   "result": "not_recommendation"
+  },
+  "2105812874262380637": {
+   "date": "2026-10-02",
+   "result": "processed",
+   "author": "saba_misonikomi"
   }
  },
  "authors": {
@@ -4129,6 +4154,11 @@
    "verdict": "fan",
    "name": "blueman4645",
    "date": "2026-09-30"
+  },
+  "824837586": {
+   "verdict": "fan",
+   "name": "saba_misonikomi",
+   "date": "2026-10-02"
   }
  },
  "seeds": {}
