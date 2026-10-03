@@ -4087,6 +4087,58 @@
    "date": "2026-10-02",
    "result": "processed",
    "author": "saba_misonikomi"
+  },
+  "2106254097787785538": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106245699058962750": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106245631383921134": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106396479472783696": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106353085019050469": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106329837803802751": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106290600337399981": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106278050174570550": {
+   "date": "2026-10-03",
+   "result": "author_bot"
+  },
+  "2106228266285805896": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106227755293798907": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106222629002838313": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106182685794447764": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
+  },
+  "2106177566457622952": {
+   "date": "2026-10-03",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -4159,6 +4211,11 @@
    "verdict": "fan",
    "name": "saba_misonikomi",
    "date": "2026-10-02"
+  },
+  "1372829770908504066": {
+   "verdict": "bot",
+   "name": "_kill_er_",
+   "date": "2026-10-03"
   }
  },
  "seeds": {}
