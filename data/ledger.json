@@ -4139,6 +4139,119 @@
   "2106177566457622952": {
    "date": "2026-10-03",
    "result": "not_recommendation"
+  },
+  "2107224742688440351": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107154822155923542": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107103031619989969": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107093915732210008": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107069491540877749": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107063709487231458": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107057736597000506": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107055284334231803": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107054274593390775": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107051877611544744": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107046559313809453": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107045703847694471": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107044102076584147": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107021477698777593": {
+   "date": "2026-10-05",
+   "result": "processed",
+   "author": "a_gondou"
+  },
+  "2107017950511390849": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107003566032634328": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106999832812630332": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106989106094076294": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106963423770931316": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106961954380423181": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106960251258122305": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106957932638404803": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106951448370221487": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106923731008528863": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106920119943430536": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106895922437423443": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2106892593032556556": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
+  },
+  "2107063880367440009": {
+   "date": "2026-10-05",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -4216,6 +4329,11 @@
    "verdict": "bot",
    "name": "_kill_er_",
    "date": "2026-10-03"
+  },
+  "1639989938287706112": {
+   "verdict": "fan",
+   "name": "a_gondou",
+   "date": "2026-10-05"
   }
  },
  "seeds": {}
