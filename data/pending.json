@@ -1,3 +1,12 @@
 {
- "items": []
+ "items": [
+  {
+   "name": "もとやま",
+   "reason": "low_confidence",
+   "hint": "大街道、道後商店街等、宇和島鯛めし",
+   "post": "https://x.com/v_kuroneko2521/status/2107270285502366065",
+   "author": "v_kuroneko2521",
+   "date": "2026-10-06"
+  }
+ ]
 }

@@ -4252,6 +4252,75 @@
   "2107063880367440009": {
    "date": "2026-10-05",
    "result": "not_recommendation"
+  },
+  "2107523758370291929": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107484030602268739": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107471194505236739": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107465911833862451": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107460053905314051": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107456810844401847": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107437545609146873": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107434228753559806": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107416925882232905": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107415586544525344": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107353525399548128": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107352459949785211": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107350181863891368": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107325390528426160": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107270285502366065": {
+   "date": "2026-10-06",
+   "result": "processed",
+   "author": "v_kuroneko2521"
+  },
+  "2107254461869809790": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
+  },
+  "2107235336531423589": {
+   "date": "2026-10-06",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -4334,6 +4403,11 @@
    "verdict": "fan",
    "name": "a_gondou",
    "date": "2026-10-05"
+  },
+  "1226711635294736386": {
+   "verdict": "fan",
+   "name": "v_kuroneko2521",
+   "date": "2026-10-06"
   }
  },
  "seeds": {}
