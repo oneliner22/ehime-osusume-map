@@ -2,7 +2,7 @@
  "items": [
   {
    "name": "もとやま",
-   "reason": "low_confidence",
+   "reason": "low_confidence / needs_human: 実行エラー: ClientError",
    "hint": "大街道、道後商店街等、宇和島鯛めし",
    "post": "https://x.com/v_kuroneko2521/status/2107270285502366065",
    "author": "v_kuroneko2521",
