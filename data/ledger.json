@@ -4377,6 +4377,60 @@
   "2107614755498422385": {
    "date": "2026-10-07",
    "result": "not_recommendation"
+  },
+  "2108116498275524636": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108069788639748174": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108069666220581370": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108069064866472359": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108252133598564705": {
+   "date": "2026-10-08",
+   "result": "processed",
+   "author": "Za1CEuey3xi9wvw"
+  },
+  "2108178211846885597": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108121581008691461": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108121327093915925": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108118608693928009": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108118076827029669": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108108226910957706": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
+  },
+  "2108104441820029314": {
+   "date": "2026-10-08",
+   "result": "processed",
+   "author": "hanana527"
+  },
+  "2108014811556802587": {
+   "date": "2026-10-08",
+   "result": "not_recommendation"
   }
  },
  "authors": {
@@ -4464,6 +4518,16 @@
    "verdict": "fan",
    "name": "v_kuroneko2521",
    "date": "2026-10-06"
+  },
+  "111963100": {
+   "verdict": "fan",
+   "name": "hanana527",
+   "date": "2026-10-08"
+  },
+  "1607524634144165888": {
+   "verdict": "fan",
+   "name": "Za1CEuey3xi9wvw",
+   "date": "2026-10-08"
   }
  },
  "seeds": {}
