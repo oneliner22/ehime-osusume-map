@@ -1362,6 +1362,13 @@
      "author": "CitrusJunos_Pop",
      "date": "2026-08-31",
      "quote": "・10FACTORY"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "10 Factory"
     }
    ],
    "place_id": "ChIJaYPL8OvlTzUR0iidHXM82Z4",
@@ -3063,6 +3070,13 @@
      "author": "walk_teku_teku",
      "date": "2026-09-12",
      "quote": "塩パン発祥の店。焼きたては口当たりが軽くほのかに甘く"
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "塩ぱん"
     }
    ],
    "place_id": "ChIJ6RlfSH2DRTURFYb_g8qgDis",
@@ -5148,6 +5162,13 @@
      "author": "kaginekko",
      "date": "2026-09-05",
      "quote": ""
+    },
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "佐田岬（じゃこカツ）"
     }
    ],
    "hours": [
@@ -5693,6 +5714,198 @@
     "日曜日: 6時30分～23時00分"
    ],
    "url": "https://dogo.jp/onsen/tsubaki"
+  },
+  {
+   "slug": "ichiroku-honpo-okaido",
+   "name": "一六本舗 大街道本店",
+   "area": "matsuyama",
+   "cat": "雑貨・土産",
+   "lat": 33.83859,
+   "lng": 132.76994,
+   "approx": false,
+   "desc": "愛媛を代表する銘菓「一六タルト」などを製造・販売する有名菓子店。大街道商店街に位置し、観光の合間のお土産探しに立ち寄りやすい。",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目２−４",
+   "place_id": "ChIJtanZ7O3lTzURH2jtfVz0rag",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "一六本舗"
+    }
+   ],
+   "hours": [
+    "月曜日: 10時00分～19時00分",
+    "火曜日: 10時00分～19時00分",
+    "水曜日: 定休日",
+    "木曜日: 10時00分～19時00分",
+    "金曜日: 10時00分～19時00分",
+    "土曜日: 10時00分～19時00分",
+    "日曜日: 10時00分～19時00分"
+   ],
+   "url": "https://www.itm-gr.co.jp/ichiroku/shoplist/?page_id=129"
+  },
+  {
+   "slug": "matsuyama-taimeshi-akiyoshi-honten",
+   "name": "松山 鯛めし 秋嘉 本店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.84277,
+   "lng": 132.77084,
+   "approx": false,
+   "desc": "松山城ロープウェイ街にある鯛めし専門店。宇和島鯛めしと松山鯛めしの両方を提供しており、愛媛の郷土料理を堪能できる。",
+   "address": "日本、〒790-0004 愛媛県松山市大街道３丁目５−１",
+   "place_id": "ChIJ1by04-vlTzURGKVnBOtDYso",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "宇和島たいめし"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～14時30分, 17時30分～20時00分",
+    "火曜日: 定休日",
+    "水曜日: 11時00分～14時30分, 17時30分～20時00分",
+    "木曜日: 11時00分～14時30分, 17時30分～20時00分",
+    "金曜日: 11時00分～14時30分, 17時30分～20時00分",
+    "土曜日: 11時00分～14時30分, 17時30分～20時00分",
+    "日曜日: 11時00分～14時30分, 17時30分～20時00分"
+   ],
+   "url": "https://w-harmony.jp/akiyoshi/"
+  },
+  {
+   "slug": "taiyouken",
+   "name": "太養軒",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.84841,
+   "lng": 132.77569,
+   "approx": false,
+   "desc": "松山市道後一万にある昔ながらの食堂。地元民や学生に愛される定食屋で、ボリューム満点のメニューが人気。レシート裏のメモにピックアップされたお店の一つ。",
+   "address": "日本、〒790-0844 愛媛県松山市道後一万７−１３",
+   "place_id": "ChIJZxsmTMPlTzURI-JYVI3Kt4E",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "レシートの裏にメモしてる笑笑"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～15時00分, 17時00分～22時00分",
+    "火曜日: 11時00分～15時00分, 17時00分～22時00分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～15時00分, 17時00分～22時00分",
+    "金曜日: 11時00分～15時00分, 17時00分～22時00分",
+    "土曜日: 11時00分～15時00分, 17時00分～22時00分",
+    "日曜日: 11時00分～15時00分, 17時00分～22時00分"
+   ],
+   "url": "https://hitosara.com/0031377391/"
+  },
+  {
+   "slug": "yunoya-dogo",
+   "name": "道後いなり ゆのや 道後本店",
+   "area": "dogo",
+   "cat": "グルメ",
+   "lat": 33.85051,
+   "lng": 132.78544,
+   "approx": false,
+   "desc": "道後温泉エリアにあるいなり寿司専門店。愛媛旅行に向けて色々なvlogを見て、行きたい場所として手書きメモに挙げられている。",
+   "address": "日本、〒790-0842 愛媛県松山市道後湯之町３−１０",
+   "place_id": "ChIJMRrveXzlTzURWLU-aMZ9pS0",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "ゆのや いなり寿司"
+    }
+   ],
+   "hours": [
+    "月曜日: 10時00分～16時00分",
+    "火曜日: 10時00分～16時00分",
+    "水曜日: 10時00分～16時00分",
+    "木曜日: 10時00分～16時00分",
+    "金曜日: 10時00分～16時00分",
+    "土曜日: 10時00分～16時00分",
+    "日曜日: 10時00分～16時00分"
+   ],
+   "url": "https://www.instagram.com/inari.yunoya/"
+  },
+  {
+   "slug": "sobakichi-okaido",
+   "name": "そば吉 大街道店",
+   "area": "matsuyama",
+   "cat": "グルメ",
+   "lat": 33.83928,
+   "lng": 132.77002,
+   "approx": false,
+   "desc": "松山市を中心に展開する老舗そばチェーン店。かやくごはんや唐揚げも人気。本店は一時休業中のため、アクセスしやすい大街道店を掲載。",
+   "address": "日本、〒790-0004 愛媛県松山市大街道２丁目３−２",
+   "place_id": "ChIJm6qgwO3lTzURwPo_w4bvCcU",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "そば吉 かやくごはん 唐あげ"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～15時30分, 16時30分～21時00分",
+    "火曜日: 定休日",
+    "水曜日: 11時00分～15時30分, 16時30分～21時00分",
+    "木曜日: 11時00分～15時30分, 16時30分～21時00分",
+    "金曜日: 11時00分～15時30分, 16時30分～21時00分",
+    "土曜日: 11時00分～21時00分",
+    "日曜日: 11時00分～21時00分"
+   ],
+   "url": "http://sobakichi.jp/"
+  },
+  {
+   "slug": "yamabiko-udon-honten",
+   "name": "やまびこうどん 本店",
+   "area": "imabari",
+   "cat": "グルメ",
+   "lat": 34.01537,
+   "lng": 133.00771,
+   "approx": false,
+   "desc": "今治市にある人気のうどん店。コシのある麺とこだわりの出汁が特徴。ファンが愛媛旅行の行きたい場所としてメモにリストアップ。",
+   "address": "日本、〒799-1537 愛媛県今治市宮ヶ崎甲707−１",
+   "place_id": "ChIJewgBrk0lUDURBbiSaRtyZfA",
+   "added": "2026-10-08",
+   "sources": [
+    {
+     "type": "x",
+     "url": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
+     "author": "Za1CEuey3xi9wvw",
+     "date": "2026-10-08",
+     "quote": "やまびこ"
+    }
+   ],
+   "hours": [
+    "月曜日: 11時00分～20時00分",
+    "火曜日: 11時00分～20時00分",
+    "水曜日: 定休日",
+    "木曜日: 11時00分～20時00分",
+    "金曜日: 11時00分～20時00分",
+    "土曜日: 11時00分～20時00分",
+    "日曜日: 11時00分～20時00分"
+   ],
+   "url": "https://r.goope.jp/yamabiko-udon"
   }
  ]
 }
