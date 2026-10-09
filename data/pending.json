@@ -1,20 +1,3 @@
 {
- "items": [
-  {
-   "name": "あまよし とらや",
-   "reason": "low_confidence",
-   "hint": "愛媛",
-   "post": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
-   "author": "Za1CEuey3xi9wvw",
-   "date": "2026-10-08"
-  },
-  {
-   "name": "中和米",
-   "reason": "places_no_match",
-   "hint": "愛媛",
-   "post": "https://x.com/Za1CEuey3xi9wvw/status/2108252133598564705",
-   "author": "Za1CEuey3xi9wvw",
-   "date": "2026-10-08"
-  }
- ]
+ "items": []
 }
