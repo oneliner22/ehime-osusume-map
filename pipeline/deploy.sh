@@ -51,7 +51,7 @@ fi
 gcloud builds submit pipeline --tag "$IMAGE"
 
 gcloud run jobs deploy "$JOB" --image "$IMAGE" --region "$REGION" \
-  --service-account "$SA" --max-retries 0 --task-timeout 30m \
+  --service-account "$SA" --max-retries 1 --task-timeout 30m \
   --set-env-vars "GCP_PROJECT=${PROJECT},VERTEX_LOCATION=global,GITHUB_REPO=oneliner22/ehime-osusume-map" \
   --set-secrets "GITHUB_TOKEN=github-token:latest,XDEV_MCP_URL=xdev-mcp-url:latest,PLACES_API_KEY=places-api-key:latest"
 
@@ -62,19 +62,20 @@ SCHED=ehime-spots-daily-trigger
 SCHED_URI="https://run.googleapis.com/v2/projects/${PROJECT}/locations/${REGION}/jobs/${JOB}:run"
 if gcloud scheduler jobs describe "$SCHED" --location "$REGION" >/dev/null 2>&1; then
   gcloud scheduler jobs update http "$SCHED" --location "$REGION" \
-    --schedule "0 7 * * *" --time-zone "Asia/Tokyo" --uri "$SCHED_URI" \
+    --schedule "13 7 * * *" --time-zone "Asia/Tokyo" --uri "$SCHED_URI" \
     --http-method POST --oauth-service-account-email "$SA"
 else
   gcloud scheduler jobs create http "$SCHED" --location "$REGION" \
-    --schedule "0 7 * * *" --time-zone "Asia/Tokyo" --uri "$SCHED_URI" \
+    --schedule "13 7 * * *" --time-zone "Asia/Tokyo" --uri "$SCHED_URI" \
     --http-method POST --oauth-service-account-email "$SA"
 fi
 
-# ---- 日次 pending 整理ジョブ (毎日 7:40 JST、日次ジョブ完了後に走る。
-# 日次ジョブは 7:00 開始 + task-timeout 30m なので 7:30 までに必ず終了している) ----
+# ---- 日次 pending 整理ジョブ (毎日 8:23 JST、日次ジョブ完了後に走る。
+# 日次ジョブは 7:13 開始 + task-timeout 30m x (1 + max-retries 1) なので 8:13 までに必ず終了している。
+# 正時 (:00) は Vertex の共有枠が混み 429 が出やすいので、どちらも分をずらしている) ----
 PJOB=ehime-spots-pending
 gcloud run jobs deploy "$PJOB" --image "$IMAGE" --region "$REGION" \
-  --service-account "$SA" --max-retries 0 --task-timeout 30m \
+  --service-account "$SA" --max-retries 1 --task-timeout 30m \
   --command python --args pending_resolver.py \
   --set-env-vars "GCP_PROJECT=${PROJECT},VERTEX_LOCATION=global,GITHUB_REPO=oneliner22/ehime-osusume-map" \
   --set-secrets "GITHUB_TOKEN=github-token:latest,XDEV_MCP_URL=xdev-mcp-url:latest,PLACES_API_KEY=places-api-key:latest"
@@ -89,11 +90,11 @@ PSCHED=ehime-spots-pending-trigger
 PSCHED_URI="https://run.googleapis.com/v2/projects/${PROJECT}/locations/${REGION}/jobs/${PJOB}:run"
 if gcloud scheduler jobs describe "$PSCHED" --location "$REGION" >/dev/null 2>&1; then
   gcloud scheduler jobs update http "$PSCHED" --location "$REGION" \
-    --schedule "40 7 * * *" --time-zone "Asia/Tokyo" --uri "$PSCHED_URI" \
+    --schedule "23 8 * * *" --time-zone "Asia/Tokyo" --uri "$PSCHED_URI" \
     --http-method POST --oauth-service-account-email "$SA"
 else
   gcloud scheduler jobs create http "$PSCHED" --location "$REGION" \
-    --schedule "40 7 * * *" --time-zone "Asia/Tokyo" --uri "$PSCHED_URI" \
+    --schedule "23 8 * * *" --time-zone "Asia/Tokyo" --uri "$PSCHED_URI" \
     --http-method POST --oauth-service-account-email "$SA"
 fi
 

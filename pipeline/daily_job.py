@@ -13,6 +13,8 @@ X検索(xdev) → 画像取得 → Gemini抽出 → bot判定 → Places裏取�
   PLACES_API_KEY
   GCP_PROJECT / VERTEX_LOCATION (既定 global)
   MODEL_EXTRACT / MODEL_JUDGE (既定は pipeline.json 参照)
+  MODEL_JUDGE_FALLBACK  MODEL_JUDGE が 429 のとき代わりに使う GA モデル (既定 gemini-3.5-flash)
+  GEMINI_CONCURRENCY    Gemini 同時呼び出し数の上限 (既定 3。WORKERS とは別枠)
   INGEST_WINDOW_HOURS  x_ingest の取得窓 (既定 25。日次実行の再取得課金を抑える)
   INGEST_SINCE  RFC3339。初回バックフィル用: この時刻までフルアーカイブ検索で遡る
                 (BACKFILL_WINDOW_DAYS 刻み・各500件上限。日次運用では未設定にする)
@@ -28,6 +30,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta, timezone
 
@@ -45,11 +48,19 @@ CATS = ["グルメ", "温泉", "カフェ・喫茶", "観光", "レトロ", "雑
         "自然", "動物", "体験", "宿"]
 AREA_PALETTE = ["#5c8f3f", "#c2543f", "#3f6fa8", "#a8623f", "#6f3fa8", "#3fa89b"]
 
+# Vertex の 429 (RESOURCE_EXHAUSTED) は共有枠の混雑で出ることが多く、SDK 既定のリトライ
+# (十数秒で諦める) では足りずジョブごと落ちていた。指数バックオフで最大 60s 間隔・8 回まで粘る
 client = genai.Client(
     vertexai=True, project=os.environ.get("GCP_PROJECT"),
-    location=os.environ.get("VERTEX_LOCATION", "global"))
+    location=os.environ.get("VERTEX_LOCATION", "global"),
+    http_options=genai.types.HttpOptions(retry_options=genai.types.HttpRetryOptions(
+        attempts=8, initial_delay=2, max_delay=60, exp_base=2, jitter=1,
+        http_status_codes=[429, 500, 502, 503, 504])))
 MODEL_EXTRACT = os.environ.get("MODEL_EXTRACT", "gemini-3.5-flash-lite")
 MODEL_JUDGE = os.environ.get("MODEL_JUDGE", "gemini-3.1-pro-preview")
+# preview モデルは枠が狭い。リトライしても 429 なら GA モデルで判定を続ける
+MODEL_JUDGE_FALLBACK = os.environ.get("MODEL_JUDGE_FALLBACK", "gemini-3.5-flash")
+_gemini_slots = threading.BoundedSemaphore(int(os.environ.get("GEMINI_CONCURRENCY", "3")))
 
 
 def _git_auth_header():
@@ -126,10 +137,17 @@ def gen_json(model, schema, parts):
             contents.append(p)
         else:
             contents.append(genai.types.Part.from_bytes(data=p[0], mime_type=p[1]))
-    res = client.models.generate_content(
-        model=model, contents=contents,
-        config={"response_mime_type": "application/json", "response_schema": schema,
-                "temperature": 0})
+    config = {"response_mime_type": "application/json", "response_schema": schema,
+              "temperature": 0}
+    with _gemini_slots:
+        try:
+            res = client.models.generate_content(model=model, contents=contents, config=config)
+        except genai.errors.ClientError as e:
+            if e.code != 429 or model != MODEL_JUDGE or not MODEL_JUDGE_FALLBACK:
+                raise
+            log(f"WARN: {model} 429 -> fallback {MODEL_JUDGE_FALLBACK}")
+            res = client.models.generate_content(
+                model=MODEL_JUDGE_FALLBACK, contents=contents, config=config)
     return json.loads(res.text)
 
 

@@ -109,7 +109,7 @@ Cloud Scheduler → Cloud Run Job (GCP: salmon-chan)
 
 公式 (@ponpokoka) の「おすすめ教えて」投稿を検知するとシード登録し、そのリプ・引用RTも収穫する。
 
-### 日次 pending 整理（毎日 7:40 JST、日次ジョブ完了後）
+### 日次 pending 整理（毎日 8:23 JST、日次ジョブ完了後）
 
 保留候補を Gemini のツールループ（Places再検索・出典ポスト再読）で精査して回収する。
 掲載可否の最終判定（place_id の実在根拠・営業状況・bbox）はコード側で強制する。
